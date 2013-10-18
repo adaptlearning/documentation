@@ -33,11 +33,19 @@ There are two complementary bits to this.  They are **policies** and **data sepa
 
 Policies are complex, and we'll come to them in a moment.
 
-We require data separation, both for issues of scalability (see the link[1] at the end for some more information) and for ease of backup and restore.  To achieve this, we intend to create a separate database for each tenant.  The DataManager module will handle this for us so the main application doesn't need to worry about selecting the right database.
+### Data Separation
 
-In order to manage a customer existing in multiple tenancies, and to facilitate login, we expect there to be a "Master" database.
+We require data separation, both for issues of scalability (see the link at the end for some more information) and for ease of backup and restore.  To achieve this, we intend to create a separate database for each tenant.  The DataManager module will handle this for us so the main application doesn't need to worry about selecting the right database (Mongoose is happy to hold multiple database connections simultaneously).
 
-To manage access to the system, we intend to use policies (Policies are unashamedly stolen from the AWS approach) 
+In order to manage a customer existing in multiple tenancies, and to facilitate 
+login, we expect there to be a "Master" database.  This will store userids, global config settings etc.
+
+In order to select the appropriate database we need to know the appropriate tenant. There are a number of ways of doing this, including DNS based selection (subdomains for example), a TenantID field on the User Object, or in a Session Variable.
+
+
+### Policies
+
+To manage access to the system, we intend to use policies (Policies are unashamedly stolen from the AWS approach - again, see the link at the bottom)
 
 Policies are JSON files which depend on 4 concepts.
 
@@ -110,4 +118,5 @@ The App works through the same process as before, this time POSTing the data to 
 
 
 ## Related Reading
-[1] [Multitenancy with MongoDB](http://support.mongohq.com/use-cases/multi-tenant.html) 
+[Multitenancy with MongoDB](http://support.mongohq.com/use-cases/multi-tenant.html)
+[Amazon Policies Overview](http://docs.aws.amazon.com/IAM/latest/UserGuide/PoliciesOverview.html) 
