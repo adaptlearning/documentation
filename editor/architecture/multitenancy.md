@@ -112,7 +112,14 @@ The App works through the same process as before, this time POSTing the data to 
 	DataModule->App
 	success/failure
 	
+## Config
+It's important to talk about how we manage Configuration in a Multitenanted Application.
 
+Without getting into too much detail (much of our config is as yet undefined) we consider Config to be just another resource.  It's accessed from the Database (or whatever Data Layer we choose to implement) and access is controlled by Policy.
+
+There probably exists a "Default" config which is stored in the Master database.  Tenant specific config is then extracted from the Tenant DataStore and superposed to provide a unique configuration for that tenant.
+
+(_we could envisage a further development where a user config is further applied to deliver a unique configuration per user_)
 
 
 
