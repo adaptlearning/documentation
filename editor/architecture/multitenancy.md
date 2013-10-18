@@ -118,5 +118,5 @@ The App works through the same process as before, this time POSTing the data to 
 
 
 ## Related Reading
-[Multitenancy with MongoDB](http://support.mongohq.com/use-cases/multi-tenant.html)
+[Multitenancy with MongoDB](http://support.mongohq.com/use-cases/multi-tenant.html)  
 [Amazon Policies Overview](http://docs.aws.amazon.com/IAM/latest/UserGuide/PoliciesOverview.html) 
