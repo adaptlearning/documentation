@@ -15,7 +15,7 @@ Multitenancy will be referred to as MT from now on.
 
 We want to enable Groups of Users (Tenants) to log in to the Editor and to have their own setup. They should be able to administer (to some as yet undefined degree) their environment. They should have no sense that they are sharing a platform with other users.
 
-From a technical perspective, we want this to be delivered by a single installation. That installation may be multiple instances of a node application on one or many servers (load balanced) and hidden behind one or multiple URLS (a separate domain per tenant should be possible but not required).  There is (as yet) no hard requirement that a tenant should have their own instance of a database.  We anticipate using a single database (albeit sharded) for multiple tenants.
+From a technical perspective, we want this to be delivered by a single installation. That installation may be multiple instances of a node application on one or many servers (load balanced) and hidden behind one or multiple URLS (a separate domain per tenant should be possible but not required).
 
 ### A brief aside
 There are multiple ways of achieving MT.
