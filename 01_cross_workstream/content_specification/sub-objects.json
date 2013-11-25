@@ -1,0 +1,33 @@
+{
+	"about" : "sub-objects used in storage",
+	"objects" : [
+		{
+			"object_type" : "image",
+			"name" : "large|medium|small|...",
+			"url" : "ref:object_in_file_store_possibly_as_url",
+			"alt" : "alt attribute",
+			"dimensions" : {
+				"width" : "pixel-width",
+				"height" : "pixel-height"
+			},
+			"description" : "image description used for longdesc on web and as description in asset store/cms"
+		},
+		{
+			"object_type" : "text_object",
+			"format" : "enum:markdown|html|json|plain",
+			"content" : "richtext: body of component",
+			"language" : "en-GB"
+		},
+		{
+			"object_type" : "class_object",
+			"value" : "classname",
+			"theme" : "theme-class-applies-to"
+		},
+		{
+			"object_type" : "item_object",
+			"title" : {"text_object(plain)"},
+			"body" : [{"text_object"}],
+			"alt" : {"text_object(plain)"}
+		}
+	]
+}
