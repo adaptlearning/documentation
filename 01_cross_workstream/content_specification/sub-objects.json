@@ -27,7 +27,11 @@
 			"object_type" : "item_object",
 			"title" : {"text_object(plain)"},
 			"body" : [{"text_object"}],
-			"alt" : {"text_object(plain)"}
+			"alt" : {"text_object(plain)"},
+			"strapline" : {"text_object"},
+			"graphic" : [
+				{"image_object"}
+			]
 		}
 	]
 }

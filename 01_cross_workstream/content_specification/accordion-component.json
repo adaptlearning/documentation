@@ -33,7 +33,7 @@
 				"language" : "en-GB"
 			}
 		],
-		"body" : [
+		"intro_text" : [
 			{
 				"_component" : "text_object",
 				"format" : "enum:markdown|html|json|plain",
