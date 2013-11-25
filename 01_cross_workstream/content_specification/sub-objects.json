@@ -31,7 +31,11 @@
 			"strapline" : {"text_object"},
 			"graphic" : [
 				{"image_object"}
-			]
+			],
+			"position" : {
+				"top" : "pixel-value",
+				"left" : "pixel-value"
+			}
 		}
 	]
 }
