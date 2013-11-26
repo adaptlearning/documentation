@@ -43,7 +43,14 @@
 			"body" : [{"text_object"}],
 			"alt" : {"text_object(plain)"},
 			"correct" : "boolean",
-			"feedback" : [{"text_object(rich)"}]
+			"feedback" : [{"text_object(rich)"}],
+			"graphic" : [
+				{"image_object"}
+			],
+			"position" : {
+				"top" : "pixel-value",
+				"left" : "pixel-value"
+			}
 		}
 	]
 }
