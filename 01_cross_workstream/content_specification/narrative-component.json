@@ -1,0 +1,53 @@
+{
+	"component" : "narrative",
+	"output" : {
+		"_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : "space separated string",
+		"_layout" : "enum:layout_type",
+		"title" : "plaintext: title of component",
+		"body" : "richtext: body of component",
+		"items" : [
+			{"content_item"}
+		]
+	},
+	"storage" : {
+		"last_update" : "timestamp",
+		"updated_by" : "user_id",
+		"course_id" : "ref:id_of_project",
+		"component_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : [
+			{"class_object"}
+		],
+		"_layout" : "enum:layout_type",
+		"title" : [
+			{
+				"_component" : "text_object",
+				"format" : "plain",
+				"content" : "title of component",
+				"language" : "en-GB"
+			}
+		],
+		"intro_text" : [
+			{
+				"_component" : "text_object",
+				"format" : "enum:markdown|html|json|plain",
+				"content" : "richtext: body of component",
+				"language" : "en-GB"
+			}
+		],
+		"items" : [
+			{"item_object"}
+		]
+	},
+	"constraints" : [	
+		"title must only contain plain text objects",
+		"body must contain at least one text object",
+		"id is globally unique"
+	]
+}

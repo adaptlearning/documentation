@@ -1,0 +1,83 @@
+{
+	"component" : "gmcq",
+	"output" : {
+		"_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : "space separated string",
+		"_layout" : "enum:layout_type",
+		"title" : "plaintext: title of component",
+		"intro_text" : "plaintext",
+		"question" : "richtext: body of component",
+		"attempts" : "number",
+		"random" : "boolean",
+		"selectable" : "number",
+		"point" : "boolean",
+		"graphic" : [{"image_object"}],
+		"feedback" : {
+			"correct" : "richtext",
+			"incorrect" : "richtext",
+			"partly" : "richtext"
+		},
+		"items" : [{"answer_item_object"}],
+		"button" : {
+			"submit" : {"text_object(plain)"},
+			"reset" : {"text_object(plain)"},
+			"model" : {"text_object(plain)"},
+			"user" : {"text_object(plain)"},
+		}
+	},
+	"storage" : {
+		"last_update" : "timestamp",
+		"updated_by" : "user_id",
+		"course_id" : "ref:id_of_project",
+		"slug" : "unique-url-friendly-word",
+		"component_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : [
+			{"class_object"}
+		],
+		"_layout" : "enum:layout_type",
+		"title" : [
+			{
+				"object_type" : "text_object",
+				"format" : "plain",
+				"content" : "title of component",
+				"language" : "en-GB"
+			}
+		],
+		"intro_text" : {"text_object(plain)"},
+		"question" : [
+			{
+				"object_type" : "text_object",
+				"format" : "enum:markdown|html|json|plain",
+				"content" : "richtext: body of component",
+				"language" : "en-GB"
+			}
+		],
+		"attempts" : "number",
+		"random" : "boolean",
+		"selectable" : "number",
+		"graphic" : [{"image_object"}],
+		"feedback" : {
+			"correct" : {"text_object(rich)"},
+			"incorrect" : {"text_object(rich)"},
+			"partly" : {"text_object(rich)"}
+		},
+		"items" : [{"answer_item_object"}],
+		"button" : {
+			"submit" : {"text_object(plain)"},
+			"reset" : {"text_object(plain)"},
+			"model" : {"text_object(plain)"},
+			"user" : {"text_object(plain)"},
+		}
+	},
+	"constraints" : [	
+		"title must only contain plain text objects",
+		"body must contain at least one text object",
+		"id is globally unique"
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"component" : "text_input",
+	"output" : {
+		"_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : "space separated string",
+		"_layout" : "enum:layout_type",
+		"title" : "plaintext: title of component",
+		"body" : "richtext: body of component",
+		"attempts" : "number",
+		"placeHolder" : [{"text_object"}],
+		"allowAnyOrder" : "boolean",
+		"allowAnyCase" : "boolean",
+		"allowPunctuation" : "boolean",
+		"feedback" : {
+			"correct" : {"text_object(rich)"},
+			"incorrect" : {"text_object(rich)"},
+			"partly" : {"text_object(rich)"}
+		},
+		"items" : [{"input_answer_item_object"}],
+		"button" : {
+			"submit" : {"text_object(plain)"},
+			"reset" : {"text_object(plain)"},
+			"model" : {"text_object(plain)"},
+			"user" : {"text_object(plain)"},
+		}
+	},
+	"storage" : {
+		"last_update" : "timestamp",
+		"updated_by" : "user_id",
+		"course_id" : "ref:id_of_project",
+		"slug" : "unique-url-friendly-word",
+		"component_id" : "unique string",
+		"_parentId"	: "ref:another_component",
+		"_type"	: "enum:object_type",
+		"_component" : "enum:component_type",
+		"_classes" : [
+			{"class_object"}
+		],
+		"_layout" : "enum:layout_type",
+		"title" : [
+			{
+				"object_type" : "text_object",
+				"format" : "plain",
+				"content" : "title of component",
+				"language" : "en-GB"
+			}
+		],
+		"intro_text" : {"text_object(plain)"},
+		"attempts" : "number",
+		"placeHolder" : [{"text_object"}],
+		"allowAnyOrder" : "boolean",
+		"allowAnyCase" : "boolean",
+		"allowPunctuation" : "boolean",
+		"feedback" : {
+			"correct" : {"text_object(rich)"},
+			"incorrect" : {"text_object(rich)"},
+			"partly" : {"text_object(rich)"}
+		},
+		"items" : [{"input_answer_item_object"}],
+		"button" : {
+			"submit" : {"text_object(plain)"},
+			"reset" : {"text_object(plain)"},
+			"model" : {"text_object(plain)"},
+			"user" : {"text_object(plain)"},
+		}
+	},
+	"constraints" : [	
+		"title must only contain plain text objects",
+		"body must contain at least one text object",
+		"id is globally unique"
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"about" : "sub-objects used in storage",
+	"objects" : [
+		{
+			"object_type" : "image",
+			"name" : "large|medium|small|...",
+			"url" : "ref:object_in_file_store_possibly_as_url",
+			"alt" : "alt attribute",
+			"dimensions" : {
+				"width" : "pixel-width",
+				"height" : "pixel-height"
+			},
+			"description" : "image description used for longdesc on web and as description in asset store/cms"
+		},
+		{
+			"object_type" : "text_object",
+			"format" : "enum:markdown|html|json|plain",
+			"content" : "richtext: body of component",
+			"language" : "en-GB"
+		},
+		{
+			"object_type" : "class_object",
+			"value" : "classname",
+			"theme" : "theme-class-applies-to"
+		},
+		{
+			"object_type" : "item_object",
+			"title" : {"text_object(plain)"},
+			"body" : [{"text_object"}],
+			"alt" : {"text_object(plain)"},
+			"strapline" : {"text_object"},
+			"graphic" : [
+				{"image_object"}
+			],
+			"position" : {
+				"top" : "pixel-value",
+				"left" : "pixel-value"
+			}
+		},
+		{
+			"object_type" : "answer_item_object",
+			"title" : {"text_object(plain)"},
+			"body" : [{"text_object"}],
+			"alt" : {"text_object(plain)"},
+			"correct" : "boolean",
+			"feedback" : [{"text_object(rich)"}],
+			"graphic" : [
+				{"image_object"}
+			],
+			"position" : [{
+				"name" : "large|medium|small - matches parent's graphic name",
+				"top" : "pixel-value",
+				"left" : "pixel-value"
+			}]
+		},
+		{
+			"object_type" : "matching_item_object",
+			"text" : {"text_object"},
+			"options" : [{"matching_item_option_object"}]
+		},
+		{
+			"object_type" : "matching_item_option_object",
+			"text" : {"text_object(plain)"},
+			"correct" : "boolean"
+		}
+		{
+			"object_type" : "input_answer_item_object",
+			"prefix" : [{"text_object"}],
+			"suffix" : [{"text_object"}],
+			"answers" : [{"text_object"}]
+		}
+	]
+}
