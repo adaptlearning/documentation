@@ -52,6 +52,16 @@
 				"top" : "pixel-value",
 				"left" : "pixel-value"
 			}]
+		},
+		{
+			"object_type" : "matching_item_object",
+			"text" : {"text_object"},
+			"options" : [{"matching_item_option_object"}]
+		},
+		{
+			"object_type" : "matching_item_option_object",
+			"text" : {"text_object(plain)"},
+			"correct" : "boolean"
 		}
 	]
 }
