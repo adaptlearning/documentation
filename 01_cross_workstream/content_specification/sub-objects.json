@@ -47,10 +47,11 @@
 			"graphic" : [
 				{"image_object"}
 			],
-			"position" : {
+			"position" : [{
+				"name" : "large|medium|small - matches parent's graphic name",
 				"top" : "pixel-value",
 				"left" : "pixel-value"
-			}
+			}]
 		}
 	]
 }
