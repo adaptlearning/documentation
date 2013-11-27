@@ -63,5 +63,11 @@
 			"text" : {"text_object(plain)"},
 			"correct" : "boolean"
 		}
+		{
+			"object_type" : "input_answer_item_object",
+			"prefix" : [{"text_object"}],
+			"suffix" : [{"text_object"}],
+			"answers" : [{"text_object"}]
+		}
 	]
 }
