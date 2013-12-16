@@ -427,7 +427,7 @@
 <node TEXT="CCR-MEN-003: Able to upload a custom menu" ID="ID_1560907094" CREATED="1386263379192" MODIFIED="1387213994256"/>
 <node TEXT="CCR-MEN-004: Able to organise navigation into deep scrolling" ID="ID_1282549355" CREATED="1386174394151" MODIFIED="1387213997559"/>
 <node TEXT="CCR-MEN-005: Able to organise navigation into lateral scrolling" ID="ID_859303198" CREATED="1386174413287" MODIFIED="1387214004888"/>
-<node TEXT="Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1386174316891"/>
+<node TEXT="CCR-MEN-006: Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1387218152392"/>
 </node>
 <node TEXT="Tracking" ID="ID_458366993" CREATED="1386262659228" MODIFIED="1386761633709">
 <icon BUILTIN="button_ok"/>
