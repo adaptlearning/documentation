@@ -443,64 +443,65 @@
 <node TEXT="CCR-TRK-005: Able to toggle bookmarking (returning users to the location from where they exited the last session)" ID="ID_230616806" CREATED="1386088768383" MODIFIED="1387214072663"/>
 <node TEXT="CCR-TRK-006: Able to toggle progress display on/off" ID="ID_562595794" CREATED="1386761607133" MODIFIED="1387214077143"/>
 </node>
-<node TEXT="Data entry / editing" ID="ID_1483329154" CREATED="1386245592967" MODIFIED="1386758516479">
-<icon BUILTIN="button_ok"/>
-<node TEXT="---" ID="ID_930764052" CREATED="1386258632489" MODIFIED="1386258633828">
-<node TEXT="Way of working" ID="ID_1412155707" CREATED="1386694493965" MODIFIED="1386694498361">
+<node TEXT="Data entry / editing" ID="ID_307003465" CREATED="1386245592967" MODIFIED="1387216976912">
+<node TEXT="---" ID="ID_278849099" CREATED="1386258632489" MODIFIED="1386258633828">
+<node TEXT="Way of working" ID="ID_1603363140" CREATED="1386694493965" MODIFIED="1386694498361">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-001: Able to build content quickly without advanced technical expertise" ID="ID_1838651225" CREATED="1386192557127" MODIFIED="1387214693970"/>
-<node TEXT="CCR-WOW-002: Able to see only the necessary data entry fields by default" ID="ID_1239500571" CREATED="1386192805106" MODIFIED="1387214697842"/>
-<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1489557914" CREATED="1386191998869" MODIFIED="1387214701217"/>
-<node TEXT="CCR-WOW-004: Able to immediately preview my changes on multiple devices" ID="ID_167798443" CREATED="1386192668943" MODIFIED="1387214704793"/>
-<node TEXT="CCR-WOW-005: Able to freeze/lock/unlock a content item to prevent changes" ID="ID_1728898744" CREATED="1386192709572" MODIFIED="1387214708490"/>
-<node TEXT="CCR-WOW-006: Able to resume editing a course from the same point (component; block) that I was a when I last saved and closed it" ID="ID_1217322872" CREATED="1386192754983" MODIFIED="1387214713801"/>
-<node TEXT="CCR-WOW-007: Able to edit inline whilst previewing output" ID="ID_419261693" CREATED="1386192815154" MODIFIED="1387214719049">
-<icon BUILTIN="help"/>
-</node>
-<node TEXT="---" ID="ID_1688024210" CREATED="1386694337273" MODIFIED="1386694340517">
-<node TEXT="Text content" ID="ID_17095987" CREATED="1386694341097" MODIFIED="1386694381775">
+<node TEXT="CCR-WOW-001: Able to build content quickly without advanced technical expertise" ID="ID_21265045" CREATED="1386192557127" MODIFIED="1387214693970"/>
+<node TEXT="CCR-WOW-002: Able to see only the necessary data entry fields by default" ID="ID_1332464493" CREATED="1386192805106" MODIFIED="1387214697842"/>
+<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1348595245" CREATED="1386191998869" MODIFIED="1387214701217"/>
+<node TEXT="CCR-WOW-004: Able to immediately preview my changes on multiple devices" ID="ID_1780729825" CREATED="1386192668943" MODIFIED="1387214704793"/>
+<node TEXT="CCR-WOW-005: Able to freeze/lock/unlock a content item to prevent changes" ID="ID_456896564" CREATED="1386192709572" MODIFIED="1387214708490"/>
+<node TEXT="CCR-WOW-006: Able to resume editing a course from the same point (component; block) that I was a when I last saved and closed it" ID="ID_1951824532" CREATED="1386192754983" MODIFIED="1387214713801"/>
+<node TEXT="CCR-WOW-007: Able to edit inline whilst previewing output" ID="ID_1173229257" CREATED="1386192815154" MODIFIED="1387216976919"/>
+<node TEXT="---" ID="ID_1578715005" CREATED="1386694337273" MODIFIED="1386694340517">
+<node TEXT="Text content" ID="ID_1835963479" CREATED="1386694341097" MODIFIED="1386694381775">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-007: Able to add textual content with basic formatting" ID="ID_1133286094" CREATED="1386694463134" MODIFIED="1387214726089"/>
-<node TEXT="---" ID="ID_1438419478" CREATED="1386694347392" MODIFIED="1386694348612">
-<node TEXT="Images" ID="ID_1777400255" CREATED="1386694348815" MODIFIED="1386694380407">
+<node TEXT="CCR-WOW-008: Able to add textual content with basic formatting" ID="ID_987608440" CREATED="1386694463134" MODIFIED="1387218047794">
+<font BOLD="false"/>
+</node>
+<node TEXT="---" ID="ID_1699619471" CREATED="1386694347392" MODIFIED="1386694348612">
+<node TEXT="Images" ID="ID_1312571905" CREATED="1386694348815" MODIFIED="1386694380407">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-008: Able to add content images to relevant components" ID="ID_1135704080" CREATED="1386258609568" MODIFIED="1387214732985"/>
-<node TEXT="CCR-WOW-009: Able to add alternative text to content images" ID="ID_570312996" CREATED="1386258741406" MODIFIED="1387214737480"/>
-<node TEXT="CCR-WOW-010: Able to upload multiple version of a graphic for use in different contexts" ID="ID_1606934083" CREATED="1386192714541" MODIFIED="1387214749257">
-<icon BUILTIN="help"/>
+<node TEXT="CCR-WOW-009: Able to add content images to relevant components" ID="ID_480373102" CREATED="1386258609568" MODIFIED="1387218047796">
+<font BOLD="false"/>
 </node>
-<node TEXT="CCR-WOW-011: Able to resize images" ID="ID_1545258963" CREATED="1386694569787" MODIFIED="1387214754496"/>
-<node TEXT="CCR-WOW-012: Able to crop images" ID="ID_1276168979" CREATED="1386694580619" MODIFIED="1387214757912"/>
-<node TEXT="CCR-WOW-013: Able to compress images" ID="ID_1912310476" CREATED="1386694587483" MODIFIED="1387214761080"/>
-<node TEXT="---" ID="ID_1322990325" CREATED="1386694352888" MODIFIED="1386694356820">
-<node TEXT="Media files" ID="ID_305490068" CREATED="1386694357144" MODIFIED="1386694384038">
+<node TEXT="CCR-WOW-010: Able to add alternative text to content images" ID="ID_617645962" CREATED="1386258741406" MODIFIED="1387218047796">
+<font BOLD="false"/>
+</node>
+<node TEXT="CCR-WOW-011: Able to upload multiple version of a graphic for use in different contexts" ID="ID_1403318975" CREATED="1386192714541" MODIFIED="1387217888168"/>
+<node TEXT="CCR-WOW-012: Able to resize images" ID="ID_987396059" CREATED="1386694569787" MODIFIED="1387217893944"/>
+<node TEXT="CCR-WOW-013: Able to crop images" ID="ID_1535865265" CREATED="1386694580619" MODIFIED="1387217898472"/>
+<node TEXT="CCR-WOW-014: Able to compress images" ID="ID_1047323763" CREATED="1386694587483" MODIFIED="1387217902248"/>
+<node TEXT="---" ID="ID_379068968" CREATED="1386694352888" MODIFIED="1386694356820">
+<node TEXT="Media files" ID="ID_1716005701" CREATED="1386694357144" MODIFIED="1386694384038">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-014: Able to add audio files to relevant components" ID="ID_893117826" CREATED="1386258755814" MODIFIED="1387214768488"/>
-<node TEXT="CCR-WOW-015: Able to add transcripts for components which have an audio track" ID="ID_151722566" CREATED="1386258785789" MODIFIED="1387214772358"/>
-<node TEXT="CCR-WOW-016: Able to add a video files to relevant components" ID="ID_1561387458" CREATED="1386192765320" MODIFIED="1387214776240"/>
-<node TEXT="CCR-WOW-017: Able to embed Captivate files" ID="ID_953480846" CREATED="1386192936544" MODIFIED="1387214780000"/>
-<node TEXT="---" ID="ID_1282367802" CREATED="1386694368040" MODIFIED="1386694369940">
-<node TEXT="Configuration options" ID="ID_906523632" CREATED="1386694370176" MODIFIED="1386694384041">
+<node TEXT="CCR-WOW-015: Able to add audio files to relevant components" ID="ID_1860157963" CREATED="1386258755814" MODIFIED="1387217906240"/>
+<node TEXT="CCR-WOW-016: Able to add transcripts for components which have an audio track" ID="ID_1784634401" CREATED="1386258785789" MODIFIED="1387217910119"/>
+<node TEXT="CCR-WOW-017: Able to add a video files to relevant components" ID="ID_1839493699" CREATED="1386192765320" MODIFIED="1387217913455"/>
+<node TEXT="CCR-WOW-018: Able to embed Captivate files" ID="ID_1223103262" CREATED="1386192936544" MODIFIED="1387217917247"/>
+<node TEXT="---" ID="ID_1534426985" CREATED="1386694368040" MODIFIED="1386694369940">
+<node TEXT="Configuration options" ID="ID_1944027514" CREATED="1386694370176" MODIFIED="1386694384041">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-018: Able to set the configuration options to determine component behaviour (where applicable)" ID="ID_214173683" CREATED="1386694419102" MODIFIED="1387214784016"/>
-<node TEXT="---" ID="ID_1785912599" CREATED="1386694408775" MODIFIED="1386694410203">
-<node TEXT="Languages, device-specific alternatives" ID="ID_1181173458" CREATED="1386694410790" MODIFIED="1386776491534">
+<node TEXT="CCR-WOW-019: Able to set the configuration options to determine component behaviour (where applicable)" ID="ID_1374848329" CREATED="1386694419102" MODIFIED="1387217921391"/>
+<node TEXT="---" ID="ID_35806295" CREATED="1386694408775" MODIFIED="1386694410203">
+<node TEXT="Languages, device-specific alternatives" ID="ID_609265433" CREATED="1386694410790" MODIFIED="1386776491534">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-WOW-018: Able to add alternative language text content to a course" ID="ID_1126449240" CREATED="1386258863876" MODIFIED="1387214788848"/>
-<node TEXT="CCR-WOW-019: Able to add alternative language audio/video/imagery to the course" ID="ID_1860145739" CREATED="1386258894339" MODIFIED="1387214792407"/>
-<node TEXT="CCR-WOW-020: Able to provide device-specific content alternatives" ID="ID_376550812" CREATED="1386192950700" MODIFIED="1387214797880"/>
+<node TEXT="CCR-WOW-020: Able to add alternative language text content to a course" ID="ID_1276453082" CREATED="1386258863876" MODIFIED="1387217933935"/>
+<node TEXT="CCR-WOW-021: Able to add alternative language audio/video/imagery to the course" ID="ID_1031513050" CREATED="1386258894339" MODIFIED="1387217937726"/>
+<node TEXT="CCR-WOW-022: Able to provide device-specific content alternatives" ID="ID_586537570" CREATED="1386192950700" MODIFIED="1387217941582"/>
 </node>
 <node TEXT="Learner support" ID="ID_986012281" CREATED="1386245611031" MODIFIED="1386758522975">
 <icon BUILTIN="button_ok"/>
