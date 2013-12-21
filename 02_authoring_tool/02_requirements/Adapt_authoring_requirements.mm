@@ -57,6 +57,26 @@
 <node TEXT="(i.e. someone creating a course using the authoring tool)" ID="ID_823475793" CREATED="1386087441915" MODIFIED="1386783591266">
 <font ITALIC="true"/>
 </node>
+<node TEXT="Legend" ID="ID_1586811149" CREATED="1387532692762" MODIFIED="1387532697502">
+<node TEXT="MoSCoW rating" ID="ID_266323728" CREATED="1387532697795" MODIFIED="1387633088957">
+<node TEXT="Must" ID="ID_598197337" CREATED="1387532736496" MODIFIED="1387532739082"/>
+<node TEXT="Should" ID="ID_162359001" CREATED="1387532739343" MODIFIED="1387532741234"/>
+<node TEXT="Could" ID="ID_136371073" CREATED="1387532741470" MODIFIED="1387532743106"/>
+<node TEXT="Won&apos;t" ID="ID_1191049766" CREATED="1387532743863" MODIFIED="1387532751538"/>
+</node>
+<node TEXT="Release" ID="ID_1252214860" CREATED="1387532752511" MODIFIED="1387633195226">
+<node TEXT="v0.1" ID="ID_1837697369" CREATED="1387532761519" MODIFIED="1387633141360">
+<node TEXT="Audience: internal to production companies who have developers" ID="ID_162773929" CREATED="1387532806322" MODIFIED="1387633135995"/>
+</node>
+<node TEXT="v1.0" ID="ID_1506317458" CREATED="1387532791931" MODIFIED="1387633145115">
+<node TEXT="Audience: Non-technical end user" ID="ID_1227939877" CREATED="1387532813602" MODIFIED="1387633106516"/>
+</node>
+</node>
+<node TEXT="Example" ID="ID_1099536801" CREATED="1387532821674" MODIFIED="1387532822822">
+<node TEXT="M 1.0 = Must for version 1.0" ID="ID_182708525" CREATED="1387532823474" MODIFIED="1387633219683"/>
+<node TEXT="C 0.1 = Could (nice to have) for version 0.1" ID="ID_1644370869" CREATED="1387633223938" MODIFIED="1387633241250"/>
+</node>
+</node>
 </node>
 <node TEXT="Super Administrator" ID="ID_1957546156" CREATED="1386087336150" MODIFIED="1386087339020">
 <node TEXT="---" ID="ID_640241190" CREATED="1386801559417" MODIFIED="1386801560493">
@@ -64,61 +84,121 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-INST-001: Able to run a minimal interaction system installation" ID="ID_1741969245" CREATED="1386801565155" MODIFIED="1387210624466"/>
+<node TEXT="SPR-INST-001: Able to run a minimal interaction system installation" ID="ID_1741969245" CREATED="1386801565155" MODIFIED="1387210624466">
+<node TEXT="M 0.1" ID="ID_404584303" CREATED="1387533706209" MODIFIED="1387533709420"/>
+<node TEXT="Default single tenancy" ID="ID_1470956113" CREATED="1387534369469" MODIFIED="1387534379281"/>
+</node>
 <node TEXT="---" ID="ID_216206312" CREATED="1386801243020" MODIFIED="1386801244121">
 <node TEXT="Tenancy management" ID="ID_261288095" CREATED="1386193212173" MODIFIED="1386801263440">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-TEN-001: Able to CRUD tenancies" ID="ID_1546783119" CREATED="1386263798303" MODIFIED="1387210637797"/>
-<node TEXT="SPR-TEN-002: Able to manage cross-tenancy user access" ID="ID_289777126" CREATED="1386800239821" MODIFIED="1387210642045"/>
+<node TEXT="SPR-TEN-001: Able to CRUD tenancies" ID="ID_1546783119" CREATED="1386263798303" MODIFIED="1387210637797">
+<node TEXT="M 1.0" ID="ID_1680310359" CREATED="1387534364965" MODIFIED="1387534366857"/>
+</node>
+<node TEXT="SPR-TEN-002: Able to manage cross-tenancy user access" ID="ID_289777126" CREATED="1386800239821" MODIFIED="1387210642045">
+<node TEXT="S 1.0" ID="ID_1559546474" CREATED="1387534389184" MODIFIED="1387534400790"/>
+<node TEXT="Should as can do multiple user accounts" ID="ID_65664893" CREATED="1387534401330" MODIFIED="1387534413030"/>
+</node>
 <node TEXT="---" ID="ID_1097236038" CREATED="1386801164162" MODIFIED="1386801165127">
 <node TEXT="APIs" ID="ID_808726381" CREATED="1386193327555" MODIFIED="1386801178616">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-API-001: Able to enable/disable APIs / API plug-ins" ID="ID_418438386" CREATED="1386263538371" MODIFIED="1387210650646"/>
-<node TEXT="SPR-API-002: Able to add new plug-in webservice APIs" ID="ID_1816714277" CREATED="1386263548181" MODIFIED="1387210654827"/>
-<node TEXT="SPR-API-003: Able to remove added plug-in webservice APIs" ID="ID_1271556683" CREATED="1386263562180" MODIFIED="1387210659915"/>
+<node TEXT="SPR-API-001: Able to enable/disable APIs / API plug-ins" ID="ID_418438386" CREATED="1386263538371" MODIFIED="1387210650646">
+<node TEXT="M 1.0" ID="ID_95158987" CREATED="1387534883229" MODIFIED="1387534885424"/>
+</node>
+<node TEXT="SPR-API-002: Able to add new plug-in webservice APIs" ID="ID_1816714277" CREATED="1386263548181" MODIFIED="1387210654827">
+<node TEXT="M 1.0" ID="ID_1789790674" CREATED="1387534497182" MODIFIED="1387534501873"/>
+<node TEXT="Required for LP catalogue, third party integration" ID="ID_549202767" CREATED="1387534502533" MODIFIED="1387534825221"/>
+</node>
+<node TEXT="SPR-API-003: Able to remove added plug-in webservice APIs" ID="ID_1271556683" CREATED="1386263562180" MODIFIED="1387210659915">
+<node TEXT="M 1.0" ID="ID_225667520" CREATED="1387534890389" MODIFIED="1387534892465"/>
+</node>
 <node TEXT="---" ID="ID_1957714652" CREATED="1386800417960" MODIFIED="1386800419910">
 <node TEXT="Quotas" ID="ID_20882332" CREATED="1386800455740" MODIFIED="1386800459548">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-QUO-001: Able to set number of users quota for tenancies" ID="ID_1821172977" CREATED="1386800297428" MODIFIED="1387210683877"/>
-<node TEXT="SPR-QUO-002: Able to set and change number of courses/projects quota for tenancies" ID="ID_547103628" CREATED="1386800297428" MODIFIED="1387210688757"/>
-<node TEXT="SPR-QUO-003: Able to set file storage limit quotas for tenancies" ID="ID_968646258" CREATED="1386800297428" MODIFIED="1387210701997"/>
-<node TEXT="SPR-QUO-004: Able to set and change bandwidth limit quotas for tenancies" ID="ID_317269985" CREATED="1386800297428" MODIFIED="1387210706284"/>
-<node TEXT="SPR-QUO-005: Able to run usage reports on quote usage for tenancies" ID="ID_403673163" CREATED="1386800439931" MODIFIED="1387210711652"/>
+<node TEXT="SPR-QUO-001: Able to set number of users quota for tenancies" ID="ID_1821172977" CREATED="1386800297428" MODIFIED="1387210683877">
+<node TEXT="C 1.0" ID="ID_65877201" CREATED="1387535080003" MODIFIED="1387535081535"/>
+</node>
+<node TEXT="SPR-QUO-002: Able to set and change number of courses/projects quota for tenancies" ID="ID_547103628" CREATED="1386800297428" MODIFIED="1387210688757">
+<node TEXT="W" ID="ID_916718246" CREATED="1387535115529" MODIFIED="1387535233496"/>
+</node>
+<node TEXT="SPR-QUO-003: Able to set file storage limit quotas for tenancies" ID="ID_968646258" CREATED="1386800297428" MODIFIED="1387210701997">
+<node TEXT="C 1.0" ID="ID_633147420" CREATED="1387535173098" MODIFIED="1387535282910"/>
+</node>
+<node TEXT="SPR-QUO-004: Able to set and change bandwidth limit quotas for tenancies" ID="ID_317269985" CREATED="1386800297428" MODIFIED="1387210706284">
+<node TEXT="W 1.0" ID="ID_207114655" CREATED="1387537889105" MODIFIED="1387537891654"/>
+</node>
+<node TEXT="SPR-QUO-005: Able to run usage reports on quote usage for tenancies" ID="ID_403673163" CREATED="1386800439931" MODIFIED="1387210711652">
+<node TEXT="M 1.0" ID="ID_1982195431" CREATED="1387535453805" MODIFIED="1387535456479"/>
+</node>
 <node TEXT="---" ID="ID_907571227" CREATED="1386801041941" MODIFIED="1386801043002">
 <node TEXT="Policies" ID="ID_1016485895" CREATED="1386193349922" MODIFIED="1386801046483">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-POL-001: Able to set and change file upload limits" ID="ID_1695328812" CREATED="1386263684121" MODIFIED="1387210720972"/>
-<node TEXT="SPR-POL-002: Able to define user creation options for tenancies" ID="ID_1873146950" CREATED="1386263741567" MODIFIED="1387210724980"/>
-<node TEXT="SPR-POL-003: Able to define system role creation options for tenancies" ID="ID_62621143" CREATED="1386263746496" MODIFIED="1387210728964"/>
-<node TEXT="SPR-POL-004: Able to define plug-in management options for tenancies" ID="ID_810969713" CREATED="1386263752950" MODIFIED="1387210733500"/>
+<node TEXT="SPR-POL-001: Able to set and change file upload limits" ID="ID_1695328812" CREATED="1386263684121" MODIFIED="1387210720972">
+<node TEXT="M 1.0" ID="ID_1969376825" CREATED="1387535461005" MODIFIED="1387535466128"/>
+</node>
+<node TEXT="SPR-POL-002: Able to define user creation options for tenancies" ID="ID_1873146950" CREATED="1386263741567" MODIFIED="1387210724980">
+<node TEXT="M 1.0" ID="ID_1672055568" CREATED="1387535503449" MODIFIED="1387535513365"/>
+</node>
+<node TEXT="SPR-POL-003: Able to define system role creation options for tenancies" ID="ID_62621143" CREATED="1386263746496" MODIFIED="1387210728964">
+<node TEXT="M 1.0" ID="ID_1783852873" CREATED="1387535596206" MODIFIED="1387535600770"/>
+</node>
+<node TEXT="SPR-POL-004: Able to define plug-in management options for tenancies" ID="ID_810969713" CREATED="1386263752950" MODIFIED="1387210733500">
+<node TEXT="S 1.0" ID="ID_354909197" CREATED="1387535611702" MODIFIED="1387535653739"/>
+</node>
 <node TEXT="---" ID="ID_1773745279" CREATED="1386801139797" MODIFIED="1386801140762">
 <node TEXT="Backup" ID="ID_372984390" CREATED="1386193341290" MODIFIED="1386801143614">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-BCK-001: Able to configure automatic system backup" ID="ID_236905473" CREATED="1386801113497" MODIFIED="1387210742267"/>
+<node TEXT="SPR-BCK-001: Able to configure automatic system backup" ID="ID_236905473" CREATED="1386801113497" MODIFIED="1387210742267">
+<node TEXT="C 1.0" ID="ID_577125805" CREATED="1387535669665" MODIFIED="1387535751733"/>
+</node>
 <node TEXT="---" ID="ID_61600521" CREATED="1386801148242" MODIFIED="1386801149670">
 <node TEXT="Plug-in management" ID="ID_800230941" CREATED="1386193361049" MODIFIED="1386801152683">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SPR-PLG-001: Able to install/uninstall plug-ins" ID="ID_181880213" CREATED="1386801310865" MODIFIED="1387210756179"/>
-<node TEXT="SPR-PLG-002: Able to install/uninstall authoring tool themes" ID="ID_759714569" CREATED="1386194471210" MODIFIED="1387210760420"/>
-<node TEXT="SPR-PLG-003: Able to install/uninstall language packs" ID="ID_1612027077" CREATED="1386801342737" MODIFIED="1387210764443"/>
-<node TEXT="SPR-PLG-004: Able to upgrade the Adapt authoring tool / Adapt Framework" ID="ID_1005145628" CREATED="1386801357464" MODIFIED="1387210768315"/>
-<node TEXT="SPR-PLG-005: Able to create import processing plugins (e.g. import from old Learning Pool tool format)" ID="ID_1337972482" CREATED="1386774561793" MODIFIED="1387210776635"/>
-<node TEXT="SPR-PLG-006: Able to validate an installed plug-in" ID="ID_420781919" CREATED="1386801434362" MODIFIED="1387210781993"/>
-<node TEXT="SPR-PLG-007: Able to run a system health-check" ID="ID_428150044" CREATED="1386801460911" MODIFIED="1387210789018"/>
-<node TEXT="SPR-PLG-008: Able to integrate with an LMS for user authentication/authorisation via a webservice API" ID="ID_672565595" CREATED="1386192402373" MODIFIED="1387210793546"/>
-<node TEXT="SPR-PLG-009: Able to run a report that tells me what plugins/components are installed on the system" ID="ID_1099273838" CREATED="1386192326973" MODIFIED="1387210799435"/>
+<node TEXT="SPR-PLG-001: Able to install/uninstall plug-ins" ID="ID_181880213" CREATED="1386801310865" MODIFIED="1387210756179">
+<node TEXT="M 0.1" ID="ID_1251614050" CREATED="1387535757869" MODIFIED="1387535777200"/>
+</node>
+<node TEXT="SPR-PLG-002: Able to install/uninstall authoring tool themes" ID="ID_759714569" CREATED="1386194471210" MODIFIED="1387210760420">
+<node TEXT="W 1.0" ID="ID_1878772723" CREATED="1387535784373" MODIFIED="1387536022640"/>
+</node>
+<node TEXT="SPR-PLG-003: Able to install/uninstall language packs" ID="ID_1612027077" CREATED="1386801342737" MODIFIED="1387210764443">
+<node TEXT="W 1.0" ID="ID_740608930" CREATED="1387535928337" MODIFIED="1387536017648"/>
+</node>
+<node TEXT="SPR-PLG-004: Able to upgrade the Adapt authoring tool / Adapt Framework" ID="ID_1005145628" CREATED="1386801357464" MODIFIED="1387210768315">
+<node TEXT="M 0.1" ID="ID_277338575" CREATED="1387536453128" MODIFIED="1387536455676"/>
+</node>
+<node TEXT="SPR-PLG-005: Able to create import processing plugins (e.g. import from old Learning Pool tool format)" ID="ID_1337972482" CREATED="1386774561793" MODIFIED="1387210776635">
+<node TEXT="M 0.1" ID="ID_228358247" CREATED="1387536582407" MODIFIED="1387536946432"/>
+<node TEXT="e.g. write &apos;import&apos; as a plugin" ID="ID_430373003" CREATED="1387536830366" MODIFIED="1387536933360"/>
+</node>
+<node TEXT="SPR-PLG-006: Able to validate an installed plug-in" ID="ID_420781919" CREATED="1386801434362" MODIFIED="1387210781993">
+<node TEXT="M 0.1" ID="ID_1533119524" CREATED="1387537083881" MODIFIED="1387537086541"/>
+</node>
+<node TEXT="SPR-PLG-007: Able to run a system health-check" ID="ID_428150044" CREATED="1386801460911" MODIFIED="1387210789018">
+<node TEXT="S 1.0" ID="ID_1816632284" CREATED="1387537197581" MODIFIED="1387537409735"/>
+</node>
+<node TEXT="SPR-PLG-008: Able to integrate for user authentication via a webservice API" ID="ID_672565595" CREATED="1386192402373" MODIFIED="1387537582240">
+<node TEXT="C 1.0" ID="ID_636066172" CREATED="1387537633245" MODIFIED="1387537635785"/>
+<node TEXT="Reworded" ID="ID_1535056261" CREATED="1387537536253" MODIFIED="1387537540148">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="SPR-PLG-009: Able to tell me what plugins/components are installed on the system" ID="ID_1099273838" CREATED="1386192326973" MODIFIED="1387537711749">
+<node TEXT="M 0.1" ID="ID_962463652" CREATED="1387537781709" MODIFIED="1387537812123"/>
+<node TEXT="Reworded" ID="ID_1452863077" CREATED="1387537712277" MODIFIED="1387537715266">
+<font BOLD="true"/>
+</node>
+</node>
 </node>
 <node TEXT="All users" ID="ID_1821681081" CREATED="1386192444859" MODIFIED="1386192450304">
 <node TEXT="---" ID="ID_1450139687" CREATED="1386780447508" MODIFIED="1386780448569">
@@ -126,55 +206,129 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ALL-WOW-001: Able to author online without downloading any files" ID="ID_32462420" CREATED="1386192102062" MODIFIED="1387210899128"/>
-<node TEXT="ALL-WOW-002: Able to see a dynamic landing page that shows me navigation options based upon my role and capabilities" ID="ID_291735144" CREATED="1386192677702" MODIFIED="1387210904066"/>
-<node TEXT="ALL-WOW-003: Able to use wizards to help guide me through the system" ID="ID_1964473106" CREATED="1386192955207" MODIFIED="1387210907809"/>
-<node TEXT="ALL-WOW-004: Able to have context sensitive help available throughout the system" ID="ID_903852070" CREATED="1386781066113" MODIFIED="1387210911264"/>
+<node TEXT="ALL-WOW-001: Able to author online without downloading any files" ID="ID_32462420" CREATED="1386192102062" MODIFIED="1387210899128">
+<node TEXT="M 0.1" ID="ID_451937088" CREATED="1387539206381" MODIFIED="1387539213850"/>
+</node>
+<node TEXT="ALL-WOW-002: Able to see a dynamic landing page that shows me navigation options based upon my role and capabilities" ID="ID_291735144" CREATED="1386192677702" MODIFIED="1387210904066">
+<node TEXT="M 0.1" ID="ID_1146334886" CREATED="1387539225664" MODIFIED="1387539228701"/>
+</node>
+<node TEXT="ALL-WOW-003: Able to use wizards to help guide me through the system" ID="ID_1964473106" CREATED="1386192955207" MODIFIED="1387210907809">
+<node TEXT="C 1.0" ID="ID_1118098343" CREATED="1387539237672" MODIFIED="1387539239379"/>
+</node>
+<node TEXT="ALL-WOW-004: Able to have context sensitive help available throughout the system" ID="ID_903852070" CREATED="1386781066113" MODIFIED="1387210911264">
+<node TEXT="S 1.0" ID="ID_1229420942" CREATED="1387539348978" MODIFIED="1387539360521"/>
+</node>
 <node TEXT="---" ID="ID_737156484" CREATED="1386780394030" MODIFIED="1386780396954">
 <node TEXT="Login" ID="ID_1273641363" CREATED="1386780397958" MODIFIED="1386780400821">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ALL-LGN-001: Able to login to the system using an id and password" ID="ID_221512249" CREATED="1386192452172" MODIFIED="1387210933055"/>
-<node TEXT="ALL-LGN-002: Able to change my password" ID="ID_828653765" CREATED="1386193824808" MODIFIED="1387210936952"/>
-<node TEXT="ALL-LGN-003: Able to reset my password securely" ID="ID_116751056" CREATED="1386193840319" MODIFIED="1387210941063"/>
+<node TEXT="ALL-LGN-001: Able to login to the system using an id and password" ID="ID_221512249" CREATED="1386192452172" MODIFIED="1387210933055">
+<node TEXT="M 0.1" ID="ID_1234238709" CREATED="1387539368985" MODIFIED="1387539370965"/>
+</node>
+<node TEXT="ALL-LGN-002: Able to change my password" ID="ID_828653765" CREATED="1386193824808" MODIFIED="1387210936952">
+<node TEXT="M 0.1" ID="ID_248458059" CREATED="1387539374218" MODIFIED="1387539379124"/>
+</node>
+<node TEXT="ALL-LGN-003: Able to reset my password securely" ID="ID_116751056" CREATED="1386193840319" MODIFIED="1387210941063">
+<node TEXT="M 1.0" ID="ID_1125133474" CREATED="1387539387870" MODIFIED="1387539391129"/>
+</node>
 <node TEXT="---" ID="ID_1045461175" CREATED="1386695735670" MODIFIED="1386695737033">
 <node TEXT="System roles / My work" ID="ID_1042542023" CREATED="1386259708018" MODIFIED="1386781447139">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ALL-ROL-001: Able to hold multiple roles across multiple tenancies" ID="ID_855740424" CREATED="1386780293553" MODIFIED="1387210952935"/>
-<node TEXT="ALL-ROL-002: Able to get an overview of the roles held across tenancies in the system" ID="ID_1522204842" CREATED="1386780316280" MODIFIED="1387210955983"/>
-<node TEXT="ALL-ROL-003: Able to view a dashboard of courses/projects I work on and see the status for each project" ID="ID_1463276250" CREATED="1386693492372" MODIFIED="1387210960023"/>
-<node TEXT="ALL-ROL-004: Able to get an overview of activity and tasks on courses/projects I work on" ID="ID_823548704" CREATED="1386693552705" MODIFIED="1387210965007"/>
-<node TEXT="ALL-ROL-005: Able to see a history of projects worked on" ID="ID_368677811" CREATED="1386780992226" MODIFIED="1387210969967"/>
+<node TEXT="ALL-ROL-001: Able to hold multiple roles across multiple tenancies" ID="ID_855740424" CREATED="1386780293553" MODIFIED="1387210952935">
+<node TEXT="S 1.0" ID="ID_1070037315" CREATED="1387539396347" MODIFIED="1387539466418"/>
+</node>
+<node TEXT="ALL-ROL-002: Able to get an overview of the roles held across tenancies in the system" ID="ID_1522204842" CREATED="1386780316280" MODIFIED="1387210955983">
+<node TEXT="W 1.0" ID="ID_1888905168" CREATED="1387539532055" MODIFIED="1387539872783"/>
+<node TEXT="Add requirement to select tenancy more important" ID="ID_990331027" CREATED="1387539512388" MODIFIED="1387539526832"/>
+</node>
+<node TEXT="ALL-ROL-003: Able to view a dashboard of courses/projects I work on and see the status for each project" ID="ID_1463276250" CREATED="1386693492372" MODIFIED="1387210960023">
+<node TEXT="M 0.1" ID="ID_254529140" CREATED="1387539914066" MODIFIED="1387539922203"/>
+<node TEXT="Separate status out" ID="ID_338923950" CREATED="1387539890716" MODIFIED="1387539912652">
+<node TEXT="C 1.0" ID="ID_1127651179" CREATED="1387539931064" MODIFIED="1387539967931"/>
+</node>
+</node>
+<node TEXT="ALL-ROL-004: Able to get an overview of activity and tasks on courses/projects I work on" ID="ID_823548704" CREATED="1386693552705" MODIFIED="1387210965007">
+<node TEXT="C 1.0" ID="ID_1057354202" CREATED="1387540151536" MODIFIED="1387540154068"/>
+</node>
+<node TEXT="ALL-ROL-005: Able to see a history of projects worked on" ID="ID_368677811" CREATED="1386780992226" MODIFIED="1387210969967">
+<node TEXT="S 1.0" ID="ID_1006204072" CREATED="1387540188877" MODIFIED="1387540511096"/>
+<node TEXT="Most recently used, e.g. recent docs in Word" ID="ID_1347180329" CREATED="1387540181934" MODIFIED="1387540525369"/>
+<node TEXT="History covered by system logs -&gt; visible to the user?" ID="ID_221323805" CREATED="1387540224598" MODIFIED="1387540239362"/>
+</node>
 <node TEXT="---" ID="ID_264728595" CREATED="1386780422518" MODIFIED="1386780424090">
 <node TEXT="Profile" ID="ID_1175822096" CREATED="1386780424837" MODIFIED="1386780427956">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ALL-PRO-001: Able to set and change my personal details" ID="ID_107650809" CREATED="1386193888359" MODIFIED="1387210982278"/>
-<node TEXT="ALL-PRO-002: Able to set and change my email address" ID="ID_1074676613" CREATED="1386193902758" MODIFIED="1387210985350"/>
-<node TEXT="ALL-PRO-003: Able to set and change an avatar image" ID="ID_563005720" CREATED="1386193881439" MODIFIED="1387210989439"/>
-<node TEXT="ALL-PRO-004: Able to set the timezone" ID="ID_1358140002" CREATED="1386780506411" MODIFIED="1387210995646"/>
-<node TEXT="ALL-PRO-005: Able to set the language" ID="ID_136529926" CREATED="1386780516827" MODIFIED="1387211000566"/>
-<node TEXT="ALL-PRO-006: Able to set the email format (HTML/plain)" ID="ID_425447586" CREATED="1386780522459" MODIFIED="1387211005590"/>
-<node TEXT="ALL-PRO-007: Able to set appearance preferences" ID="ID_1414343315" CREATED="1386780534551" MODIFIED="1387211009582"/>
-<node TEXT="ALL-PRO-008: Able to toggle/configure profile visibility" ID="ID_1524597664" CREATED="1386780549923" MODIFIED="1387211014022"/>
+<node TEXT="ALL-PRO-001: Able to set and change my personal details" ID="ID_107650809" CREATED="1386193888359" MODIFIED="1387210982278">
+<node TEXT="M 1.0" ID="ID_1939998839" CREATED="1387540539707" MODIFIED="1387540546841"/>
+</node>
+<node TEXT="ALL-PRO-002: Able to set and change my email address" ID="ID_1074676613" CREATED="1386193902758" MODIFIED="1387210985350">
+<node TEXT="M 0.1" ID="ID_674933714" CREATED="1387540551549" MODIFIED="1387540624953"/>
+</node>
+<node TEXT="ALL-PRO-003: Able to set and change an avatar image" ID="ID_563005720" CREATED="1386193881439" MODIFIED="1387210989439">
+<node TEXT="C 1.0" ID="ID_315589480" CREATED="1387540634607" MODIFIED="1387540639619"/>
+</node>
+<node TEXT="ALL-PRO-004: Able to set the timezone" ID="ID_1358140002" CREATED="1386780506411" MODIFIED="1387210995646">
+<node TEXT="Include time formatting to enable US/UK spelling" ID="ID_1469342560" CREATED="1387540745032" MODIFIED="1387540759092"/>
+<node TEXT="S 1.0" ID="ID_1534189148" CREATED="1387540808806" MODIFIED="1387540863753"/>
+</node>
+<node TEXT="ALL-PRO-005: Able to set the language" ID="ID_136529926" CREATED="1386780516827" MODIFIED="1387211000566">
+<node TEXT="W 1.0" ID="ID_925411277" CREATED="1387540891180" MODIFIED="1387540895046"/>
+</node>
+<node TEXT="ALL-PRO-006: Able to set the email format (HTML/plain)" ID="ID_425447586" CREATED="1386780522459" MODIFIED="1387211005590">
+<node TEXT="W 1.0" ID="ID_864195087" CREATED="1387540905168" MODIFIED="1387540907980"/>
+</node>
+<node TEXT="ALL-PRO-007: Able to set appearance preferences" ID="ID_1414343315" CREATED="1386780534551" MODIFIED="1387211009582">
+<node TEXT="W 1.0" ID="ID_1752595706" CREATED="1387540931725" MODIFIED="1387540933824"/>
+</node>
+<node TEXT="ALL-PRO-008: Able to toggle/configure profile visibility" ID="ID_1524597664" CREATED="1386780549923" MODIFIED="1387211014022">
+<node TEXT="W 1.0" ID="ID_1371854291" CREATED="1387540974462" MODIFIED="1387540977154"/>
+</node>
 <node TEXT="---" ID="ID_469711027" CREATED="1386695587256" MODIFIED="1386695588844">
 <node TEXT="Collaboration" ID="ID_297392522" CREATED="1386249086359" MODIFIED="1386695599478">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ALL-COL-001: Able to invite collaborators to projects I own (or have sufficient permissions to)" ID="ID_248202335" CREATED="1386192605337" MODIFIED="1387211028493"/>
-<node TEXT="ALL-COL-002: Able to see all collaborators on a course/project" ID="ID_615538204" CREATED="1386192538539" MODIFIED="1387211032166"/>
-<node TEXT="ALL-COL-003: Able to remove collaborators from a project I own (or have sufficient permissions to)" ID="ID_1593952790" CREATED="1386192832581" MODIFIED="1387211035453"/>
-<node TEXT="ALL-COL-004: Able to determine the editing rights for collaborators of courses/projects I own (or have sufficient permissions to)" ID="ID_1602387119" CREATED="1386192686009" MODIFIED="1387211039422"/>
-<node TEXT="ALL-COL-005: Able to leave a course/project" ID="ID_1125372981" CREATED="1386192837615" MODIFIED="1387211044461"/>
-<node TEXT="ALL-COL-006: Able to exchange messages with other collaborators at course/project level (e.g. course/project wall)" ID="ID_316747318" CREATED="1386768310277" MODIFIED="1387211048461"/>
-<node TEXT="ALL-COL-007: Able to request review/sign-off from collaborators on projects I own (or have sufficient permissions to)" ID="ID_1678419997" CREATED="1386192521819" MODIFIED="1387211052509"/>
-<node TEXT="ALL-COL-008: Able to accept/reject tracked changes on projects I own (or have sufficient permissions to)" ID="ID_1261926791" CREATED="1386758603876" MODIFIED="1387211057742"/>
-<node TEXT="ALL-COL-009: Able to share guest access (for non-system users) for review on projects I own (or have sufficient permissions to)" ID="ID_1360427021" CREATED="1386758619236" MODIFIED="1387211061157"/>
+<node TEXT="ALL-COL-001: Able to invite collaborators to projects I own (or have sufficient permissions to)" ID="ID_248202335" CREATED="1386192605337" MODIFIED="1387211028493">
+<node TEXT="M 1.0" ID="ID_1501156243" CREATED="1387542436126" MODIFIED="1387542437969"/>
+<node TEXT="Fine grained permissions + giving users the ability to control that" ID="ID_1723316227" CREATED="1387541082145" MODIFIED="1387541100300"/>
+<node TEXT="We consider this applies to system accounts" ID="ID_806941174" CREATED="1387542438383" MODIFIED="1387542449521"/>
+</node>
+<node TEXT="ALL-COL-002: Able to see all collaborators on a course/project" ID="ID_615538204" CREATED="1386192538539" MODIFIED="1387211032166">
+<node TEXT="M 1.0" ID="ID_692155323" CREATED="1387542140043" MODIFIED="1387542301000"/>
+</node>
+<node TEXT="ALL-COL-003: Able to remove collaborators from a project I own (or have sufficient permissions to)" ID="ID_1593952790" CREATED="1386192832581" MODIFIED="1387211035453">
+<node TEXT="M 1.0" ID="ID_17998498" CREATED="1387542232330" MODIFIED="1387542269069"/>
+</node>
+<node TEXT="ALL-COL-004: Able to determine the editing rights for collaborators of courses/projects I own (or have sufficient permissions to)" ID="ID_1602387119" CREATED="1386192686009" MODIFIED="1387211039422">
+<node TEXT="S 1.0" ID="ID_1981805773" CREATED="1387542285627" MODIFIED="1387542296824"/>
+</node>
+<node TEXT="ALL-COL-005: Able to leave a course/project" ID="ID_1125372981" CREATED="1386192837615" MODIFIED="1387211044461">
+<node TEXT="C 1.0" ID="ID_869254648" CREATED="1387542309182" MODIFIED="1387542313823"/>
+</node>
+<node TEXT="ALL-COL-006: Able to exchange messages with other collaborators at course/project level (e.g. course/project wall)" ID="ID_316747318" CREATED="1386768310277" MODIFIED="1387211048461">
+<node TEXT="W 1.0" ID="ID_1564684722" CREATED="1387542061769" MODIFIED="1387542064188"/>
+</node>
+<node TEXT="ALL-COL-007: Able to request review/sign-off from collaborators on projects I own (or have sufficient permissions to)" ID="ID_1678419997" CREATED="1386192521819" MODIFIED="1387211052509">
+<node TEXT="W 1.0" ID="ID_644500260" CREATED="1387542055831" MODIFIED="1387542058379"/>
+</node>
+<node TEXT="ALL-COL-008: Able to accept/reject tracked changes on projects I own (or have sufficient permissions to)" ID="ID_1261926791" CREATED="1386758603876" MODIFIED="1387211057742">
+<node TEXT="W 1.0" ID="ID_1298336433" CREATED="1387542051993" MODIFIED="1387542053764"/>
+</node>
+<node TEXT="ALL-COL-009: Able to share guest access (for non-system users) for review on projects I own (or have sufficient permissions to)" ID="ID_1360427021" CREATED="1386758619236" MODIFIED="1387541937729">
+<font BOLD="false"/>
+<node TEXT="M 1.0" ID="ID_608219487" CREATED="1387542331352" MODIFIED="1387542332948"/>
+</node>
+<node TEXT="ALL-COL-010: Able to invite collaborators who don&apos;t already have system accounts" ID="ID_434673992" CREATED="1387541898674" MODIFIED="1387541948807">
+<node TEXT="S 1.0" ID="ID_1055036147" CREATED="1387542402483" MODIFIED="1387542403631"/>
+</node>
+<node TEXT="ALL-COL-011: Able to link directly to a specific component within a course" ID="ID_868553319" CREATED="1387542076424" MODIFIED="1387542095180">
+<node TEXT="M 1.0" ID="ID_985757492" CREATED="1387542411811" MODIFIED="1387542416743"/>
+</node>
 </node>
 <node TEXT="Tenancy Administrator" ID="ID_1310863986" CREATED="1386087330300" MODIFIED="1386794960140">
 <node TEXT="---" ID="ID_1592660877" CREATED="1386794462500" MODIFIED="1386794463643">
@@ -182,31 +336,83 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="ADM-TEN-001: Able to change the authoring tool theme" ID="ID_1590320918" CREATED="1386795148988" MODIFIED="1387211120818"/>
-<node TEXT="ADM-TEN-002: Able to CRUD system roles from capabilities in the scope of a tenancy" ID="ID_1276774455" CREATED="1386794528603" MODIFIED="1387211124533"/>
-<node TEXT="ADM-TEN-003: Able to assign/unassign tenancy-scope system roles to users within the tenancy" ID="ID_1962332564" CREATED="1386794556914" MODIFIED="1387211128858"/>
-<node TEXT="ADM-TEN-004: Able to set and change default values for courses/projects" ID="ID_1210761388" CREATED="1386794481883" MODIFIED="1387211133177"/>
-<node TEXT="ADM-TEN-005: Able to CRUD users within the tenancy" ID="ID_565504812" CREATED="1386794834011" MODIFIED="1387211137539"/>
-<node TEXT="ADM-TEN-006: Able to view system logs (users actions) within the scope of a tenancy" ID="ID_791493351" CREATED="1386794812264" MODIFIED="1387211143188"/>
-<node TEXT="ADM-TEN-007: Able to manage course/project ownership" ID="ID_440141569" CREATED="1386795019815" MODIFIED="1387211149674"/>
-<node TEXT="ADM-TEN-008: Able to freeze/lock/unlock a courses/projects to prevent/enable changes" ID="ID_1533429102" CREATED="1386192709572" MODIFIED="1387211205250"/>
-<node TEXT="ADM-TEN-009: Able to set apply policy values for the tenancy within the range determined by the super administrator" ID="ID_70661673" CREATED="1386794658074" MODIFIED="1387211210153"/>
-<node TEXT="ADM-TEN-010: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc)." ID="ID_1093085478" CREATED="1386795294875" MODIFIED="1387211219808"/>
-<node TEXT="ADM-TEN-011: Able to choose which installed language pack plug-ins to make available to the tenancy users" ID="ID_1683699106" CREATED="1386795182308" MODIFIED="1387211224465"/>
-<node TEXT="ADM-TEN-012: Able to choose which installed component plug-ins to make available to the tenancy users" ID="ID_683241123" CREATED="1386795182308" MODIFIED="1387211229672"/>
-<node TEXT="ADM-TEN-013: Able to choose which installed extension plug-ins to make available to the tenancy users" ID="ID_1360446198" CREATED="1386795182308" MODIFIED="1387211235640"/>
-<node TEXT="ADM-TEN-014: Able to choose which installed publishing options to make available to the tenancy users" ID="ID_1135940079" CREATED="1386796309089" MODIFIED="1387211239904"/>
-<node TEXT="ADM-TEN-015: Able to turn versioning on/off" ID="ID_1963083444" CREATED="1386796349309" MODIFIED="1387211244104"/>
-<node TEXT="ADM-TEN-016: Able to configure system notification behaviour" ID="ID_1478861008" CREATED="1386796362827" MODIFIED="1387211249034"/>
-<node TEXT="ADM-TEN-017: Able to enable/disable workflow stages and steps" ID="ID_512025574" CREATED="1386796389266" MODIFIED="1387211253823"/>
-<node TEXT="ADM-TEN-018: Able to determine the contents of the L&amp;D Manager dashboard" ID="ID_893873435" CREATED="1386796270090" MODIFIED="1387211258447"/>
-<node TEXT="ADM-TEN-019: Able to turn guest user access to the tenancy on/off" ID="ID_435998592" CREATED="1386796293825" MODIFIED="1387211267001"/>
-<node TEXT="ADM-TEN-020: Able to turn the ability to make tracked changes during reviews on/off" ID="ID_1038876141" CREATED="1386796426582" MODIFIED="1387211277759"/>
-<node TEXT="ADM-TEN-021: Able to determine whether collaboration invites can be sent to system users only or also to external users" ID="ID_930283131" CREATED="1386796524392" MODIFIED="1387211281798"/>
-<node TEXT="ADM-TEN-022: Able to configure plug-ins for the scope of the tenancy and per project" ID="ID_1990496676" CREATED="1386796580303" MODIFIED="1387211286248"/>
-<node TEXT="ADM-TEN-023: Able to manage the scope assignments of re-usable items within the asset management realm" ID="ID_1221759858" CREATED="1386795236389" MODIFIED="1387211291343"/>
-<node TEXT="ADM-TEN-024: Able to set the password policy" ID="ID_235907149" CREATED="1386796729276" MODIFIED="1387211295407"/>
-<node TEXT="ADM-TEN-025: Able to set the account expiry policy" ID="ID_113028679" CREATED="1386796738551" MODIFIED="1387211299160"/>
+<node TEXT="ADM-TEN-001: Able to change the authoring tool theme" ID="ID_1590320918" CREATED="1386795148988" MODIFIED="1387211120818">
+<node TEXT="W 1.0" ID="ID_1855293319" CREATED="1387548782445" MODIFIED="1387548812197"/>
+</node>
+<node TEXT="ADM-TEN-002: Able to CRUD system roles from capabilities in the scope of a tenancy" ID="ID_1276774455" CREATED="1386794528603" MODIFIED="1387211124533">
+<node TEXT="M 1.0" ID="ID_1565612164" CREATED="1387548848894" MODIFIED="1387548850633"/>
+</node>
+<node TEXT="ADM-TEN-003: Able to assign/unassign tenancy-scope system roles to users within the tenancy" ID="ID_1962332564" CREATED="1386794556914" MODIFIED="1387211128858">
+<node TEXT="M 1.0" ID="ID_76488874" CREATED="1387548864066" MODIFIED="1387548866047"/>
+</node>
+<node TEXT="ADM-TEN-004: Able to set and change default values for courses/projects" ID="ID_1210761388" CREATED="1386794481883" MODIFIED="1387211133177">
+<node TEXT="C 1.0" ID="ID_1180161948" CREATED="1387549113437" MODIFIED="1387549115040"/>
+</node>
+<node TEXT="ADM-TEN-005: Able to CRUD users within the tenancy" ID="ID_565504812" CREATED="1386794834011" MODIFIED="1387211137539">
+<node TEXT="M 1.0" ID="ID_1443731424" CREATED="1387549135665" MODIFIED="1387549139108"/>
+</node>
+<node TEXT="ADM-TEN-006: Able to view system logs (users actions) within the scope of a tenancy" ID="ID_791493351" CREATED="1386794812264" MODIFIED="1387211143188">
+<node TEXT="M 1.0" ID="ID_1362625349" CREATED="1387549144936" MODIFIED="1387549146228"/>
+</node>
+<node TEXT="ADM-TEN-007: Able to manage course/project ownership" ID="ID_440141569" CREATED="1386795019815" MODIFIED="1387211149674">
+<node TEXT="M 1.0" ID="ID_1687691625" CREATED="1387549158937" MODIFIED="1387549161020"/>
+</node>
+<node TEXT="ADM-TEN-008: Able to freeze/lock/unlock a courses/projects to prevent/enable changes" ID="ID_1533429102" CREATED="1386192709572" MODIFIED="1387211205250">
+<node TEXT="C 1.0" ID="ID_1939422938" CREATED="1387549203270" MODIFIED="1387549204409"/>
+</node>
+<node TEXT="ADM-TEN-009: Able to apply policy values for the tenancy within the range determined by the super administrator" ID="ID_70661673" CREATED="1386794658074" MODIFIED="1387549225794">
+<node TEXT="C 1.0" ID="ID_652469183" CREATED="1387549293839" MODIFIED="1387549297899"/>
+</node>
+<node TEXT="ADM-TEN-010: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc)." ID="ID_1093085478" CREATED="1386795294875" MODIFIED="1387211219808">
+<node TEXT="S 1.0" ID="ID_1067257563" CREATED="1387549338631" MODIFIED="1387549340987"/>
+</node>
+<node TEXT="ADM-TEN-011: Able to choose which installed language pack plug-ins to make available to the tenancy users" ID="ID_1683699106" CREATED="1386795182308" MODIFIED="1387211224465">
+<node TEXT="W 1.0" ID="ID_1373513813" CREATED="1387549363367" MODIFIED="1387549365483"/>
+</node>
+<node TEXT="ADM-TEN-012: Able to choose which installed component plug-ins to make available to the tenancy users" ID="ID_683241123" CREATED="1386795182308" MODIFIED="1387211229672">
+<node TEXT="C 1.0" ID="ID_1523503029" CREATED="1387549386659" MODIFIED="1387549392913"/>
+</node>
+<node TEXT="ADM-TEN-013: Able to choose which installed extension plug-ins to make available to the tenancy users" ID="ID_1360446198" CREATED="1386795182308" MODIFIED="1387211235640">
+<node TEXT="C 1.0" ID="ID_70792064" CREATED="1387549395886" MODIFIED="1387549397506"/>
+</node>
+<node TEXT="ADM-TEN-014: Able to choose which installed publishing options to make available to the tenancy users" ID="ID_1135940079" CREATED="1386796309089" MODIFIED="1387211239904">
+<node TEXT="C 1.0" ID="ID_1775722959" CREATED="1387549398607" MODIFIED="1387549400210"/>
+</node>
+<node TEXT="ADM-TEN-015: Able to turn versioning on/off" ID="ID_1963083444" CREATED="1386796349309" MODIFIED="1387211244104">
+<node TEXT="W 1.0" ID="ID_899133237" CREATED="1387549409782" MODIFIED="1387549415833"/>
+</node>
+<node TEXT="ADM-TEN-016: Able to configure system notification behaviour" ID="ID_1478861008" CREATED="1386796362827" MODIFIED="1387211249034">
+<node TEXT="W 1.0" ID="ID_1404299079" CREATED="1387549634435" MODIFIED="1387549637471"/>
+<node TEXT="Needs further exploration" ID="ID_1467221008" CREATED="1387549588767" MODIFIED="1387549593643"/>
+</node>
+<node TEXT="ADM-TEN-017: Able to enable/disable workflow stages and steps" ID="ID_512025574" CREATED="1386796389266" MODIFIED="1387211253823">
+<node TEXT="W 1.0" ID="ID_840959133" CREATED="1387549644275" MODIFIED="1387549649678"/>
+</node>
+<node TEXT="ADM-TEN-018: Able to determine the contents of the L&amp;D Manager dashboard" ID="ID_893873435" CREATED="1386796270090" MODIFIED="1387211258447">
+<node TEXT="W 1.0" ID="ID_396892301" CREATED="1387549684194" MODIFIED="1387549711827"/>
+</node>
+<node TEXT="ADM-TEN-019: Able to turn guest user access to the tenancy on/off" ID="ID_435998592" CREATED="1386796293825" MODIFIED="1387211267001">
+<node TEXT="M 1.0" ID="ID_1287087013" CREATED="1387549769923" MODIFIED="1387549771856"/>
+<node TEXT="Also applies to super admin" ID="ID_1908934680" CREATED="1387549750877" MODIFIED="1387549761784"/>
+</node>
+<node TEXT="ADM-TEN-020: Able to turn the ability to make tracked changes during reviews on/off" ID="ID_1038876141" CREATED="1386796426582" MODIFIED="1387211277759">
+<node TEXT="W 1.0" ID="ID_1547914104" CREATED="1387549779793" MODIFIED="1387549782877"/>
+</node>
+<node TEXT="ADM-TEN-021: Able to determine whether collaboration invites can be sent to system users only or also to external users" ID="ID_930283131" CREATED="1386796524392" MODIFIED="1387211281798">
+<node TEXT="S 1.0" ID="ID_1195066354" CREATED="1387549875453" MODIFIED="1387549877823"/>
+</node>
+<node TEXT="ADM-TEN-022: Able to configure plug-ins for the scope of the tenancy and per project" ID="ID_1990496676" CREATED="1386796580303" MODIFIED="1387211286248">
+<node TEXT="C 1.0" ID="ID_901660401" CREATED="1387549946222" MODIFIED="1387549952653"/>
+</node>
+<node TEXT="ADM-TEN-023: Able to manage the scope assignments of re-usable items within the asset management realm" ID="ID_1221759858" CREATED="1386795236389" MODIFIED="1387211291343">
+<node TEXT="W 1.0" ID="ID_1983784108" CREATED="1387550042398" MODIFIED="1387550044618"/>
+</node>
+<node TEXT="ADM-TEN-024: Able to set the password policy" ID="ID_235907149" CREATED="1386796729276" MODIFIED="1387211295407">
+<node TEXT="M 1.0" ID="ID_1590884761" CREATED="1387550053648" MODIFIED="1387550055581"/>
+</node>
+<node TEXT="ADM-TEN-025: Able to set the account expiry policy" ID="ID_113028679" CREATED="1386796738551" MODIFIED="1387211299160">
+<node TEXT="C 1.0" ID="ID_548126010" CREATED="1387550361437" MODIFIED="1387550371321"/>
+</node>
 </node>
 <node TEXT="Content Creator" ID="ID_892412297" CREATED="1386087276438" MODIFIED="1386769851374">
 <icon BUILTIN="button_ok"/>
@@ -217,37 +423,73 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-LF-001: Able to choose a standard theme from a range of options" ID="ID_1076747713" CREATED="1386600067572" MODIFIED="1387211479852"/>
-<node TEXT="CCR-LF-002: Able to choose a custom theme" ID="ID_559264775" CREATED="1386257757001" MODIFIED="1387211482572"/>
+<node TEXT="CCR-LF-001: Able to choose a standard theme from a range of options" ID="ID_1076747713" CREATED="1386600067572" MODIFIED="1387211479852">
+<node TEXT="M 1.0" ID="ID_1810312094" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
+<node TEXT="CCR-LF-002: Able to choose a custom theme" ID="ID_559264775" CREATED="1386257757001" MODIFIED="1387211482572">
+<node TEXT="M 1.0" ID="ID_215180522" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
 <node TEXT="---" ID="ID_1238910619" CREATED="1386600207328" MODIFIED="1386600565565">
 <node TEXT="Styles" ID="ID_72393476" CREATED="1386600566513" MODIFIED="1386693877321">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-LF-003: Able to modify basic theme colour settings" ID="ID_1290640993" CREATED="1386598357680" MODIFIED="1387211485450"/>
-<node TEXT="CCR-LF-004: Able to modify high-level padding and spacing settings" ID="ID_1142036172" CREATED="1386598450590" MODIFIED="1387211488348"/>
-<node TEXT="CCR-LF-005: Able to set standard font face for the course" ID="ID_349218696" CREATED="1386257721979" MODIFIED="1387211491508"/>
-<node TEXT="CCR-LF-006: Able to set the standard font size for the course" ID="ID_1627975185" CREATED="1386259076821" MODIFIED="1387211878612"/>
-<node TEXT="CCR-LF-007: Able to embed / package specific fonts / character sets / symbols" ID="ID_146885523" CREATED="1386257892167" MODIFIED="1387211882211"/>
-<node TEXT="CCR-LF-008: Able to define alternative, fall-back fonts" ID="ID_977996105" CREATED="1386259115375" MODIFIED="1387211886419"/>
+<node TEXT="CCR-LF-003: Able to modify basic theme colour settings" ID="ID_1290640993" CREATED="1386598357680" MODIFIED="1387211485450">
+<node TEXT="M 1.0" ID="ID_864077115" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
+<node TEXT="CCR-LF-004: Able to modify high-level padding and spacing settings" ID="ID_1142036172" CREATED="1386598450590" MODIFIED="1387211488348">
+<node TEXT="M 1.0" ID="ID_870908016" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
+<node TEXT="CCR-LF-005: Able to set standard font face for the course" ID="ID_349218696" CREATED="1386257721979" MODIFIED="1387211491508">
+<node TEXT="M 1.0" ID="ID_1177943541" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
+<node TEXT="CCR-LF-006: Able to set the standard font size for the course" ID="ID_1627975185" CREATED="1386259076821" MODIFIED="1387211878612">
+<node TEXT="M 1.0" ID="ID_920875466" CREATED="1387551062737" MODIFIED="1387551064453"/>
+</node>
+<node TEXT="CCR-LF-007: Able to embed / package specific fonts / character sets / symbols" ID="ID_146885523" CREATED="1386257892167" MODIFIED="1387211882211">
+<node TEXT="W 1.0" ID="ID_1590225491" CREATED="1387551217948" MODIFIED="1387551219960"/>
+</node>
+<node TEXT="CCR-LF-008: Able to define alternative, fall-back fonts" ID="ID_977996105" CREATED="1386259115375" MODIFIED="1387211886419">
+<node TEXT="W 1.0" ID="ID_361754878" CREATED="1387551250657" MODIFIED="1387551356734"/>
+<node TEXT="Use font family as part of the theme" ID="ID_1833415519" CREATED="1387551230286" MODIFIED="1387551240426"/>
+</node>
 <node TEXT="---" ID="ID_1848507113" CREATED="1386600184721" MODIFIED="1386600185909">
 <node TEXT="Background images" ID="ID_1200095466" CREATED="1386600186401" MODIFIED="1386693879177">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-LF-009: Able to choose background image for the entire course" ID="ID_60856014" CREATED="1386598250746" MODIFIED="1387211892802"/>
-<node TEXT="CCR-LF-010: Able to choose background images for menus" ID="ID_1562341070" CREATED="1386600304597" MODIFIED="1387211902321"/>
-<node TEXT="CCR-LF-011: Able to choose background images for pages" ID="ID_1779472320" CREATED="1386600304597" MODIFIED="1387211924953"/>
-<node TEXT="CCR-LF-012: Able to choose background images for articles" ID="ID_1096899419" CREATED="1386258639936" MODIFIED="1387211929145"/>
-<node TEXT="CCR-LF-013: Able to insert a transparent placeholder which allows learners to see the background graphic" ID="ID_1167957523" CREATED="1386173219399" MODIFIED="1387211934555"/>
+<node TEXT="CCR-LF-009: Able to choose background image for the entire course" ID="ID_60856014" CREATED="1386598250746" MODIFIED="1387211892802">
+<node TEXT="M 1.0" ID="ID_1307911388" CREATED="1387551391175" MODIFIED="1387551393939"/>
+</node>
+<node TEXT="CCR-LF-010: Able to choose background images for menus" ID="ID_1562341070" CREATED="1386600304597" MODIFIED="1387211902321">
+<node TEXT="M 1.0" ID="ID_665100267" CREATED="1387551391175" MODIFIED="1387551393939"/>
+</node>
+<node TEXT="CCR-LF-011: Able to choose background images for pages" ID="ID_1779472320" CREATED="1386600304597" MODIFIED="1387211924953">
+<node TEXT="M 1.0" ID="ID_230523433" CREATED="1387551391175" MODIFIED="1387551393939"/>
+</node>
+<node TEXT="CCR-LF-012: Able to choose background images for articles" ID="ID_1096899419" CREATED="1386258639936" MODIFIED="1387211929145">
+<node TEXT="M 1.0" ID="ID_1385009564" CREATED="1387551391175" MODIFIED="1387551393939"/>
+</node>
+<node TEXT="CCR-LF-013: Able to insert a transparent placeholder which allows learners to see the background graphic" ID="ID_1167957523" CREATED="1386173219399" MODIFIED="1387211934555">
+<node TEXT="M 1.0" ID="ID_1257243200" CREATED="1387551391175" MODIFIED="1387551393939"/>
+</node>
 <node TEXT="---" ID="ID_979457462" CREATED="1386600238232" MODIFIED="1386600572084">
 <node TEXT="Language / display options" ID="ID_1532561324" CREATED="1386600572953" MODIFIED="1386693880529">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-LF-014: Able to set the language for a course" ID="ID_1895630789" CREATED="1386257769218" MODIFIED="1387211939243"/>
-<node TEXT="CCR-LF-015: Able to define the alternative, high-contrast look &amp; feel" ID="ID_1890702720" CREATED="1386259023592" MODIFIED="1387211943891"/>
-<node TEXT="CCR-LF-016: Able to set the display layout to right-to-left (RTL)" ID="ID_489257185" CREATED="1386257871552" MODIFIED="1387211948491"/>
+<node TEXT="CCR-LF-014: Able to set the language for a course" ID="ID_1895630789" CREATED="1386257769218" MODIFIED="1387211939243">
+<node TEXT="W 1.0" ID="ID_932292801" CREATED="1387551418899" MODIFIED="1387551421942"/>
+<node TEXT="Default to English" ID="ID_286066438" CREATED="1387551423611" MODIFIED="1387551427222"/>
+</node>
+<node TEXT="CCR-LF-015: Able to define the alternative, high-contrast look &amp; feel" ID="ID_1890702720" CREATED="1386259023592" MODIFIED="1387211943891">
+<node TEXT="W 1.0" ID="ID_1180275286" CREATED="1387551526673" MODIFIED="1387551530253"/>
+<node TEXT="Built-in part of the framework" ID="ID_23369461" CREATED="1387551530762" MODIFIED="1387551541949"/>
+</node>
+<node TEXT="CCR-LF-016: Able to set the display layout to right-to-left (RTL)" ID="ID_489257185" CREATED="1386257871552" MODIFIED="1387211948491">
+<node TEXT="W 1.0" ID="ID_1765467600" CREATED="1387551589263" MODIFIED="1387551594747"/>
+<node TEXT="Put out to community to contribute resource" ID="ID_1685885605" CREATED="1387551642855" MODIFIED="1387551652970"/>
+</node>
 </node>
 <node TEXT="Asset management" ID="ID_1415244573" CREATED="1386600396276" MODIFIED="1386758454306">
 <icon BUILTIN="button_ok"/>
@@ -256,26 +498,56 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-AMGMT-001: Able to browse all stored assets that my role/capabilities allow" ID="ID_919634255" CREATED="1386192969849" MODIFIED="1387212177510"/>
-<node TEXT="CCR-AMGMT-002: Able to search assets based on metadata" ID="ID_1543295776" CREATED="1386602707661" MODIFIED="1387212181085"/>
-<node TEXT="CCR-AMGMT-003: Able to manage the scope of access for snippets and courses / projects shared" ID="ID_1469900838" CREATED="1386779736923" MODIFIED="1387212184102"/>
-<node TEXT="CCR-AMGMT-004: Able to set access level to &apos;myself only&apos;" ID="ID_1074151852" CREATED="1386779771010" MODIFIED="1387212187846"/>
-<node TEXT="CCR-AMGMT-005: Able to set access level to &apos;this course only&apos;" ID="ID_727535729" CREATED="1386779794530" MODIFIED="1387212191805"/>
-<node TEXT="CCR-AMGMT-006: Able to set access level to &apos;my organisation&apos;" ID="ID_1686213584" CREATED="1386779822249" MODIFIED="1387212196005"/>
-<node TEXT="CCR-AMGMT-007: Able to set access level to &apos;public (i.e. everyone who uses the system)&apos;" ID="ID_1603325994" CREATED="1386779834322" MODIFIED="1387212200589"/>
+<node TEXT="CCR-AMGMT-001: Able to browse all stored assets that my role/capabilities allow" ID="ID_919634255" CREATED="1386192969849" MODIFIED="1387212177510">
+<node TEXT="W 1.0" ID="ID_784741280" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-002: Able to search assets based on metadata" ID="ID_1543295776" CREATED="1386602707661" MODIFIED="1387212181085">
+<node TEXT="W 1.0" ID="ID_1424360005" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-003: Able to manage the scope of access for snippets and courses / projects shared" ID="ID_1469900838" CREATED="1386779736923" MODIFIED="1387212184102">
+<node TEXT="W 1.0" ID="ID_1525796485" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-004: Able to set access level to &apos;myself only&apos;" ID="ID_1074151852" CREATED="1386779771010" MODIFIED="1387212187846">
+<node TEXT="W 1.0" ID="ID_852348860" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-005: Able to set access level to &apos;this course only&apos;" ID="ID_727535729" CREATED="1386779794530" MODIFIED="1387212191805">
+<node TEXT="W 1.0" ID="ID_1587896305" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-006: Able to set access level to &apos;my organisation&apos;" ID="ID_1686213584" CREATED="1386779822249" MODIFIED="1387212196005">
+<node TEXT="W 1.0" ID="ID_1540119506" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-007: Able to set access level to &apos;public (i.e. everyone who uses the system)&apos;" ID="ID_1603325994" CREATED="1386779834322" MODIFIED="1387212200589">
+<node TEXT="W 1.0" ID="ID_492567499" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
 <node TEXT="---" ID="ID_479657952" CREATED="1386601614780" MODIFIED="1386601616823">
 <node TEXT="Background images" ID="ID_968472108" CREATED="1386601621475" MODIFIED="1386693882168">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-AMGMT-008: Able to upload background images" ID="ID_692164947" CREATED="1386601662642" MODIFIED="1387212210861"/>
-<node TEXT="CCR-AMGMT-009: Able to change (re-upload) background images" ID="ID_607611458" CREATED="1386601952141" MODIFIED="1387212216133"/>
-<node TEXT="CCR-AMGMT-010: Able to see which courses would need to be republished for background image changes to be reflected" ID="ID_1670473441" CREATED="1386602790468" MODIFIED="1387212225629"/>
-<node TEXT="CCR-AMGMT-011: Able to delete background images" ID="ID_457223694" CREATED="1386601679210" MODIFIED="1387212230780"/>
-<node TEXT="CCR-AMGMT-012: Able to add metadata to background images" ID="ID_1436849607" CREATED="1386601697034" MODIFIED="1387212236493"/>
-<node TEXT="CCR-AMGMT-013: Able to organise background images into categories" ID="ID_1496487055" CREATED="1386601722801" MODIFIED="1387212239940"/>
-<node TEXT="CCR-AMGMT-014: Able to search background images based on metadata" ID="ID_1924103121" CREATED="1386601883566" MODIFIED="1387212243332"/>
-<node TEXT="CCR-AMGMT-015: Able to report on usage of background images" ID="ID_1899893228" CREATED="1386601940645" MODIFIED="1387212247586"/>
+<node TEXT="CCR-AMGMT-008: Able to upload background images" ID="ID_692164947" CREATED="1386601662642" MODIFIED="1387212210861">
+<node TEXT="W 1.0" ID="ID_1136355456" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-009: Able to change (re-upload) background images" ID="ID_607611458" CREATED="1386601952141" MODIFIED="1387212216133">
+<node TEXT="W 1.0" ID="ID_1542039041" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-010: Able to see which courses would need to be republished for background image changes to be reflected" ID="ID_1670473441" CREATED="1386602790468" MODIFIED="1387212225629">
+<node TEXT="W 1.0" ID="ID_1588081295" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-011: Able to delete background images" ID="ID_457223694" CREATED="1386601679210" MODIFIED="1387212230780">
+<node TEXT="W 1.0" ID="ID_1940711962" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-012: Able to add metadata to background images" ID="ID_1436849607" CREATED="1386601697034" MODIFIED="1387212236493">
+<node TEXT="W 1.0" ID="ID_316555748" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-013: Able to organise background images into categories" ID="ID_1496487055" CREATED="1386601722801" MODIFIED="1387212239940">
+<node TEXT="W 1.0" ID="ID_783784835" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-014: Able to search background images based on metadata" ID="ID_1924103121" CREATED="1386601883566" MODIFIED="1387212243332">
+<node TEXT="W 1.0" ID="ID_1835514341" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
+<node TEXT="CCR-AMGMT-015: Able to report on usage of background images" ID="ID_1899893228" CREATED="1386601940645" MODIFIED="1387212247586">
+<node TEXT="W 1.0" ID="ID_1381940474" CREATED="1387552131235" MODIFIED="1387552133807"/>
+</node>
 <node TEXT="---" ID="ID_1283948502" CREATED="1386601619155" MODIFIED="1386601620839">
 <node TEXT="Themes" ID="ID_1469885675" CREATED="1386601627564" MODIFIED="1386693917800">
 <font BOLD="true" ITALIC="true"/>
@@ -283,48 +555,98 @@
 </node>
 <node TEXT="CCR-AMGMT-016: Able to upload themes" ID="ID_342829532" CREATED="1386601662642" MODIFIED="1387212259502">
 <font BOLD="false"/>
+<node TEXT="M 1.0" ID="ID_1148211855" CREATED="1387552376213" MODIFIED="1387552443588"/>
 </node>
-<node TEXT="CCR-AMGMT-017: Able to change (re-upload) themes" ID="ID_856713281" CREATED="1386601952141" MODIFIED="1387212264587"/>
-<node TEXT="CCR-AMGMT-018: Able to see which courses would need to be republished for theme changes to be reflected" ID="ID_1088991761" CREATED="1386602747732" MODIFIED="1387212268293"/>
-<node TEXT="CCR-AMGMT-019: Able to delete themes" ID="ID_1295934905" CREATED="1386601679210" MODIFIED="1387212272771"/>
-<node TEXT="CCR-AMGMT-020: Able to add metadata to themes" ID="ID_1978002631" CREATED="1386601697034" MODIFIED="1387212277220"/>
-<node TEXT="CCR-AMGMT-021: Able to organise themes into categories" ID="ID_1420771594" CREATED="1386601722801" MODIFIED="1387212280860"/>
-<node TEXT="CCR-AMGMT-022: Able to search themes based on metadata" ID="ID_1628646525" CREATED="1386601883566" MODIFIED="1387212284900"/>
-<node TEXT="CCR-AMGMT-023: Able to report on usage of themes" ID="ID_1441657732" CREATED="1386601940645" MODIFIED="1387212288795"/>
+<node TEXT="CCR-AMGMT-017: Able to change (re-upload) themes" ID="ID_856713281" CREATED="1386601952141" MODIFIED="1387212264587">
+<node TEXT="M 1.0" ID="ID_680578606" CREATED="1387552446842" MODIFIED="1387552449692"/>
+</node>
+<node TEXT="CCR-AMGMT-018: Able to see which courses would need to be republished for theme changes to be reflected" ID="ID_1088991761" CREATED="1386602747732" MODIFIED="1387212268293">
+<node TEXT="C 1.0" ID="ID_577136373" CREATED="1387552451714" MODIFIED="1387552455101"/>
+</node>
+<node TEXT="CCR-AMGMT-019: Able to delete themes" ID="ID_1295934905" CREATED="1386601679210" MODIFIED="1387212272771">
+<node TEXT="M 1.0" ID="ID_687439894" CREATED="1387552457561" MODIFIED="1387552463220"/>
+</node>
+<node TEXT="CCR-AMGMT-020: Able to add metadata to themes" ID="ID_1978002631" CREATED="1386601697034" MODIFIED="1387212277220">
+<node TEXT="W 1.0" ID="ID_597210863" CREATED="1387552518412" MODIFIED="1387552520639"/>
+</node>
+<node TEXT="CCR-AMGMT-021: Able to organise themes into categories" ID="ID_1420771594" CREATED="1386601722801" MODIFIED="1387212280860">
+<node TEXT="W 1.0" ID="ID_559446889" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-022: Able to search themes based on metadata" ID="ID_1628646525" CREATED="1386601883566" MODIFIED="1387212284900">
+<node TEXT="W 1.0" ID="ID_388620285" CREATED="1387552535930" MODIFIED="1387552539372"/>
+</node>
+<node TEXT="CCR-AMGMT-023: Able to report on usage of themes" ID="ID_1441657732" CREATED="1386601940645" MODIFIED="1387212288795">
+<node TEXT="C 1.0" ID="ID_302232679" CREATED="1387552542057" MODIFIED="1387552546667"/>
+</node>
 <node TEXT="---" ID="ID_277526205" CREATED="1386601631787" MODIFIED="1386601632871">
 <node TEXT="Content images" ID="ID_1687622037" CREATED="1386601633180" MODIFIED="1386693920063">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-AMGMT-024: Able to upload content images" ID="ID_192335147" CREATED="1386601662642" MODIFIED="1387212292467"/>
-<node TEXT="CCR-AMGMT-025: Able to change (re-upload) content images" ID="ID_799372946" CREATED="1386601952141" MODIFIED="1387212296571"/>
-<node TEXT="CCR-AMGMT-026: Able to see which courses would need to be republished for content image changes to be reflected" ID="ID_105084655" CREATED="1386602790468" MODIFIED="1387212300355"/>
-<node TEXT="CCR-AMGMT-027: Able to delete content images" ID="ID_110222519" CREATED="1386601679210" MODIFIED="1387212310626"/>
-<node TEXT="CCR-AMGMT-028: Able to add metadata to content images" ID="ID_1549323409" CREATED="1386601697034" MODIFIED="1387212318195"/>
-<node TEXT="CCR-AMGMT-029: Able to organise content images into categories" ID="ID_733058232" CREATED="1386601722801" MODIFIED="1387212325043"/>
-<node TEXT="CCR-AMGMT-030: Able to search content images based on metadata" ID="ID_439643313" CREATED="1386601883566" MODIFIED="1387212330282"/>
-<node TEXT="CCR-AMGMT-031: Able to report on usage of content images" ID="ID_126713715" CREATED="1386601940645" MODIFIED="1387212334098"/>
+<node TEXT="CCR-AMGMT-024: Able to upload content images" ID="ID_192335147" CREATED="1386601662642" MODIFIED="1387212292467">
+<node TEXT="W 1.0" ID="ID_1543755922" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-025: Able to change (re-upload) content images" ID="ID_799372946" CREATED="1386601952141" MODIFIED="1387212296571">
+<node TEXT="W 1.0" ID="ID_1956331476" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-026: Able to see which courses would need to be republished for content image changes to be reflected" ID="ID_105084655" CREATED="1386602790468" MODIFIED="1387212300355">
+<node TEXT="W 1.0" ID="ID_1266414695" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-027: Able to delete content images" ID="ID_110222519" CREATED="1386601679210" MODIFIED="1387212310626">
+<node TEXT="W 1.0" ID="ID_616725924" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-028: Able to add metadata to content images" ID="ID_1549323409" CREATED="1386601697034" MODIFIED="1387212318195">
+<node TEXT="W 1.0" ID="ID_1943688682" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-029: Able to organise content images into categories" ID="ID_733058232" CREATED="1386601722801" MODIFIED="1387212325043">
+<node TEXT="W 1.0" ID="ID_1329188751" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-030: Able to search content images based on metadata" ID="ID_439643313" CREATED="1386601883566" MODIFIED="1387212330282">
+<node TEXT="W 1.0" ID="ID_1566529114" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-031: Able to report on usage of content images" ID="ID_126713715" CREATED="1386601940645" MODIFIED="1387212334098">
+<node TEXT="W 1.0" ID="ID_1964616205" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
 <node TEXT="---" ID="ID_1483746489" CREATED="1386694038807" MODIFIED="1386694039843">
 <node TEXT="Templates / snippets (pages, articles, blocks and components)" ID="ID_717197419" CREATED="1386602613922" MODIFIED="1386779549337">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-AMGMT-032: Able to browse all re-usable snippets" ID="ID_1979822968" CREATED="1386602839369" MODIFIED="1387212338043"/>
-<node TEXT="CCR-AMGMT-033: Able to add re-usable snippets to categories" ID="ID_434852713" CREATED="1386602868081" MODIFIED="1387212341130"/>
-<node TEXT="CCR-AMGMT-034: Able to remove re-usable snippets from categories" ID="ID_860397915" CREATED="1386602868081" MODIFIED="1387212345281"/>
-<node TEXT="CCR-AMGMT-035: Able to delete re-usable snippets" ID="ID_1052375181" CREATED="1386602927319" MODIFIED="1387212348994"/>
+<node TEXT="CCR-AMGMT-032: Able to browse all re-usable snippets" ID="ID_1979822968" CREATED="1386602839369" MODIFIED="1387212338043">
+<node TEXT="W 1.0" ID="ID_1019668001" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-033: Able to add re-usable snippets to categories" ID="ID_434852713" CREATED="1386602868081" MODIFIED="1387212341130">
+<node TEXT="W 1.0" ID="ID_1328838726" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-034: Able to remove re-usable snippets from categories" ID="ID_860397915" CREATED="1386602868081" MODIFIED="1387212345281">
+<node TEXT="W 1.0" ID="ID_1857903512" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-035: Able to delete re-usable snippets" ID="ID_1052375181" CREATED="1386602927319" MODIFIED="1387212348994">
+<node TEXT="W 1.0" ID="ID_572682841" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
 <node TEXT="---" ID="ID_395727486" CREATED="1386775258171" MODIFIED="1386775259328">
 <node TEXT="Central course/project library" ID="ID_1952958570" CREATED="1386775259777" MODIFIED="1386779651745">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-AMGMT-036: Able to preview visible courses" ID="ID_1858174038" CREATED="1386779499752" MODIFIED="1387212355562"/>
-<node TEXT="CCR-AMGMT-037: Able to request permission to clone" ID="ID_917892846" CREATED="1386779561303" MODIFIED="1387212361610"/>
-<node TEXT="CCR-AMGMT-038: Able to grant / reject permission to clone" ID="ID_1557825604" CREATED="1386779585854" MODIFIED="1387212366481"/>
-<node TEXT="CCR-AMGMT-039: Able to provide terms and conditions and request signature" ID="ID_1618881829" CREATED="1386780025220" MODIFIED="1387212371376"/>
-<node TEXT="CCR-AMGMT-040: Able to clone a course / project from the central library into the user&apos;s tenancy (open in my tool)" ID="ID_819679375" CREATED="1386779603846" MODIFIED="1387212375354"/>
+<node TEXT="CCR-AMGMT-036: Able to preview visible courses" ID="ID_1858174038" CREATED="1386779499752" MODIFIED="1387212355562">
+<node TEXT="W 1.0" ID="ID_1140978810" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-037: Able to request permission to clone" ID="ID_917892846" CREATED="1386779561303" MODIFIED="1387212361610">
+<node TEXT="W 1.0" ID="ID_111759089" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-038: Able to grant / reject permission to clone" ID="ID_1557825604" CREATED="1386779585854" MODIFIED="1387212366481">
+<node TEXT="W 1.0" ID="ID_1630695917" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-039: Able to provide terms and conditions and request signature" ID="ID_1618881829" CREATED="1386780025220" MODIFIED="1387212371376">
+<node TEXT="W 1.0" ID="ID_152167482" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
+<node TEXT="CCR-AMGMT-040: Able to clone a course / project from the central library into the user&apos;s tenancy (open in my tool)" ID="ID_819679375" CREATED="1386779603846" MODIFIED="1387212375354">
+<node TEXT="W 1.0" ID="ID_1122784155" CREATED="1387552523468" MODIFIED="1387552532723"/>
+</node>
 <node TEXT="Able to plug in an e-commerce gateway" ID="ID_359394934" CREATED="1386779991893" MODIFIED="1386780011999">
 <icon BUILTIN="help"/>
+<node TEXT="W 1.0" ID="ID_1503575147" CREATED="1387552523468" MODIFIED="1387552532723"/>
 </node>
 </node>
 <node TEXT="Course creation / management" ID="ID_390720220" CREATED="1386245645646" MODIFIED="1386758468728">
@@ -334,35 +656,77 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CRS-001: Able to CRUD categories" ID="ID_654275617" CREATED="1386259355960" MODIFIED="1387213175057"/>
-<node TEXT="CCR-CRS-002: Able to CRUD subcategories at any level" ID="ID_136942977" CREATED="1386259352289" MODIFIED="1387213179513"/>
+<node TEXT="CCR-CRS-001: Able to CRUD categories" ID="ID_654275617" CREATED="1386259355960" MODIFIED="1387213175057">
+<node TEXT="S 1.0" ID="ID_247095095" CREATED="1387552805919" MODIFIED="1387552816680"/>
+</node>
+<node TEXT="CCR-CRS-002: Able to CRUD subcategories at any level" ID="ID_136942977" CREATED="1386259352289" MODIFIED="1387213179513">
+<node TEXT="S 1.0" ID="ID_1861095156" CREATED="1387552818404" MODIFIED="1387552819680"/>
+</node>
 <node TEXT="---" ID="ID_616070553" CREATED="1386694058215" MODIFIED="1386694059691">
 <node TEXT="Courses/projects" ID="ID_597560815" CREATED="1386248722238" MODIFIED="1386694057621">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CRS-003: Able to CRUD courses" ID="ID_141691747" CREATED="1386259216812" MODIFIED="1387213184391"/>
-<node TEXT="CCR-CRS-004: Able to assign courses to categories" ID="ID_757242166" CREATED="1386259352289" MODIFIED="1387213188513"/>
-<node TEXT="CCR-CRS-005: Able to remove courses from categories" ID="ID_1630141921" CREATED="1386259516614" MODIFIED="1387213192737"/>
-<node TEXT="CCR-CRS-006: Able to view the status and details of a course" ID="ID_164637877" CREATED="1386259659650" MODIFIED="1387213196505"/>
-<node TEXT="CCR-CRS-007: Able to set the status and workflow stage" ID="ID_602797577" CREATED="1386192919734" MODIFIED="1387213200552"/>
-<node TEXT="CCR-CRS-008: Able to copy a course (duplicating)" ID="ID_59643688" CREATED="1386259729417" MODIFIED="1387213204744"/>
-<node TEXT="CCR-CRS-009: Able to create (tag) a version of a course" ID="ID_26059930" CREATED="1386259769793" MODIFIED="1387213208809"/>
-<node TEXT="CCR-CRS-010: Able to roll back to a previous version of a course" ID="ID_1116024732" CREATED="1386259789553" MODIFIED="1387213216785"/>
-<node TEXT="CCR-CRS-011: Able to show/hide a course" ID="ID_1846384649" CREATED="1386259839495" MODIFIED="1387213220472"/>
-<node TEXT="CCR-CRS-012: Able to lock a course (i.e. allow/prevent pro-active access for non-collaborators)" ID="ID_1206427728" CREATED="1386259947900" MODIFIED="1387213224568"/>
-<node TEXT="CCR-CRS-013: Able to archive a course (store latest version in compressed format without history / users)" ID="ID_558662185" CREATED="1386259529486" MODIFIED="1387213228208"/>
-<node TEXT="CCR-CRS-014: Able to export a course" ID="ID_348795778" CREATED="1386259534725" MODIFIED="1387213233328"/>
-<node TEXT="CCR-CRS-015: Able to import a course" ID="ID_1005838562" CREATED="1386259550198" MODIFIED="1387213239016"/>
-<node TEXT="CCR-CRS-016: Able to share a course in the central course/project library" ID="ID_1604028404" CREATED="1386780236616" MODIFIED="1387213243296"/>
+<node TEXT="CCR-CRS-003: Able to CRUD courses" ID="ID_141691747" CREATED="1386259216812" MODIFIED="1387213184391">
+<node TEXT="M 0.1" ID="ID_700441497" CREATED="1387552867670" MODIFIED="1387552873360"/>
+</node>
+<node TEXT="CCR-CRS-004: Able to assign courses to categories" ID="ID_757242166" CREATED="1386259352289" MODIFIED="1387213188513">
+<node TEXT="S 1.0" ID="ID_1893626362" CREATED="1387552877462" MODIFIED="1387552881857"/>
+</node>
+<node TEXT="CCR-CRS-005: Able to remove courses from categories" ID="ID_1630141921" CREATED="1386259516614" MODIFIED="1387213192737">
+<node TEXT="S 1.0" ID="ID_546229399" CREATED="1387552883814" MODIFIED="1387552885153"/>
+</node>
+<node TEXT="CCR-CRS-006: Able to view the status and details of a course" ID="ID_164637877" CREATED="1386259659650" MODIFIED="1387213196505">
+<node TEXT="M 0.1" ID="ID_993044681" CREATED="1387552896448" MODIFIED="1387552909450"/>
+</node>
+<node TEXT="CCR-CRS-007: Able to set the status and workflow stage" ID="ID_602797577" CREATED="1386192919734" MODIFIED="1387213200552">
+<node TEXT="S 1.0" ID="ID_60688292" CREATED="1387552915984" MODIFIED="1387552920236"/>
+</node>
+<node TEXT="CCR-CRS-008: Able to copy a course (duplicating)" ID="ID_59643688" CREATED="1386259729417" MODIFIED="1387213204744">
+<node TEXT="S 0.1" ID="ID_1720518461" CREATED="1387552930926" MODIFIED="1387552977236"/>
+</node>
+<node TEXT="CCR-CRS-009: Able to create (tag) a version of a course" ID="ID_26059930" CREATED="1386259769793" MODIFIED="1387213208809">
+<node TEXT="W 1.0" ID="ID_322184313" CREATED="1387552985322" MODIFIED="1387552993047"/>
+</node>
+<node TEXT="CCR-CRS-010: Able to roll back to a previous version of a course" ID="ID_1116024732" CREATED="1386259789553" MODIFIED="1387213216785">
+<node TEXT="W 1.0" ID="ID_582676189" CREATED="1387552997443" MODIFIED="1387552999398"/>
+</node>
+<node TEXT="CCR-CRS-011: Able to show/hide a course" ID="ID_1846384649" CREATED="1386259839495" MODIFIED="1387213220472">
+<node TEXT="C 1.0" ID="ID_642962529" CREATED="1387553206649" MODIFIED="1387553209492"/>
+</node>
+<node TEXT="CCR-CRS-012: Able to lock a course (i.e. allow/prevent pro-active access for non-collaborators)" ID="ID_1206427728" CREATED="1386259947900" MODIFIED="1387213224568">
+<node TEXT="C 1.0" ID="ID_961198211" CREATED="1387553212241" MODIFIED="1387553214836"/>
+</node>
+<node TEXT="CCR-CRS-013: Able to archive a course (store latest version in compressed format with history / user permissions)" ID="ID_558662185" CREATED="1386259529486" MODIFIED="1387553454534">
+<node TEXT="W 1.0" ID="ID_120826029" CREATED="1387553823003" MODIFIED="1387553826471"/>
+</node>
+<node TEXT="CCR-CRS-014: Able to export a course" ID="ID_348795778" CREATED="1386259534725" MODIFIED="1387213233328">
+<node TEXT="M 0.1" ID="ID_665121281" CREATED="1387553335196" MODIFIED="1387553337767"/>
+<node TEXT="Excluding history and permissions" ID="ID_1671230215" CREATED="1387553426083" MODIFIED="1387553436015"/>
+</node>
+<node TEXT="CCR-CRS-015: Able to import a course" ID="ID_1005838562" CREATED="1386259550198" MODIFIED="1387213239016">
+<node TEXT="M 0.1" ID="ID_1023118034" CREATED="1387553335196" MODIFIED="1387553337767"/>
+</node>
+<node TEXT="CCR-CRS-016: Able to share a course in the central course/project library" ID="ID_1604028404" CREATED="1386780236616" MODIFIED="1387213243296">
+<node TEXT="W 1.0" ID="ID_524237478" CREATED="1387553836332" MODIFIED="1387553838528"/>
+</node>
 <node TEXT="---" ID="ID_498889962" CREATED="1386694070670" MODIFIED="1386694072402">
 <node TEXT="Metadata" ID="ID_413355353" CREATED="1386248397773" MODIFIED="1386694069724">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CRS-017: Able to add course metadata (including duration etc)" ID="ID_570882876" CREATED="1386596507454" MODIFIED="1387213248624"/>
-<node TEXT="CCR-CRS-018: Able to tag courses with useful information" ID="ID_1805773508" CREATED="1386192600508" MODIFIED="1387213253575"/>
-<node TEXT="CCR-CRS-019: Able to filter and search for courses/projects using search terms" ID="ID_116124974" CREATED="1386192732486" MODIFIED="1387213258375"/>
+<node TEXT="CCR-CRS-017: Able to add course metadata (including duration etc)" ID="ID_570882876" CREATED="1386596507454" MODIFIED="1387213248624">
+<node TEXT="M 0.1" ID="ID_1412425605" CREATED="1387553855770" MODIFIED="1387553876998"/>
+</node>
+<node TEXT="CCR-CRS-018: Able to tag courses with useful information" ID="ID_1805773508" CREATED="1386192600508" MODIFIED="1387213253575">
+<node TEXT="Same as CCR-CRS-017" ID="ID_628341957" CREATED="1387553904613" MODIFIED="1387553912649"/>
+<node TEXT="Remove" ID="ID_1838035988" CREATED="1387553913277" MODIFIED="1387553917748">
+<font BOLD="true"/>
+</node>
+</node>
+<node TEXT="CCR-CRS-019: Able to filter and search for courses/projects using search terms" ID="ID_116124974" CREATED="1386192732486" MODIFIED="1387213258375">
+<node TEXT="S 1.0" ID="ID_741481115" CREATED="1387553930924" MODIFIED="1387554073343"/>
+</node>
 </node>
 <node TEXT="Course structure" ID="ID_357847252" CREATED="1386245604767" MODIFIED="1386758476808">
 <icon BUILTIN="button_ok"/>
@@ -371,49 +735,108 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CSTR-001: Able to CRUD a page" ID="ID_1564389158" CREATED="1386262241730" MODIFIED="1387213672557"/>
-<node TEXT="CCR-CSTR-002: Able to arrange pages into a hierarchy / sequence" ID="ID_1982153232" CREATED="1386262755906" MODIFIED="1387213677471"/>
-<node TEXT="CCR-CSTR-003: Able to move a page" ID="ID_254600644" CREATED="1386262295068" MODIFIED="1387213681445"/>
-<node TEXT="CCR-CSTR-004: Able to copy a page" ID="ID_168223656" CREATED="1386262720955" MODIFIED="1387213686309"/>
-<node TEXT="CCR-CSTR-005: Able to paste a copied page" ID="ID_597111582" CREATED="1386597307469" MODIFIED="1387213690518"/>
-<node TEXT="CCR-CSTR-006: Able to define a page as a re-usable snippet" ID="ID_1622368999" CREATED="1386262518775" MODIFIED="1387213695253"/>
-<node TEXT="CCR-CSTR-007: Able to insert a re-usable page snippet" ID="ID_1908674119" CREATED="1386262607726" MODIFIED="1387213701158"/>
+<node TEXT="CCR-CSTR-001: Able to CRUD a page" ID="ID_1564389158" CREATED="1386262241730" MODIFIED="1387213672557">
+<node TEXT="M 0.1" ID="ID_1020271320" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-002: Able to arrange pages into a hierarchy / sequence" ID="ID_1982153232" CREATED="1386262755906" MODIFIED="1387213677471">
+<node TEXT="M 0.1" ID="ID_1918800113" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-003: Able to move a page" ID="ID_254600644" CREATED="1386262295068" MODIFIED="1387213681445">
+<node TEXT="M 0.1" ID="ID_1893656808" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-004: Able to copy a page" ID="ID_168223656" CREATED="1386262720955" MODIFIED="1387213686309">
+<node TEXT="M 0.1" ID="ID_39514660" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-005: Able to paste a copied page" ID="ID_597111582" CREATED="1386597307469" MODIFIED="1387213690518">
+<node TEXT="M 0.1" ID="ID_1579034165" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-006: Able to define a page as a re-usable snippet" ID="ID_1622368999" CREATED="1386262518775" MODIFIED="1387213695253">
+<node TEXT="W 1.0" ID="ID_369650404" CREATED="1387555106048" MODIFIED="1387555108851"/>
+</node>
+<node TEXT="CCR-CSTR-007: Able to insert a re-usable page snippet" ID="ID_1908674119" CREATED="1386262607726" MODIFIED="1387213701158">
+<node TEXT="W 1.0" ID="ID_1322904116" CREATED="1387555109864" MODIFIED="1387555111819"/>
+</node>
 <node TEXT="---" ID="ID_699143403" CREATED="1386262714586" MODIFIED="1386262716102">
 <node TEXT="Articles" ID="ID_1967281131" CREATED="1386694118069" MODIFIED="1386694121187">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CSTR-008: Able to CRUD an article" ID="ID_953884482" CREATED="1386262257125" MODIFIED="1387213704934"/>
-<node TEXT="CCR-CSTR-009: Able to copy an article" ID="ID_1139233713" CREATED="1386262303563" MODIFIED="1387213709054"/>
-<node TEXT="CCR-CSTR-010: Able to cut an article" ID="ID_1459717128" CREATED="1386262303563" MODIFIED="1387213713358"/>
-<node TEXT="CCR-CSTR-011: Able to paste a cut/copied article" ID="ID_1986624988" CREATED="1386597307469" MODIFIED="1387213719222"/>
-<node TEXT="CCR-CSTR-012: Able to move an article (on a page / across pages)" ID="ID_1301871868" CREATED="1386262281509" MODIFIED="1387213723702"/>
-<node TEXT="CCR-CSTR-013: Able to define an article as a re-usable snippet" ID="ID_472407108" CREATED="1386262518775" MODIFIED="1387213727270"/>
-<node TEXT="CCR-CSTR-014: Able to insert a re-usable article snippet" ID="ID_179986136" CREATED="1386262607726" MODIFIED="1387213731030"/>
+<node TEXT="CCR-CSTR-008: Able to CRUD an article" ID="ID_953884482" CREATED="1386262257125" MODIFIED="1387213704934">
+<node TEXT="M 0.1" ID="ID_39986597" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-009: Able to copy an article" ID="ID_1139233713" CREATED="1386262303563" MODIFIED="1387213709054">
+<node TEXT="M 0.1" ID="ID_1120665854" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-010: Able to cut an article" ID="ID_1459717128" CREATED="1386262303563" MODIFIED="1387213713358">
+<node TEXT="M 0.1" ID="ID_1527431478" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-011: Able to paste a cut/copied article" ID="ID_1986624988" CREATED="1386597307469" MODIFIED="1387213719222">
+<node TEXT="M 0.1" ID="ID_1930517415" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-012: Able to move an article within a page" ID="ID_1301871868" CREATED="1386262281509" MODIFIED="1387555313237">
+<node TEXT="M 0.1" ID="ID_1955515972" CREATED="1387555270118" MODIFIED="1387555274665"/>
+</node>
+<node TEXT="CCR-CSTR-028: Able to move an article across pages" ID="ID_769783803" CREATED="1387555236859" MODIFIED="1387555259733">
+<node TEXT="C 1.0" ID="ID_814502992" CREATED="1387555276726" MODIFIED="1387555282338"/>
+</node>
+<node TEXT="CCR-CSTR-013: Able to define an article as a re-usable snippet" ID="ID_472407108" CREATED="1386262518775" MODIFIED="1387213727270">
+<node TEXT="W 1.0" ID="ID_234159760" CREATED="1387555288051" MODIFIED="1387555289133"/>
+</node>
+<node TEXT="CCR-CSTR-014: Able to insert a re-usable article snippet" ID="ID_179986136" CREATED="1386262607726" MODIFIED="1387213731030">
+<node TEXT="W 1.0" ID="ID_720777945" CREATED="1387555290123" MODIFIED="1387555291549"/>
+</node>
 <node TEXT="---" ID="ID_1287489750" CREATED="1386262669844" MODIFIED="1386262671096">
 <node TEXT="Blocks" ID="ID_815495532" CREATED="1386694123101" MODIFIED="1386694128620">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CSTR-015: Able to CRUD a block" ID="ID_1584510622" CREATED="1386262671675" MODIFIED="1387213735630"/>
-<node TEXT="CCR-CSTR-016: Able to copy a block" ID="ID_1896307920" CREATED="1386262303563" MODIFIED="1387213743405"/>
-<node TEXT="CCR-CSTR-017: Able to paste a copied block" ID="ID_93219323" CREATED="1386262303563" MODIFIED="1387213748029"/>
-<node TEXT="CCR-CSTR-018: Able to move a block between articles (on a page / across pages)" ID="ID_1167879770" CREATED="1386262295068" MODIFIED="1387213754693"/>
-<node TEXT="CCR-CSTR-019: Able to define a block as a re-usable snippet" ID="ID_1723472710" CREATED="1386262518775" MODIFIED="1387213759333"/>
-<node TEXT="CCR-CSTR-020: Able to insert a re-usable block snippet" ID="ID_450581844" CREATED="1386262607726" MODIFIED="1387213763749"/>
+<node TEXT="CCR-CSTR-015: Able to CRUD a block" ID="ID_1584510622" CREATED="1386262671675" MODIFIED="1387213735630">
+<node TEXT="M 0.1" ID="ID_1113966556" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-016: Able to copy a block" ID="ID_1896307920" CREATED="1386262303563" MODIFIED="1387213743405">
+<node TEXT="M 0.1" ID="ID_363111552" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-017: Able to paste a copied block" ID="ID_93219323" CREATED="1386262303563" MODIFIED="1387213748029">
+<node TEXT="M 0.1" ID="ID_517448592" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-018: Able to move a block between articles within a page" ID="ID_1167879770" CREATED="1386262295068" MODIFIED="1387555375634">
+<node TEXT="M 0.1" ID="ID_560220205" CREATED="1387555413700" MODIFIED="1387555417416"/>
+</node>
+<node TEXT="CCR-CSTR-019: Able to define a block as a re-usable snippet" ID="ID_1723472710" CREATED="1386262518775" MODIFIED="1387213759333">
+<node TEXT="W 1.0" ID="ID_990282012" CREATED="1387555429385" MODIFIED="1387555430765"/>
+</node>
+<node TEXT="CCR-CSTR-020: Able to insert a re-usable block snippet" ID="ID_450581844" CREATED="1386262607726" MODIFIED="1387213763749">
+<node TEXT="W 1.0" ID="ID_1289713453" CREATED="1387555431442" MODIFIED="1387555433502"/>
+</node>
 <node TEXT="---" ID="ID_1693685142" CREATED="1386262237324" MODIFIED="1386262239553">
 <node TEXT="Components" ID="ID_127252620" CREATED="1386694130581" MODIFIED="1386694134353">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-CSTR-021: Able to CRUD a component" ID="ID_655909454" CREATED="1386262671675" MODIFIED="1387213767628"/>
-<node TEXT="CCR-CSTR-022: Able to pick a component from a library of components" ID="ID_937565716" CREATED="1386192695259" MODIFIED="1387213771541"/>
-<node TEXT="CCR-CSTR-023: Able to copy a component" ID="ID_290907359" CREATED="1386262303563" MODIFIED="1387213775285"/>
-<node TEXT="CCR-CSTR-024: Able to paste a copied component" ID="ID_238925477" CREATED="1386262303563" MODIFIED="1387213778861"/>
-<node TEXT="CCR-CSTR-025: Able to move a component (on a page / across pages)" ID="ID_401442610" CREATED="1386262295068" MODIFIED="1387213782772"/>
-<node TEXT="CCR-CSTR-026: Able to define a component as a re-usable snippet" ID="ID_624189884" CREATED="1386262518775" MODIFIED="1387213786627"/>
-<node TEXT="CCR-CSTR-027: Able to insert a re-usable component snippet" ID="ID_1405968662" CREATED="1386262607726" MODIFIED="1387213790477"/>
-<node TEXT="Able to include any existing component as a triggered component" ID="ID_32625691" CREATED="1386173856001" MODIFIED="1386173882991"/>
+<node TEXT="CCR-CSTR-021: Able to CRUD a component" ID="ID_655909454" CREATED="1386262671675" MODIFIED="1387213767628">
+<node TEXT="M 0.1" ID="ID_850513121" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-022: Able to pick a component from a library of components" ID="ID_937565716" CREATED="1386192695259" MODIFIED="1387213771541">
+<node TEXT="M 0.1" ID="ID_427878304" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-023: Able to copy a component" ID="ID_290907359" CREATED="1386262303563" MODIFIED="1387213775285">
+<node TEXT="M 0.1" ID="ID_1757961011" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-024: Able to paste a copied component" ID="ID_238925477" CREATED="1386262303563" MODIFIED="1387213778861">
+<node TEXT="M 0.1" ID="ID_956185892" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-025: Able to move a component" ID="ID_401442610" CREATED="1386262295068" MODIFIED="1387555472104">
+<node TEXT="M 0.1" ID="ID_335539004" CREATED="1387555039967" MODIFIED="1387555043659"/>
+</node>
+<node TEXT="CCR-CSTR-026: Able to define a component as a re-usable snippet" ID="ID_624189884" CREATED="1386262518775" MODIFIED="1387213786627">
+<node TEXT="W 1.0" ID="ID_474098236" CREATED="1387555480855" MODIFIED="1387555482867"/>
+</node>
+<node TEXT="CCR-CSTR-027: Able to insert a re-usable component snippet" ID="ID_1405968662" CREATED="1386262607726" MODIFIED="1387213790477">
+<node TEXT="W 1.0" ID="ID_32285986" CREATED="1387555484455" MODIFIED="1387555486506"/>
+</node>
+<node TEXT="CCR-CSTR-029: Able to include any existing component as a triggered component" ID="ID_32625691" CREATED="1386173856001" MODIFIED="1387555504622">
+<node TEXT="M 0.1" ID="ID_794247020" CREATED="1387555630842" MODIFIED="1387555651586"/>
+</node>
 </node>
 <node TEXT="Navigation" ID="ID_1211275302" CREATED="1386259153669" MODIFIED="1386758483512">
 <icon BUILTIN="button_ok"/>
@@ -422,12 +845,25 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-MEN-001: Able to choose a generic menu from a range of options" ID="ID_90680841" CREATED="1386263397839" MODIFIED="1387213986736"/>
-<node TEXT="CCR-MEN-002: Able to send learners straight to content (bypass menu)" ID="ID_1882250137" CREATED="1386597078738" MODIFIED="1387213990576"/>
-<node TEXT="CCR-MEN-003: Able to upload a custom menu" ID="ID_1560907094" CREATED="1386263379192" MODIFIED="1387213994256"/>
-<node TEXT="CCR-MEN-004: Able to organise navigation into deep scrolling" ID="ID_1282549355" CREATED="1386174394151" MODIFIED="1387213997559"/>
-<node TEXT="CCR-MEN-005: Able to organise navigation into lateral scrolling" ID="ID_859303198" CREATED="1386174413287" MODIFIED="1387214004888"/>
-<node TEXT="CCR-MEN-006: Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1387218152392"/>
+<node TEXT="CCR-MEN-001: Able to choose a generic menu from a range of options" ID="ID_90680841" CREATED="1386263397839" MODIFIED="1387213986736">
+<node TEXT="M 1.0" ID="ID_1618843177" CREATED="1387555718654" MODIFIED="1387557067783"/>
+<node TEXT="Excludes multiple standard options" ID="ID_373195099" CREATED="1387555723814" MODIFIED="1387555737809"/>
+</node>
+<node TEXT="CCR-MEN-002: Able to send learners straight to content (bypass menu)" ID="ID_1882250137" CREATED="1386597078738" MODIFIED="1387213990576">
+<node TEXT="M 0.1" ID="ID_1356332297" CREATED="1387556630563" MODIFIED="1387556635702"/>
+</node>
+<node TEXT="CCR-MEN-003: Able to upload a custom menu" ID="ID_1560907094" CREATED="1386263379192" MODIFIED="1387213994256">
+<node TEXT="M 1.0" ID="ID_1790118509" CREATED="1387556745599" MODIFIED="1387557058718"/>
+</node>
+<node TEXT="CCR-MEN-004: Able to organise navigation into deep scrolling" ID="ID_1282549355" CREATED="1386174394151" MODIFIED="1387213997559">
+<node TEXT="M 0.1" ID="ID_583228560" CREATED="1387557097268" MODIFIED="1387557103688"/>
+</node>
+<node TEXT="CCR-MEN-005: Able to organise navigation into lateral scrolling" ID="ID_859303198" CREATED="1386174413287" MODIFIED="1387214004888">
+<node TEXT="C 0.1" ID="ID_616686147" CREATED="1387557115216" MODIFIED="1387557195575"/>
+</node>
+<node TEXT="CCR-MEN-006: Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1387218152392">
+<node TEXT="M 0.1" ID="ID_129782689" CREATED="1387557218324" MODIFIED="1387557313045"/>
+</node>
 </node>
 <node TEXT="Tracking" ID="ID_458366993" CREATED="1386262659228" MODIFIED="1386761633709">
 <icon BUILTIN="button_ok"/>
@@ -436,12 +872,26 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-TRK-001: Able to configure what constitutes course completion" ID="ID_1936324703" CREATED="1386192783828" MODIFIED="1387214058383"/>
-<node TEXT="CCR-TRK-002: Able to choose tracking standard (SCORM / Tin Can)" ID="ID_1087234591" CREATED="1386694263114" MODIFIED="1387214061485"/>
-<node TEXT="CCR-TRK-003: Able to choose &apos;no tracking&apos; option" ID="ID_1781620248" CREATED="1386694285089" MODIFIED="1387214065207"/>
-<node TEXT="CCR-TRK-004: Able to toggle and configure the &apos;connection lost&apos; message" ID="ID_61834292" CREATED="1386760874678" MODIFIED="1387214068583"/>
-<node TEXT="CCR-TRK-005: Able to toggle bookmarking (returning users to the location from where they exited the last session)" ID="ID_230616806" CREATED="1386088768383" MODIFIED="1387214072663"/>
-<node TEXT="CCR-TRK-006: Able to toggle progress display on/off" ID="ID_562595794" CREATED="1386761607133" MODIFIED="1387214077143"/>
+<node TEXT="CCR-TRK-001: Able to configure what constitutes course completion" ID="ID_1936324703" CREATED="1386192783828" MODIFIED="1387214058383">
+<node TEXT="M 0.1" ID="ID_1228264584" CREATED="1387557382397" MODIFIED="1387557393497"/>
+<node TEXT="Based on on two simple variables" ID="ID_1628726759" CREATED="1387557394046" MODIFIED="1387557407674"/>
+</node>
+<node TEXT="CCR-TRK-002: Able to choose tracking standard (SCORM / Tin Can)" ID="ID_1087234591" CREATED="1386694263114" MODIFIED="1387214061485">
+<node TEXT="W 1.0" ID="ID_284247038" CREATED="1387557508738" MODIFIED="1387557513101"/>
+<node TEXT="SCORM 1.2 only" ID="ID_761872718" CREATED="1387557463682" MODIFIED="1387557472749"/>
+</node>
+<node TEXT="CCR-TRK-003: Able to choose &apos;no tracking&apos; option" ID="ID_1781620248" CREATED="1386694285089" MODIFIED="1387214065207">
+<node TEXT="M 0.1" ID="ID_1991595638" CREATED="1387557516682" MODIFIED="1387557521181"/>
+</node>
+<node TEXT="CCR-TRK-004: Able to toggle and configure the &apos;connection lost&apos; message" ID="ID_61834292" CREATED="1386760874678" MODIFIED="1387214068583">
+<node TEXT="M 0.1" ID="ID_1231197816" CREATED="1387557536487" MODIFIED="1387557538427"/>
+</node>
+<node TEXT="CCR-TRK-005: Able to toggle bookmarking (returning users to the location from where they exited the last session)" ID="ID_230616806" CREATED="1386088768383" MODIFIED="1387214072663">
+<node TEXT="W 0.1" ID="ID_145728519" CREATED="1387557559747" MODIFIED="1387557568406"/>
+</node>
+<node TEXT="CCR-TRK-006: Able to toggle progress display on/off" ID="ID_562595794" CREATED="1386761607133" MODIFIED="1387214077143">
+<node TEXT="W 0.1" ID="ID_1227321738" CREATED="1387557576406" MODIFIED="1387557600208"/>
+</node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_307003465" CREATED="1386245592967" MODIFIED="1387216976912">
 <node TEXT="---" ID="ID_278849099" CREATED="1386258632489" MODIFIED="1386258633828">
@@ -554,7 +1004,9 @@
 </node>
 <node TEXT="Publishing" ID="ID_36764169" CREATED="1386245747644" MODIFIED="1386761199311">
 <icon BUILTIN="button_ok"/>
-<node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1387215535001"/>
+<node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1387215535001">
+<node TEXT="M 0.1" ID="ID_1787186863" CREATED="1387557500826" MODIFIED="1387557503605"/>
+</node>
 <node TEXT="CCR-PUB-002: Able to export a course as a SCORM zip file" ID="ID_1053173596" CREATED="1386192579433" MODIFIED="1387215540120"/>
 <node TEXT="CCR-PUB-003: Able to publish my project as a Tin Can package" ID="ID_228835029" CREATED="1386192638697" MODIFIED="1387215544032"/>
 <node TEXT="CCR-PUB-004: Able to publish the course in a non-tracking web format" ID="ID_85915493" CREATED="1386760646362" MODIFIED="1387215558584"/>
