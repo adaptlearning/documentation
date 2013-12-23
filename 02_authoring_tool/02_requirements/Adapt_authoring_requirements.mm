@@ -414,10 +414,8 @@
 <node TEXT="C 1.0" ID="ID_548126010" CREATED="1387550361437" MODIFIED="1387550371321"/>
 </node>
 </node>
-<node TEXT="Content Creator" ID="ID_892412297" CREATED="1386087276438" MODIFIED="1386769851374">
-<icon BUILTIN="button_ok"/>
-<node TEXT="Look and feel" ID="ID_1952605148" CREATED="1386246125820" MODIFIED="1386259201316">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Content Creator" ID="ID_892412297" CREATED="1386087276438" MODIFIED="1387800027354">
+<node TEXT="Look and feel" ID="ID_1952605148" CREATED="1386246125820" MODIFIED="1387800027356">
 <node TEXT="---" ID="ID_45167920" CREATED="1386600202913" MODIFIED="1386600559251">
 <node TEXT="Themes" ID="ID_1078241992" CREATED="1386600560323" MODIFIED="1386693875747">
 <font BOLD="true" ITALIC="true"/>
@@ -491,8 +489,7 @@
 <node TEXT="Put out to community to contribute resource" ID="ID_1685885605" CREATED="1387551642855" MODIFIED="1387551652970"/>
 </node>
 </node>
-<node TEXT="Asset management" ID="ID_1415244573" CREATED="1386600396276" MODIFIED="1386758454306">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Asset management" ID="ID_1415244573" CREATED="1386600396276" MODIFIED="1387800027358">
 <node TEXT="---" ID="ID_1204266096" CREATED="1386693893226" MODIFIED="1386693895246">
 <node TEXT="Browsing the library" ID="ID_398971597" CREATED="1386693895810" MODIFIED="1386775238519">
 <font BOLD="true" ITALIC="true"/>
@@ -644,13 +641,11 @@
 <node TEXT="CCR-AMGMT-040: Able to clone a course / project from the central library into the user&apos;s tenancy (open in my tool)" ID="ID_819679375" CREATED="1386779603846" MODIFIED="1387212375354">
 <node TEXT="W 1.0" ID="ID_1122784155" CREATED="1387552523468" MODIFIED="1387552532723"/>
 </node>
-<node TEXT="Able to plug in an e-commerce gateway" ID="ID_359394934" CREATED="1386779991893" MODIFIED="1386780011999">
-<icon BUILTIN="help"/>
+<node TEXT="Able to plug in an e-commerce gateway" ID="ID_359394934" CREATED="1386779991893" MODIFIED="1387800027360">
 <node TEXT="W 1.0" ID="ID_1503575147" CREATED="1387552523468" MODIFIED="1387552532723"/>
 </node>
 </node>
-<node TEXT="Course creation / management" ID="ID_390720220" CREATED="1386245645646" MODIFIED="1386758468728">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Course creation / management" ID="ID_390720220" CREATED="1386245645646" MODIFIED="1387800027361">
 <node TEXT="---" ID="ID_334310737" CREATED="1386693994648" MODIFIED="1386693995564">
 <node TEXT="Categories" ID="ID_808053579" CREATED="1386259466951" MODIFIED="1386694001774">
 <font BOLD="true" ITALIC="true"/>
@@ -728,8 +723,7 @@
 <node TEXT="S 1.0" ID="ID_741481115" CREATED="1387553930924" MODIFIED="1387554073343"/>
 </node>
 </node>
-<node TEXT="Course structure" ID="ID_357847252" CREATED="1386245604767" MODIFIED="1386758476808">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Course structure" ID="ID_357847252" CREATED="1386245604767" MODIFIED="1387800027363">
 <node TEXT="---" ID="ID_689793688" CREATED="1386694096974" MODIFIED="1386694098610">
 <node TEXT="Pages / hierarchy" ID="ID_571734555" CREATED="1386694099534" MODIFIED="1386694111851">
 <font BOLD="true" ITALIC="true"/>
@@ -838,8 +832,7 @@
 <node TEXT="M 0.1" ID="ID_794247020" CREATED="1387555630842" MODIFIED="1387555651586"/>
 </node>
 </node>
-<node TEXT="Navigation" ID="ID_1211275302" CREATED="1386259153669" MODIFIED="1386758483512">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Navigation" ID="ID_1211275302" CREATED="1386259153669" MODIFIED="1387800027364">
 <node TEXT="---" ID="ID_548930157" CREATED="1386694187628" MODIFIED="1386694188784">
 <node TEXT="Menus" ID="ID_1636103914" CREATED="1386694189452" MODIFIED="1386694192762">
 <font BOLD="true" ITALIC="true"/>
@@ -865,8 +858,7 @@
 <node TEXT="M 0.1" ID="ID_129782689" CREATED="1387557218324" MODIFIED="1387557313045"/>
 </node>
 </node>
-<node TEXT="Tracking" ID="ID_458366993" CREATED="1386262659228" MODIFIED="1386761633709">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Tracking" ID="ID_458366993" CREATED="1386262659228" MODIFIED="1387800027365">
 <node TEXT="---" ID="ID_1582244067" CREATED="1386694234835" MODIFIED="1386694236167">
 <node TEXT="Tracking set-up" ID="ID_1536133404" CREATED="1386694237651" MODIFIED="1386694260809">
 <font BOLD="true" ITALIC="true"/>
@@ -953,20 +945,17 @@
 <node TEXT="CCR-WOW-021: Able to add alternative language audio/video/imagery to the course" ID="ID_1031513050" CREATED="1386258894339" MODIFIED="1387217937726"/>
 <node TEXT="CCR-WOW-022: Able to provide device-specific content alternatives" ID="ID_586537570" CREATED="1386192950700" MODIFIED="1387217941582"/>
 </node>
-<node TEXT="Learner support" ID="ID_986012281" CREATED="1386245611031" MODIFIED="1386758522975">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Learner support" ID="ID_986012281" CREATED="1386245611031" MODIFIED="1387800027367">
 <node TEXT="CCR-LSUP-001: Able to add/remove file resources" ID="ID_615595229" CREATED="1386695046345" MODIFIED="1387214815423"/>
 <node TEXT="CCR-LSUP-002: Able to add/remove the glossary of terms" ID="ID_199696336" CREATED="1386695085969" MODIFIED="1387215265805"/>
 <node TEXT="CCR-LSUP-003: Able to CRUD glossary terms and explanations" ID="ID_937628040" CREATED="1386695094993" MODIFIED="1387215270430"/>
 <node TEXT="CCR-LSUP-004: Able to include/turn off the search feature" ID="ID_1236390202" CREATED="1386695131400" MODIFIED="1387215274254"/>
 </node>
-<node TEXT="Overrides" ID="ID_270836098" CREATED="1386245617647" MODIFIED="1386758532031">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Overrides" ID="ID_270836098" CREATED="1386245617647" MODIFIED="1387800027368">
 <node TEXT="CCR-OVR-001: Able to add a ZIP archive, which will be extracted as part of the publishing process and override core Adapt code files" ID="ID_821280282" CREATED="1386695263341" MODIFIED="1387215289222"/>
 <node TEXT="CCR-OVR-002: Able to remove the ZIP archive" ID="ID_291050365" CREATED="1386695312109" MODIFIED="1387215293493"/>
 </node>
-<node TEXT="Assessment" ID="ID_598930075" CREATED="1386245620263" MODIFIED="1386758537991">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Assessment" ID="ID_598930075" CREATED="1386245620263" MODIFIED="1387800027369">
 <node TEXT="---" ID="ID_245212854" CREATED="1386756585592" MODIFIED="1386756586601">
 <node TEXT="Assessment configuration" ID="ID_1040390819" CREATED="1386245620263" MODIFIED="1386756605147">
 <font BOLD="true" ITALIC="true"/>
@@ -996,14 +985,12 @@
 <node TEXT="CCR-ASSM-017: Able to randomise the order and choice of questions" ID="ID_535021988" CREATED="1386089933318" MODIFIED="1387215428115"/>
 <node TEXT="CCR-ASSM-018: Able to signpost to the learner which subject areas they need to revisit as part of the post assessment feedback" ID="ID_1711357879" CREATED="1386758140262" MODIFIED="1387215433747"/>
 </node>
-<node TEXT="System validation" ID="ID_983941323" CREATED="1386249188445" MODIFIED="1386760436406">
-<icon BUILTIN="button_ok"/>
+<node TEXT="System validation" ID="ID_983941323" CREATED="1386249188445" MODIFIED="1387800027370">
 <node TEXT="CCR-SVAL-001: Able to run a system validation over my course/project content files and see a log of any system readable errors" ID="ID_1875979350" CREATED="1386192773076" MODIFIED="1387215502025"/>
 <node TEXT="CCR-SVAL-002: Able to run a system requirements report (e.g. browser spec) for the course based on the metadata for the components and plug-ins used" ID="ID_202142545" CREATED="1386760365944" MODIFIED="1387215508188"/>
 <node TEXT="CCR-SVAL-003: Able to generate a diagnostic report of my project (length, level of interactions etc)" ID="ID_1261540175" CREATED="1386192623310" MODIFIED="1387215513489"/>
 </node>
-<node TEXT="Publishing" ID="ID_36764169" CREATED="1386245747644" MODIFIED="1386761199311">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Publishing" ID="ID_36764169" CREATED="1386245747644" MODIFIED="1387800027371">
 <node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1387215535001">
 <node TEXT="M 0.1" ID="ID_1787186863" CREATED="1387557500826" MODIFIED="1387557503605"/>
 </node>
@@ -1014,15 +1001,13 @@
 <node TEXT="CCR-PUB-006: Able to publish the course in an uncompressed format" ID="ID_1982784676" CREATED="1386760562220" MODIFIED="1387215563486"/>
 <node TEXT="CCR-PUB-007: Able to include the version / revision number in the published course for reference" ID="ID_618056372" CREATED="1386760595324" MODIFIED="1387215569000"/>
 </node>
-<node TEXT="Translation" ID="ID_1004230649" CREATED="1386245962734" MODIFIED="1386761372317">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Translation" ID="ID_1004230649" CREATED="1386245962734" MODIFIED="1387800027373">
 <node TEXT="CCR-TRAN-001: Able to export all language content in a packaged format suitable for translation agencies to work with" ID="ID_771355653" CREATED="1386192691155" MODIFIED="1387215635679"/>
 <node TEXT="CCR-TRAN-002: Able to import a translated language content package into the same course" ID="ID_1456015700" CREATED="1386761280293" MODIFIED="1387215639190"/>
 <node TEXT="CCR-TRAN-003: Able to import a translated language content package as a new course" ID="ID_1732042673" CREATED="1386761280293" MODIFIED="1387215642767"/>
 </node>
 </node>
-<node TEXT="Developer" ID="ID_1008773847" CREATED="1386087344381" MODIFIED="1386768212082">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Developer" ID="ID_1008773847" CREATED="1386087344381" MODIFIED="1387800027374">
 <node TEXT="AUTH-DEV-001: Able to upload files to override core code" ID="ID_881777256" CREATED="1386192087988" MODIFIED="1387215669622"/>
 <node TEXT="AUTH-DEV-002: Able to test the effect of overrides in preview" ID="ID_1926084403" CREATED="1386767965117" MODIFIED="1387215674069"/>
 <node TEXT="AUTH-DEV-003: Able to turn debugging of the authoring tool on / off" ID="ID_72816588" CREATED="1386767984062" MODIFIED="1387215677813"/>
@@ -1031,8 +1016,7 @@
 <node TEXT="AUTH-DEV-006: Able to pull in and test plug-ins" ID="ID_1991731656" CREATED="1386768096907" MODIFIED="1387215689869"/>
 <node TEXT="AUTH-DEV-007: Able to see a technical log of course actions in preview mode (including tracking)" ID="ID_1297214976" CREATED="1386768149482" MODIFIED="1387215693653"/>
 </node>
-<node TEXT="Reviewer" ID="ID_380559869" CREATED="1386087346013" MODIFIED="1386769257211">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Reviewer" ID="ID_380559869" CREATED="1386087346013" MODIFIED="1387800027375">
 <node TEXT="---" ID="ID_185497297" CREATED="1386782058165" MODIFIED="1386782060000">
 <node TEXT="Issues overview" ID="ID_163702312" CREATED="1386782060773" MODIFIED="1386782066628">
 <font BOLD="true" ITALIC="true"/>
@@ -1070,22 +1054,19 @@
 </node>
 <node TEXT="AUTH-REV-014: Able to receive notifications outside of the system as and when updates are made to issues / messages" ID="ID_1739716470" CREATED="1386768626857" MODIFIED="1387215948936"/>
 </node>
-<node TEXT="L&amp;D Manager" ID="ID_702265324" CREATED="1386087358773" MODIFIED="1386769263021">
-<icon BUILTIN="button_ok"/>
+<node TEXT="L&amp;D Manager" ID="ID_702265324" CREATED="1386087358773" MODIFIED="1387800027376">
 <node TEXT="AUTH-LND-001: Able to see a dashboard of all current content projects" ID="ID_1465971667" CREATED="1386193030878" MODIFIED="1387215979959"/>
 <node TEXT="AUTH-LND-002: Able to see project status, level of activity, issues list and collaborators for each project" ID="ID_461544955" CREATED="1386769168853" MODIFIED="1387215985183"/>
 <node TEXT="AUTH-LND-003: Able to search the catalogue of projects" ID="ID_1811886393" CREATED="1386193037790" MODIFIED="1387215990326"/>
 <node TEXT="AUTH-LND-004: Able to change/override project ownership and roles" ID="ID_1111965107" CREATED="1386193041894" MODIFIED="1387215994911"/>
 <node TEXT="AUTH-LND-005: Able to generate a high-level system usage report against policy rules" ID="ID_1668392456" CREATED="1386769269516" MODIFIED="1387216012631"/>
 </node>
-<node TEXT="Guest User" ID="ID_855479254" CREATED="1386087354205" MODIFIED="1386769787706">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Guest User" ID="ID_855479254" CREATED="1386087354205" MODIFIED="1387800027377">
 <node TEXT="AUTH-GST-001: Able to enter the system without having to create a system account" ID="ID_1941890302" CREATED="1386769338315" MODIFIED="1387216022292"/>
 <node TEXT="AUTH-GST-002: Able to view projects which are visible to guest users" ID="ID_613901329" CREATED="1386769363282" MODIFIED="1387216030821"/>
 <node TEXT="AUTH-GST-003: Able to view projects, which have been shared with the guest user&apos;s email address" ID="ID_1944250250" CREATED="1386769393561" MODIFIED="1387216034198"/>
 </node>
-<node TEXT="Demonstrator / Trainer" ID="ID_1938450836" CREATED="1386087374676" MODIFIED="1386769790843">
-<icon BUILTIN="button_ok"/>
+<node TEXT="Demonstrator / Trainer" ID="ID_1938450836" CREATED="1386087374676" MODIFIED="1387800027379">
 <node TEXT="AUTH-DEMO-001: Able to give clients (guest users) read-only access to view selected projects for a limited period of time" ID="ID_525741434" CREATED="1386192997530" MODIFIED="1387216048813"/>
 <node TEXT="AUTH-DEMO-002: Able to set auto-expiry for guest accounts" ID="ID_770564172" CREATED="1386769513503" MODIFIED="1387216053214"/>
 <node TEXT="AUTH-DEMO-003: Able to demonstrate a selected subset of content in a clean looking, branded environment (e.g. company theme)" ID="ID_1388716765" CREATED="1386193001501" MODIFIED="1387216057606"/>
