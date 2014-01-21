@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Requirements" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1386860642071"><hook NAME="MapStyle" zoom="0.5">
+<node TEXT="Requirements" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1386860642071"><hook NAME="MapStyle">
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -1036,8 +1036,12 @@
 </node>
 </node>
 <node TEXT="Overrides" ID="ID_270836098" CREATED="1386245617647" MODIFIED="1387800027368">
-<node TEXT="CCR-OVR-001: Able to add a ZIP archive, which will be extracted as part of the publishing process and override core Adapt code files" ID="ID_821280282" CREATED="1386695263341" MODIFIED="1387215289222"/>
-<node TEXT="CCR-OVR-002: Able to remove the ZIP archive" ID="ID_291050365" CREATED="1386695312109" MODIFIED="1387215293493"/>
+<node TEXT="CCR-OVR-001: Able to add a ZIP archive, which will be extracted as part of the publishing process and override core Adapt code files" ID="ID_821280282" CREATED="1386695263341" MODIFIED="1387215289222">
+<node TEXT="M 1.0" ID="ID_433624883" CREATED="1390298794099" MODIFIED="1390298963733"/>
+</node>
+<node TEXT="CCR-OVR-002: Able to remove the ZIP archive" ID="ID_291050365" CREATED="1386695312109" MODIFIED="1387215293493">
+<node TEXT="M 1.0" ID="ID_448396020" CREATED="1390298966544" MODIFIED="1390298969556"/>
+</node>
 </node>
 <node TEXT="Assessment" ID="ID_598930075" CREATED="1386245620263" MODIFIED="1387800027369">
 <node TEXT="---" ID="ID_245212854" CREATED="1386756585592" MODIFIED="1386756586601">
@@ -1045,117 +1049,265 @@
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-ASSM-001: Able to turn an article into an assessment" ID="ID_1064009882" CREATED="1386756332158" MODIFIED="1387215347709"/>
-<node TEXT="CCR-ASSM-002: Able to remove assessment elements from an article" ID="ID_1290376339" CREATED="1386756610062" MODIFIED="1387215351693"/>
-<node TEXT="CCR-ASSM-003: Able to set the passmark" ID="ID_1831646636" CREATED="1386756381163" MODIFIED="1387215354988"/>
-<node TEXT="CCR-ASSM-004: Able to set which questions count towards the assessment score" ID="ID_792449834" CREATED="1386756357419" MODIFIED="1387215359053"/>
-<node TEXT="CCR-ASSM-005: Able to determine whether the assessment can be re-taken" ID="ID_1023624932" CREATED="1386756386985" MODIFIED="1387215363684"/>
-<node TEXT="CCR-ASSM-006: Able to determine navigation behaviour during the assessment" ID="ID_1752747722" CREATED="1386756655669" MODIFIED="1387215367724"/>
-<node TEXT="CCR-ASSM-007: Able to determine assessment prerequisites / entry criteria" ID="ID_646172584" CREATED="1386756668180" MODIFIED="1387215372564"/>
-<node TEXT="CCR-ASSM-008: Able to provide end of assessment feedback" ID="ID_1707937836" CREATED="1386756430442" MODIFIED="1387215377700"/>
-<node TEXT="CCR-ASSM-009: Able to set graduated feedback (number and range of feedback bands)" ID="ID_985021388" CREATED="1386090617353" MODIFIED="1387215386196"/>
-<node TEXT="CCR-ASSM-010: Able to use any question component as part of an assessment" ID="ID_461621915" CREATED="1386090554035" MODIFIED="1387215393275"/>
-<node TEXT="CCR-ASSM-011: Able to step-lock the assessment" ID="ID_767879757" CREATED="1386090153155" MODIFIED="1387215396532"/>
-<node TEXT="CCR-ASSM-012: Able to inform the learner about potential data loss if they navigate away from an assessment" ID="ID_1772382691" CREATED="1386090195746" MODIFIED="1387215400347"/>
+<node TEXT="CCR-ASSM-001: Able to turn an article into an assessment" ID="ID_1064009882" CREATED="1386756332158" MODIFIED="1387215347709">
+<node TEXT="M 0.1" ID="ID_1311864338" CREATED="1390298982344" MODIFIED="1390298993956"/>
+</node>
+<node TEXT="CCR-ASSM-002: Able to remove the assessment element from an assessment article" ID="ID_1290376339" CREATED="1386756610062" MODIFIED="1390299119161">
+<node TEXT="M 0.1" ID="ID_1845591458" CREATED="1390299123596" MODIFIED="1390299128232"/>
+</node>
+<node TEXT="CCR-ASSM-003: Able to set the passmark" ID="ID_1831646636" CREATED="1386756381163" MODIFIED="1387215354988">
+<node TEXT="M 0.1" ID="ID_1186752554" CREATED="1390299132244" MODIFIED="1390299135664"/>
+</node>
+<node TEXT="CCR-ASSM-004: Able to set which questions count towards the assessment score" ID="ID_792449834" CREATED="1386756357419" MODIFIED="1387215359053">
+<node TEXT="i.e. questions woven throughout the course (not one article)" ID="ID_1571639010" CREATED="1390299216948" MODIFIED="1390299242038"/>
+<node TEXT="could be implemented as an additional plugin" ID="ID_915072535" CREATED="1390299286009" MODIFIED="1390299298940"/>
+<node TEXT="W 0.1" ID="ID_491203625" CREATED="1390299256683" MODIFIED="1390299272661"/>
+</node>
+<node TEXT="CCR-ASSM-005: Able to determine whether the assessment can be re-taken" ID="ID_1023624932" CREATED="1386756386985" MODIFIED="1387215363684">
+<node TEXT="M 0.1" ID="ID_1931685995" CREATED="1390299307489" MODIFIED="1390299313238"/>
+</node>
+<node TEXT="CCR-ASSM-006: Able to determine navigation behaviour during the assessment" ID="ID_1752747722" CREATED="1386756655669" MODIFIED="1387215367724">
+<node TEXT="i.e. go back, enable/disable reset" ID="ID_468461758" CREATED="1390299339834" MODIFIED="1390299354093"/>
+<node TEXT="M 0.1" ID="ID_915071546" CREATED="1390299356440" MODIFIED="1390299359004"/>
+</node>
+<node TEXT="CCR-ASSM-007: Able to determine assessment prerequisites / entry criteria" ID="ID_646172584" CREATED="1386756668180" MODIFIED="1387215372564">
+<node TEXT="e.g. completion of other materials in the course" ID="ID_1632892565" CREATED="1390299405536" MODIFIED="1390299431355"/>
+<node TEXT="C 1.0" ID="ID_1710820871" CREATED="1390299475462" MODIFIED="1390299524554"/>
+</node>
+<node TEXT="CCR-ASSM-008: Able to provide end of assessment feedback" ID="ID_1707937836" CREATED="1386756430442" MODIFIED="1387215377700">
+<node TEXT="M 0.1" ID="ID_1574447030" CREATED="1390299530324" MODIFIED="1390299540417"/>
+</node>
+<node TEXT="CCR-ASSM-009: Able to set graduated feedback (number and range of feedback bands)" ID="ID_985021388" CREATED="1386090617353" MODIFIED="1387215386196">
+<node TEXT="M 0.1" ID="ID_33223165" CREATED="1390299586890" MODIFIED="1390299598710"/>
+</node>
+<node TEXT="CCR-ASSM-010: Able to use any question component as part of an assessment" ID="ID_461621915" CREATED="1386090554035" MODIFIED="1387215393275">
+<node TEXT="S 0.1" ID="ID_918390005" CREATED="1390299650793" MODIFIED="1390299656607"/>
+</node>
+<node TEXT="CCR-ASSM-011: Able to step-lock the assessment" ID="ID_767879757" CREATED="1386090153155" MODIFIED="1387215396532">
+<node TEXT="M 0.1" ID="ID_1113114145" CREATED="1390299694546" MODIFIED="1390299697172"/>
+<node TEXT="duplicate of 006?" ID="ID_1424807791" CREATED="1390299697506" MODIFIED="1390299709420"/>
+</node>
+<node TEXT="CCR-ASSM-012: Able to inform the learner about potential data loss if they navigate away from an assessment" ID="ID_1772382691" CREATED="1386090195746" MODIFIED="1387215400347">
+<node TEXT="C 0.1" ID="ID_1815117810" CREATED="1390299737760" MODIFIED="1390299967447"/>
+<node TEXT="Must for framework 1.0 but could hardcoded / non-editable in tool" ID="ID_1722380525" CREATED="1390299886933" MODIFIED="1390299914720">
+<node TEXT="LRN-ART-004" ID="ID_1554012752" CREATED="1390299936580" MODIFIED="1390299945023"/>
+<node TEXT="CCR-ASSM-012" ID="ID_452405873" CREATED="1390299945604" MODIFIED="1390299961967"/>
+</node>
+</node>
 <node TEXT="---" ID="ID_682848079" CREATED="1386756512488" MODIFIED="1386756518596">
 <node TEXT="Questionbank" ID="ID_1711959849" CREATED="1386756518904" MODIFIED="1386756524407">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="CCR-ASSM-013: Able to group questions into banks around subject areas" ID="ID_1648766196" CREATED="1386756452065" MODIFIED="1387215405386"/>
-<node TEXT="CCR-ASSM-014: Able to configure how many questions will be displayed per bank" ID="ID_1238009049" CREATED="1386758015657" MODIFIED="1387215409747"/>
-<node TEXT="CCR-ASSM-015: Able to configure mandatory questions for each bank" ID="ID_1102250237" CREATED="1386758045136" MODIFIED="1387215416507"/>
-<node TEXT="CCR-ASSM-016: Able to randomise the display order of questions" ID="ID_975717360" CREATED="1386758079608" MODIFIED="1387215421107"/>
-<node TEXT="CCR-ASSM-017: Able to randomise the order and choice of questions" ID="ID_535021988" CREATED="1386089933318" MODIFIED="1387215428115"/>
-<node TEXT="CCR-ASSM-018: Able to signpost to the learner which subject areas they need to revisit as part of the post assessment feedback" ID="ID_1711357879" CREATED="1386758140262" MODIFIED="1387215433747"/>
+<node TEXT="CCR-ASSM-013: Able to group questions into banks around subject areas" ID="ID_1648766196" CREATED="1386756452065" MODIFIED="1387215405386">
+<node TEXT="S 1.0" ID="ID_1038521505" CREATED="1390300068409" MODIFIED="1390300075229"/>
+</node>
+<node TEXT="CCR-ASSM-014: Able to configure how many questions will be displayed per bank" ID="ID_1238009049" CREATED="1386758015657" MODIFIED="1387215409747">
+<node TEXT="S 1.0" ID="ID_201731332" CREATED="1390300068409" MODIFIED="1390300075229"/>
+</node>
+<node TEXT="CCR-ASSM-015: Able to configure mandatory questions for each bank" ID="ID_1102250237" CREATED="1386758045136" MODIFIED="1387215416507">
+<node TEXT="S 1.0" ID="ID_1796433531" CREATED="1390300068409" MODIFIED="1390300075229"/>
+</node>
+<node TEXT="CCR-ASSM-016: Able to randomise the display order of questions" ID="ID_975717360" CREATED="1386758079608" MODIFIED="1387215421107">
+<node TEXT="S 1.0" ID="ID_632173922" CREATED="1390300068409" MODIFIED="1390300075229"/>
+</node>
+<node TEXT="CCR-ASSM-017: Able to randomise the order and choice of questions" ID="ID_535021988" CREATED="1386089933318" MODIFIED="1387215428115">
+<node TEXT="S 1.0" ID="ID_1320865887" CREATED="1390300068409" MODIFIED="1390300075229"/>
+</node>
+<node TEXT="CCR-ASSM-018: Able to signpost to the learner which subject areas they need to revisit as part of the post assessment feedback" ID="ID_1711357879" CREATED="1386758140262" MODIFIED="1387215433747">
+<node TEXT="S 1.0" ID="ID_206350225" CREATED="1390300148655" MODIFIED="1390300150683"/>
+</node>
 </node>
 <node TEXT="System validation" ID="ID_983941323" CREATED="1386249188445" MODIFIED="1387800027370">
-<node TEXT="CCR-SVAL-001: Able to run a system validation over my course/project content files and see a log of any system readable errors" ID="ID_1875979350" CREATED="1386192773076" MODIFIED="1387215502025"/>
-<node TEXT="CCR-SVAL-002: Able to run a system requirements report (e.g. browser spec) for the course based on the metadata for the components and plug-ins used" ID="ID_202142545" CREATED="1386760365944" MODIFIED="1387215508188"/>
-<node TEXT="CCR-SVAL-003: Able to generate a diagnostic report of my project (length, level of interactions etc)" ID="ID_1261540175" CREATED="1386192623310" MODIFIED="1387215513489"/>
+<node TEXT="CCR-SVAL-001: Able to run a system validation over my course/project content files and see a log of any system readable errors" ID="ID_1875979350" CREATED="1386192773076" MODIFIED="1387215502025">
+<node TEXT="e.g. JSON checker" ID="ID_206814166" CREATED="1390300185766" MODIFIED="1390300227865"/>
+<node TEXT="C 1.0" ID="ID_137301672" CREATED="1390300307556" MODIFIED="1390300313359"/>
+</node>
+<node TEXT="CCR-SVAL-002: Able to run a system requirements report (e.g. browser spec) for the course based on the metadata for the components and plug-ins used" ID="ID_202142545" CREATED="1386760365944" MODIFIED="1387215508188">
+<node TEXT="S 1.0" ID="ID_1338234205" CREATED="1390300374859" MODIFIED="1390300478843"/>
+</node>
+<node TEXT="CCR-SVAL-003: Able to generate a diagnostic report of my project (length, level of interactions etc)" ID="ID_1261540175" CREATED="1386192623310" MODIFIED="1387215513489">
+<node TEXT="C 1.0" ID="ID_865439688" CREATED="1390300535039" MODIFIED="1390300544386"/>
+</node>
 </node>
 <node TEXT="Publishing" ID="ID_36764169" CREATED="1386245747644" MODIFIED="1387800027371">
 <node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1387215535001">
 <node TEXT="M 0.1" ID="ID_1787186863" CREATED="1387557500826" MODIFIED="1387557503605"/>
 </node>
-<node TEXT="CCR-PUB-002: Able to export a course as a SCORM zip file" ID="ID_1053173596" CREATED="1386192579433" MODIFIED="1387215540120"/>
-<node TEXT="CCR-PUB-003: Able to publish my project as a Tin Can package" ID="ID_228835029" CREATED="1386192638697" MODIFIED="1387215544032"/>
-<node TEXT="CCR-PUB-004: Able to publish the course in a non-tracking web format" ID="ID_85915493" CREATED="1386760646362" MODIFIED="1387215558584"/>
-<node TEXT="CCR-PUB-005: Able to publish content in a compressed / minified format" ID="ID_1079910474" CREATED="1386192778531" MODIFIED="1387215553736"/>
-<node TEXT="CCR-PUB-006: Able to publish the course in an uncompressed format" ID="ID_1982784676" CREATED="1386760562220" MODIFIED="1387215563486"/>
-<node TEXT="CCR-PUB-007: Able to include the version / revision number in the published course for reference" ID="ID_618056372" CREATED="1386760595324" MODIFIED="1387215569000"/>
+<node TEXT="CCR-PUB-002: Able to export a course as a SCORM zip file" ID="ID_1053173596" CREATED="1386192579433" MODIFIED="1387215540120">
+<node TEXT="C 0.1" ID="ID_182250232" CREATED="1390300562598" MODIFIED="1390300571642"/>
+</node>
+<node TEXT="CCR-PUB-003: Able to publish my project as a Tin Can package" ID="ID_228835029" CREATED="1386192638697" MODIFIED="1387215544032">
+<node TEXT="W 0.1" ID="ID_1467445035" CREATED="1390300577270" MODIFIED="1390300623800"/>
+<node TEXT="S 1.0" ID="ID_373857325" CREATED="1390300626734" MODIFIED="1390300635288"/>
+</node>
+<node TEXT="CCR-PUB-004: Able to publish the course in a non-tracking web format" ID="ID_85915493" CREATED="1386760646362" MODIFIED="1387215558584">
+<node TEXT="M 0.1" ID="ID_1795590151" CREATED="1390300645773" MODIFIED="1390300656704"/>
+</node>
+<node TEXT="CCR-PUB-005: Able to publish content in a compressed / minified format" ID="ID_1079910474" CREATED="1386192778531" MODIFIED="1387215553736">
+<node TEXT="S 0.1" ID="ID_428955964" CREATED="1390300667740" MODIFIED="1390300685567"/>
+</node>
+<node TEXT="CCR-PUB-006: Able to publish the course in an uncompressed format" ID="ID_1982784676" CREATED="1386760562220" MODIFIED="1387215563486">
+<node TEXT="M 0.1" ID="ID_921715328" CREATED="1390300694971" MODIFIED="1390300697887"/>
+</node>
+<node TEXT="CCR-PUB-007: Able to include the version / revision number in the published course for reference" ID="ID_618056372" CREATED="1386760595324" MODIFIED="1387215569000">
+<node TEXT="S 0.1" ID="ID_846796155" CREATED="1390300713140" MODIFIED="1390300822124"/>
+</node>
 </node>
 <node TEXT="Translation" ID="ID_1004230649" CREATED="1386245962734" MODIFIED="1387800027373">
-<node TEXT="CCR-TRAN-001: Able to export all language content in a packaged format suitable for translation agencies to work with" ID="ID_771355653" CREATED="1386192691155" MODIFIED="1387215635679"/>
-<node TEXT="CCR-TRAN-002: Able to import a translated language content package into the same course" ID="ID_1456015700" CREATED="1386761280293" MODIFIED="1387215639190"/>
-<node TEXT="CCR-TRAN-003: Able to import a translated language content package as a new course" ID="ID_1732042673" CREATED="1386761280293" MODIFIED="1387215642767"/>
+<node TEXT="CCR-TRAN-001: Able to export all language content in a packaged format suitable for translation agencies to work with" ID="ID_771355653" CREATED="1386192691155" MODIFIED="1387215635679">
+<node TEXT="C 1.0" ID="ID_383661048" CREATED="1390300955103" MODIFIED="1390300961089"/>
+</node>
+<node TEXT="CCR-TRAN-002: Able to import a translated language content package into the same course" ID="ID_1456015700" CREATED="1386761280293" MODIFIED="1387215639190">
+<node TEXT="W 1.0" ID="ID_1230184246" CREATED="1390300965879" MODIFIED="1390300981017"/>
+</node>
+<node TEXT="CCR-TRAN-003: Able to import a translated language content package as a new course" ID="ID_1732042673" CREATED="1386761280293" MODIFIED="1387215642767">
+<node TEXT="C 1.0" ID="ID_996990351" CREATED="1390300984501" MODIFIED="1390300987577"/>
+</node>
 </node>
 </node>
 <node TEXT="Developer" ID="ID_1008773847" CREATED="1386087344381" MODIFIED="1387800027374">
-<node TEXT="AUTH-DEV-001: Able to upload files to override core code" ID="ID_881777256" CREATED="1386192087988" MODIFIED="1387215669622"/>
-<node TEXT="AUTH-DEV-002: Able to test the effect of overrides in preview" ID="ID_1926084403" CREATED="1386767965117" MODIFIED="1387215674069"/>
-<node TEXT="AUTH-DEV-003: Able to turn debugging of the authoring tool on / off" ID="ID_72816588" CREATED="1386767984062" MODIFIED="1387215677813"/>
-<node TEXT="AUTH-DEV-004: Able to publish the content uncompressed (duplicate)" ID="ID_670473218" CREATED="1386193007638" MODIFIED="1387215682500"/>
-<node TEXT="AUTH-DEV-005: Able to embed HTML / JavaScript in suitable places" ID="ID_32107222" CREATED="1386193020585" MODIFIED="1387215686451"/>
-<node TEXT="AUTH-DEV-006: Able to pull in and test plug-ins" ID="ID_1991731656" CREATED="1386768096907" MODIFIED="1387215689869"/>
-<node TEXT="AUTH-DEV-007: Able to see a technical log of course actions in preview mode (including tracking)" ID="ID_1297214976" CREATED="1386768149482" MODIFIED="1387215693653"/>
+<node TEXT="AUTH-DEV-001: Able to upload files to override core code" ID="ID_881777256" CREATED="1386192087988" MODIFIED="1387215669622">
+<node TEXT="M 1.0" ID="ID_187791294" CREATED="1390301038948" MODIFIED="1390301041208"/>
+<node TEXT="Similar to: CCR-OVR-001 + 002" ID="ID_1677075656" CREATED="1390301053444" MODIFIED="1390301071287"/>
+</node>
+<node TEXT="AUTH-DEV-002: Able to test the effect of overrides in preview" ID="ID_1926084403" CREATED="1386767965117" MODIFIED="1387215674069">
+<node TEXT="M 1.0" ID="ID_1782757823" CREATED="1390301089876" MODIFIED="1390301095039"/>
+</node>
+<node TEXT="AUTH-DEV-003: Able to turn debugging of the authoring tool on / off" ID="ID_72816588" CREATED="1386767984062" MODIFIED="1387215677813">
+<node TEXT="M 1.0" ID="ID_671245807" CREATED="1390301111676" MODIFIED="1390301121934"/>
+</node>
+<node TEXT="AUTH-DEV-004: Able to publish the content uncompressed (duplicate)" ID="ID_670473218" CREATED="1386193007638" MODIFIED="1387215682500">
+<node TEXT="M 0.1" ID="ID_660059221" CREATED="1390301131867" MODIFIED="1390301135990"/>
+</node>
+<node TEXT="AUTH-DEV-005: Able to embed HTML / JavaScript in suitable places" ID="ID_32107222" CREATED="1386193020585" MODIFIED="1387215686451">
+<node TEXT="could do better via bespoke?" ID="ID_347715843" CREATED="1390301169138" MODIFIED="1390301204909"/>
+<node TEXT="C 1.0" ID="ID_440884217" CREATED="1390301190217" MODIFIED="1390301195244">
+<node TEXT="if at all" ID="ID_1899707585" CREATED="1390301209432" MODIFIED="1390301212053"/>
+</node>
+</node>
+<node TEXT="AUTH-DEV-006: Able to pull in and test plug-ins" ID="ID_1991731656" CREATED="1386768096907" MODIFIED="1387215689869">
+<node TEXT="W 1.0" ID="ID_572624464" CREATED="1390301273191" MODIFIED="1390301277514"/>
+<node TEXT="see SPR-PLG-001" ID="ID_212274008" CREATED="1390301277968" MODIFIED="1390301281090"/>
+</node>
+<node TEXT="AUTH-DEV-007: Able to see a technical log of course actions in preview mode (including tracking)" ID="ID_1297214976" CREATED="1386768149482" MODIFIED="1387215693653">
+<node TEXT="S 1.0" ID="ID_1219712" CREATED="1390301327974" MODIFIED="1390301363211"/>
+</node>
 </node>
 <node TEXT="Reviewer" ID="ID_380559869" CREATED="1386087346013" MODIFIED="1387800027375">
 <node TEXT="---" ID="ID_185497297" CREATED="1386782058165" MODIFIED="1386782060000">
 <node TEXT="Issues overview" ID="ID_163702312" CREATED="1386782060773" MODIFIED="1386782066628">
 <font BOLD="true" ITALIC="true"/>
+<node TEXT="Consider this a must for 1.1?" ID="ID_760766863" CREATED="1390302066263" MODIFIED="1390302077209"/>
 </node>
 </node>
-<node TEXT="AUTH-REV-001: Able to see a complete list of issues and comments" ID="ID_1130332750" CREATED="1386192596318" MODIFIED="1387215881442"/>
-<node TEXT="AUTH-REV-002: Able to search and filter list of changes/comments" ID="ID_1862751150" CREATED="1386696535454" MODIFIED="1387215888610"/>
-<node TEXT="AUTH-REV-003: Able to add additional detail to a comment / change" ID="ID_573442350" CREATED="1386768487363" MODIFIED="1387215892464"/>
-<node TEXT="AUTH-REV-004: Able to remove a comment change" ID="ID_1341770419" CREATED="1386768528067" MODIFIED="1387215896712"/>
-<node TEXT="AUTH-REV-005: Able to change the status of a comment / change" ID="ID_961554840" CREATED="1386768511771" MODIFIED="1387215900159"/>
-<node TEXT="AUTH-REV-006: Able to navigate to the place where the comment / change was made" ID="ID_1220351882" CREATED="1386768441291" MODIFIED="1387215903673"/>
-<node TEXT="AUTH-REV-007: Able to export all comments / changes to a printable format" ID="ID_1013998247" CREATED="1386768815718" MODIFIED="1387215907528"/>
+<node TEXT="AUTH-REV-001: Able to see a complete list of issues and comments" ID="ID_1130332750" CREATED="1386192596318" MODIFIED="1387215881442">
+<node TEXT="S 1.0" ID="ID_63057027" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-002: Able to search and filter list of changes/comments" ID="ID_1862751150" CREATED="1386696535454" MODIFIED="1387215888610">
+<node TEXT="S 1.0" ID="ID_1163048690" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-003: Able to add additional detail to a comment / change" ID="ID_573442350" CREATED="1386768487363" MODIFIED="1387215892464">
+<node TEXT="S 1.0" ID="ID_572318588" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-004: Able to remove a comment change" ID="ID_1341770419" CREATED="1386768528067" MODIFIED="1387215896712">
+<node TEXT="S 1.0" ID="ID_932441255" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-005: Able to change the status of a comment / change" ID="ID_961554840" CREATED="1386768511771" MODIFIED="1387215900159">
+<node TEXT="S 1.0" ID="ID_101482065" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-006: Able to navigate to the place where the comment / change was made" ID="ID_1220351882" CREATED="1386768441291" MODIFIED="1387215903673">
+<node TEXT="S 1.0" ID="ID_794329042" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-007: Able to export all comments / changes to a printable format" ID="ID_1013998247" CREATED="1386768815718" MODIFIED="1387215907528">
+<node TEXT="S 1.0" ID="ID_761794827" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
 <node TEXT="---" ID="ID_1149716053" CREATED="1386781817474" MODIFIED="1386781818918">
 <node TEXT="Reviewing / raising issues" ID="ID_1462150951" CREATED="1386781819410" MODIFIED="1386782145604">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="AUTH-REV-008: Able to launch content in preview mode on multiple device types" ID="ID_944582918" CREATED="1386768279943" MODIFIED="1387215913416"/>
 <node TEXT="AUTH-REV-009: Able to raise issues / make comments while previewing the course" ID="ID_1210174993" CREATED="1386696367648" MODIFIED="1387215921002">
 <font BOLD="false"/>
+<node TEXT="S 1.0" ID="ID_857424019" CREATED="1390301896954" MODIFIED="1390301981212"/>
 </node>
-<node TEXT="AUTH-REV-010: Able to view comments and tracked changes in context while previewing the course" ID="ID_1244432151" CREATED="1386696482935" MODIFIED="1387215927721"/>
-<node TEXT="AUTH-REV-011: Able to make tracked changes in the content" ID="ID_1059445395" CREATED="1386696400952" MODIFIED="1387215933049"/>
-<node TEXT="AUTH-REV-012: Able to see all the textual content in sequence (not in published form)" ID="ID_514257380" CREATED="1386193057646" MODIFIED="1387215937728"/>
+<node TEXT="AUTH-REV-010: Able to view comments and tracked changes in context while previewing the course" ID="ID_1244432151" CREATED="1386696482935" MODIFIED="1387215927721">
+<node TEXT="S 1.0" ID="ID_1562083663" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-011: Able to make tracked changes in the content" ID="ID_1059445395" CREATED="1386696400952" MODIFIED="1387215933049">
+<node TEXT="S 1.0" ID="ID_1958115338" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
+<node TEXT="AUTH-REV-012: Able to see all the textual content in sequence (not in published form)" ID="ID_514257380" CREATED="1386193057646" MODIFIED="1387215937728">
+<node TEXT="S 1.0" ID="ID_711972018" CREATED="1390301896954" MODIFIED="1390301981212"/>
+</node>
 <node TEXT="---" ID="ID_789249986" CREATED="1386782077701" MODIFIED="1386782079889">
 <node TEXT="Sign-off" ID="ID_513154050" CREATED="1386782080533" MODIFIED="1386782084363">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="AUTH-REV-013: Able to sign-off a course/project during a review cycle" ID="ID_1344688022" CREATED="1386758688274" MODIFIED="1387215943800"/>
+<node TEXT="AUTH-REV-013: Able to sign-off a course/project during a review cycle" ID="ID_1344688022" CREATED="1386758688274" MODIFIED="1387215943800">
+<node TEXT="W 1.0" ID="ID_1866754507" CREATED="1390302083558" MODIFIED="1390302085441"/>
+</node>
 <node TEXT="---" ID="ID_40763649" CREATED="1386782288345" MODIFIED="1386782289812">
 <node TEXT="Notifications" ID="ID_1573256371" CREATED="1386782290481" MODIFIED="1386782295959">
 <font BOLD="true" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="AUTH-REV-014: Able to receive notifications outside of the system as and when updates are made to issues / messages" ID="ID_1739716470" CREATED="1386768626857" MODIFIED="1387215948936"/>
+<node TEXT="AUTH-REV-014: Able to receive notifications outside of the system as and when updates are made to issues / messages" ID="ID_1739716470" CREATED="1386768626857" MODIFIED="1387215948936">
+<node TEXT="W 1.0" ID="ID_1099318157" CREATED="1390302089774" MODIFIED="1390302096473"/>
+</node>
 </node>
 <node TEXT="L&amp;D Manager" ID="ID_702265324" CREATED="1386087358773" MODIFIED="1387800027376">
-<node TEXT="AUTH-LND-001: Able to see a dashboard of all current content projects" ID="ID_1465971667" CREATED="1386193030878" MODIFIED="1387215979959"/>
-<node TEXT="AUTH-LND-002: Able to see project status, level of activity, issues list and collaborators for each project" ID="ID_461544955" CREATED="1386769168853" MODIFIED="1387215985183"/>
-<node TEXT="AUTH-LND-003: Able to search the catalogue of projects" ID="ID_1811886393" CREATED="1386193037790" MODIFIED="1387215990326"/>
-<node TEXT="AUTH-LND-004: Able to change/override project ownership and roles" ID="ID_1111965107" CREATED="1386193041894" MODIFIED="1387215994911"/>
-<node TEXT="AUTH-LND-005: Able to generate a high-level system usage report against policy rules" ID="ID_1668392456" CREATED="1386769269516" MODIFIED="1387216012631"/>
+<node TEXT="AUTH-LND-001: Able to see a dashboard of all current content projects" ID="ID_1465971667" CREATED="1386193030878" MODIFIED="1387215979959">
+<node TEXT="W 1.0" ID="ID_707122038" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
+<node TEXT="AUTH-LND-002: Able to see project status, level of activity, issues list and collaborators for each project" ID="ID_461544955" CREATED="1386769168853" MODIFIED="1387215985183">
+<node TEXT="W 1.0" ID="ID_456948527" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
+<node TEXT="AUTH-LND-003: Able to search the catalogue of projects" ID="ID_1811886393" CREATED="1386193037790" MODIFIED="1387215990326">
+<node TEXT="W 1.0" ID="ID_864130564" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
+<node TEXT="AUTH-LND-004: Able to change/override project ownership and roles" ID="ID_1111965107" CREATED="1386193041894" MODIFIED="1387215994911">
+<node TEXT="W 1.0" ID="ID_90425192" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
+<node TEXT="AUTH-LND-005: Able to generate a high-level system usage report against policy rules" ID="ID_1658700361" CREATED="1386769269516" MODIFIED="1387216012631">
+<node TEXT="W 1.0" ID="ID_576755781" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
+<node TEXT="AUTH-LND-005: Able to generate a high-level system usage report against policy rules" ID="ID_1668392456" CREATED="1386769269516" MODIFIED="1387216012631">
+<node TEXT="W 1.0" ID="ID_587093481" CREATED="1390302341001" MODIFIED="1390302345268"/>
+</node>
 </node>
 <node TEXT="Guest User" ID="ID_855479254" CREATED="1386087354205" MODIFIED="1387800027377">
-<node TEXT="AUTH-GST-001: Able to enter the system without having to create a system account" ID="ID_1941890302" CREATED="1386769338315" MODIFIED="1387216022292"/>
-<node TEXT="AUTH-GST-002: Able to view projects which are visible to guest users" ID="ID_613901329" CREATED="1386769363282" MODIFIED="1387216030821"/>
-<node TEXT="AUTH-GST-003: Able to view projects, which have been shared with the guest user&apos;s email address" ID="ID_1944250250" CREATED="1386769393561" MODIFIED="1387216034198"/>
+<node TEXT="AUTH-GST-001: Able to enter the system without having to create a system account" ID="ID_1941890302" CREATED="1386769338315" MODIFIED="1387216022292">
+<node TEXT="M 1.0" ID="ID_1161400743" CREATED="1390302546572" MODIFIED="1390302552256"/>
+</node>
+<node TEXT="AUTH-GST-002: Able to view projects which are visible to guest users" ID="ID_613901329" CREATED="1386769363282" MODIFIED="1387216030821">
+<node TEXT="M 1.0" ID="ID_813881870" CREATED="1390302546572" MODIFIED="1390302552256"/>
+</node>
+<node TEXT="AUTH-GST-003: Able to view projects, which have been shared with the guest user&apos;s email address" ID="ID_1944250250" CREATED="1386769393561" MODIFIED="1387216034198">
+<node TEXT="M 1.0" ID="ID_1581136259" CREATED="1390302649122" MODIFIED="1390302651414"/>
+</node>
+<node TEXT="AUTH-REV-008: Able to launch content in preview mode" ID="ID_944582918" CREATED="1386768279943" MODIFIED="1390302521894">
+<node TEXT="M 1.0" ID="ID_478732203" CREATED="1390301896954" MODIFIED="1390302529361"/>
+<node TEXT="Moved from reviewer" ID="ID_1984706059" CREATED="1390302694250" MODIFIED="1390302701724"/>
+</node>
 </node>
 <node TEXT="Demonstrator / Trainer" ID="ID_1938450836" CREATED="1386087374676" MODIFIED="1387800027379">
-<node TEXT="AUTH-DEMO-001: Able to give clients (guest users) read-only access to view selected projects for a limited period of time" ID="ID_525741434" CREATED="1386192997530" MODIFIED="1387216048813"/>
-<node TEXT="AUTH-DEMO-002: Able to set auto-expiry for guest accounts" ID="ID_770564172" CREATED="1386769513503" MODIFIED="1387216053214"/>
-<node TEXT="AUTH-DEMO-003: Able to demonstrate a selected subset of content in a clean looking, branded environment (e.g. company theme)" ID="ID_1388716765" CREATED="1386193001501" MODIFIED="1387216057606"/>
-<node TEXT="AUTH-DEMO-004: Able to create temporary courses for training which are reset or removed automatically after a specified time period" ID="ID_1184516449" CREATED="1386769604437" MODIFIED="1387216062149"/>
-<node TEXT="AUTH-DEMO-005: Able to enable guest users with a subset of Content Creator permissions on selected demo courses/projects" ID="ID_864579246" CREATED="1386769676891" MODIFIED="1387216069942"/>
+<node TEXT="AUTH-DEMO-001: Able to give clients (guest users) read-only access to view selected projects for a limited period of time" ID="ID_525741434" CREATED="1386192997530" MODIFIED="1387216048813">
+<node TEXT="W 1.0" ID="ID_1795442915" CREATED="1390302842038" MODIFIED="1390302845978"/>
+</node>
+<node TEXT="AUTH-DEMO-002: Able to set auto-expiry for guest accounts" ID="ID_770564172" CREATED="1386769513503" MODIFIED="1387216053214">
+<node TEXT="W 1.0" ID="ID_1195135569" CREATED="1390302842038" MODIFIED="1390302845978"/>
+</node>
+<node TEXT="AUTH-DEMO-003: Able to demonstrate a selected subset of content in a clean looking, branded environment (e.g. company theme)" ID="ID_1388716765" CREATED="1386193001501" MODIFIED="1387216057606">
+<node TEXT="W 1.0" ID="ID_1988588769" CREATED="1390302842038" MODIFIED="1390302845978"/>
+</node>
+<node TEXT="AUTH-DEMO-004: Able to create temporary courses for training which are reset or removed automatically after a specified time period" ID="ID_1184516449" CREATED="1386769604437" MODIFIED="1387216062149">
+<node TEXT="W 1.0" ID="ID_406406359" CREATED="1390302842038" MODIFIED="1390302845978"/>
+</node>
+<node TEXT="AUTH-DEMO-005: Able to enable guest users with a subset of Content Creator permissions on selected demo courses/projects" ID="ID_864579246" CREATED="1386769676891" MODIFIED="1387216069942">
+<node TEXT="W 1.0" ID="ID_373820353" CREATED="1390302842038" MODIFIED="1390302845978"/>
+</node>
 </node>
 </node>
 </node>
