@@ -32,3 +32,13 @@ For a given standard course (to be defined) not served by an LMS, content must b
 ## Coding Standards
 
 All code should comply with the [Style Guide](style_guide.md)
+
+## Security
+
+All contributed plugins and extensions must include a security review before they can be included in the core package. This should at a minimum cover the [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) security flaws but should not be limited to those.
+
+The principle here is that developers should demonstrate that they have considered security implications when developing their plugin.
+
+We have published a review of the [Adapt Learning Framework](https://github.com/adaptlearning/adapt_framework/wiki/Web-Security-Audit)
+
+We have published a review of the [Adapt Learning Authoring Tool](https://github.com/adaptlearning/adapt_authoring/wiki/Web-Security-Audit)
