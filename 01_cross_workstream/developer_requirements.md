@@ -30,6 +30,9 @@ All core code must have unit test coverage to 90%
 All core framework and plugins must demonstrate [WCAG 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211/) compliance at AA Level
 
 ## Render & Download Time
+
+*NOTE: THE TIMES LISTED BELOW ARE ASPIRATIONAL* - We value performance as an important aspect of User Experience and will review our code with performance in mind - significant performance degradation will result in Pull Requests being rejected.  Further enhancements to this document will specify performance metrics in greater detail.
+
 For a given standard course (to be defined) not served by an LMS, content must be downloaded and rendered (details to be defined) within the following timescales
 
 * 10 seconds on an iPhone running on an Edge (2G) network
