@@ -10,7 +10,15 @@ Initially this is generated using the stats available [here from statcounter](ht
 The list of supported devices are
 
     User Agent		Market Share (%)		Cumulative Percentage  
-    Chrome (all)		30.51				30.51       IE 10.0				12.69				43.2       Firefox 5+			11.04				54.24      IE 8.0				8.7					62.94      IE 9.0				7.7					70.64      Safari iPad			6.88				77.52      iPhone				5.87				83.39      Android				3.78				87.17      Safari 6.0			2.88				90.05
+    Chrome (all)		30.51				30.51       
+    IE 10.0				12.69				43.2   
+    Firefox 5+			11.04				54.24  
+    IE 8.0				8.7					62.94  
+    IE 9.0				7.7					70.64  
+    Safari iPad			6.88				77.52  
+    iPhone				5.87				83.39  
+    Android				3.78				87.17  
+    Safari 6.0			2.88				90.05
 
     
 
