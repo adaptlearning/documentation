@@ -62,7 +62,7 @@ Your opening braces go on the same line as the statement.
 
 ```js
 if (true) {
-    console.log('winning');
+  console.log('winning');
 }
 ```
 
@@ -71,7 +71,7 @@ if (true) {
 ```js
 if (true)
 {
-    console.log('losing');
+  console.log('losing');
 }
 ```
 
@@ -91,8 +91,8 @@ var values = [23, 42];
 
 var object = {};
 while (items.length) {
-    var key = keys.pop();
-      object[key] = values.pop();
+  var key = keys.pop();
+  object[key] = values.pop();
 }
 ```
 
@@ -100,17 +100,17 @@ while (items.length) {
 
 ```js
 var keys = ['foo', 'bar'],
-    values = [23, 42],
-        object = {},
-            key;
+  values = [23, 42],
+  object = {},
+  key;
 
-            while (items.length) {
-                key = keys.pop();
-                  object[key] = values.pop();
-            }
+while (items.length) {
+  key = keys.pop();
+  object[key] = values.pop();
+}
 ```
 
-            [crockfordconvention]: http://javascript.crockford.com/code.html
+[crockfordconvention]: http://javascript.crockford.com/code.html
 
 ## Use lowerCamelCase for variables, properties and function names
 
@@ -189,9 +189,9 @@ keys when your interpreter complains:
 ```js
 var a = ['hello', 'world'];
 var b = {
-          good: 'code',
-          'is generally': 'pretty',
-        };
+  good: 'code',
+        'is generally': 'pretty',
+  };
 ```
 
 *Wrong:*
@@ -202,7 +202,7 @@ var a = [
   ];
   var b = {"good": 'code'
           , is generally: 'pretty'
-                  };
+          };
 ```
 
 ## Use the === operator
@@ -215,7 +215,7 @@ the triple equality operator as it will work just as expected.
 ```js
 var a = 0;
 if (a === '') {
-    console.log('winning');
+  console.log('winning');
 }
 
 ```
@@ -225,7 +225,7 @@ if (a === '') {
 ```js
 var a = 0;
 if (a == '') {
-    console.log('losing');
+  console.log('losing');
 }
 ```
 
@@ -239,8 +239,8 @@ The ternary operator should not be used on a single line. Split it up into multi
 
 ```js
 var foo = (a === b)
-        ? 1
-        : 2;
+  ? 1
+  : 2;
 ```
 
 *Wrong:*
@@ -259,7 +259,7 @@ be forever grateful.
 ```js
 var a = [];
 if (!a.length) {
-    console.log('winning');
+  console.log('winning');
 }
 ```
 
@@ -267,12 +267,12 @@ if (!a.length) {
 
 ```js
 Array.prototype.empty = function() {
-    return !this.length;
+  return !this.length;
 }
 
 var a = [];
 if (a.empty()) {
-    console.log('losing');
+  console.log('losing');
 }
 ```
 
@@ -285,7 +285,7 @@ Any non-trivial conditions should be assigned to a descriptive variable:
 ```js
 var isAuthorized = (user.isAdmin() || user.isModerator());
 if (isAuthorized) {
-    console.log('winning');
+  console.log('winning');
 }
 ```
 
@@ -293,7 +293,7 @@ if (isAuthorized) {
 
 ```js
 if (user.isAdmin() || user.isModerator()) {
-    console.log('losing');
+  console.log('losing');
 }
 ```
 
@@ -312,15 +312,15 @@ as possible.
 
 ```js
 function isPercentage(val) {
-    if (val < 0) {
-          return false;
-            }
+  if (val < 0) {
+    return false;
+  }
 
-              if (val > 100) {
-                    return false;
-                      }
+  if (val > 100) {
+    return false;
+  }
 
-                        return true;
+  return true;
 }
 ```
 
@@ -328,15 +328,15 @@ function isPercentage(val) {
 
 ```js
 function isPercentage(val) {
-    if (val >= 0) {
-          if (val < 100) {
-                  return true;
-                      } else {
-                              return false;
-                                  }
-                                    } else {
-                                          return false;
-                                            }
+  if (val >= 0) {
+    if (val < 100) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
 }
 ```
 
@@ -345,8 +345,8 @@ further:
 
 ```js
 function isPercentage(val) {
-    var isInRange = (val >= 0 && val <= 100);
-      return isInRange;
+  var isInRange = (val >= 0 && val <= 100);
+  return isInRange;
 }
 ```
 
@@ -359,7 +359,7 @@ will produce better stack traces, heap and cpu profiles.
 
 ```js
 req.on('end', function onEnd() {
-    console.log('winning');
+  console.log('winning');
 });
 ```
 
@@ -367,7 +367,7 @@ req.on('end', function onEnd() {
 
 ```js
 req.on('end', function() {
-    console.log('losing');
+  console.log('losing');
 });
 ```
 
@@ -379,11 +379,11 @@ Use closures, but don't nest them. Otherwise your code will become a mess.
 
 ```js
 setTimeout(function() {
-    client.connect(afterConnect);
+  client.connect(afterConnect);
 }, 1000);
 
 function afterConnect() {
-    console.log('winning');
+  console.log('winning');
 }
 ```
 
@@ -391,9 +391,9 @@ function afterConnect() {
 
 ```js
 setTimeout(function() {
-    client.connect(function() {
-          console.log('losing');
-            });
+  client.connect(function() {
+    console.log('losing');
+  });
 }, 1000);
 ```
 
@@ -486,12 +486,12 @@ var matches = item.match(/ID_([^\n]+)=([^\n]+)/));
 // redis counter used for statistics will cause an exception. This needs
 // to be fixed in a later iteration.
 function loadUser(id, cb) {
-    // ...
+  // ...
 }
 
 var isSessionValid = (session.expires < Date.now());
 if (isSessionValid) {
-    // ...
+  // ...
 }
 ```
 
@@ -503,7 +503,7 @@ var matches = item.match(/ID_([^\n]+)=([^\n]+)/));
 
 // Usage: loadUser(5, function() { ... })
 function loadUser(id, cb) {
-    // ...
+  // ...
 }
 
 // Check if the session is valid
