@@ -80,8 +80,10 @@
 <node TEXT="SPR-PLG-006: Able to validate an installed plug-in" ID="ID_420781919" CREATED="1386801434362" MODIFIED="1387210781993"/>
 <node TEXT="SPR-PLG-009: Able to tell me what plugins/components are installed on the system" ID="ID_1099273838" CREATED="1386192326973" MODIFIED="1387537711749"/>
 </node>
+<node TEXT="Removed" ID="ID_111236735" CREATED="1410781366028" MODIFIED="1410781367664">
 <node TEXT="SPR-PLG-005: Able to create import processing plugins (e.g. import from old Learning Pool tool format)" ID="ID_1337972482" CREATED="1386774561793" MODIFIED="1387210776635">
 <node TEXT="e.g. write &apos;import&apos; as a plugin" ID="ID_430373003" CREATED="1387536830366" MODIFIED="1387536933360"/>
+</node>
 </node>
 </node>
 <node TEXT="All users" ID="ID_1453275850" CREATED="1390323236923" MODIFIED="1390323246063">
@@ -149,8 +151,10 @@
 <node TEXT="Based on on two simple variables" ID="ID_1628726759" CREATED="1387557394046" MODIFIED="1387557407674"/>
 </node>
 </node>
+<node TEXT="Framework" ID="ID_330444798" CREATED="1410783517806" MODIFIED="1410783519778">
 <node TEXT="CCR-TRK-003: Able to choose &apos;no tracking&apos; option" ID="ID_1781620248" CREATED="1386694285089" MODIFIED="1387214065207"/>
 <node TEXT="CCR-TRK-004: Able to toggle and configure the &apos;connection lost&apos; message" ID="ID_61834292" CREATED="1386760874678" MODIFIED="1387214068583"/>
+</node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_1762787393" CREATED="1390325302758" MODIFIED="1390325309706">
 <node TEXT="Done" ID="ID_1221618829" CREATED="1410774750199" MODIFIED="1410774754390">
@@ -169,17 +173,19 @@
 <node TEXT="CCR-WOW-019: Able to set the configuration options to determine component behaviour (where applicable)" ID="ID_1374848329" CREATED="1386694419102" MODIFIED="1387217921391">
 <node TEXT="Layout attributes, full width etc." ID="ID_1009487231" CREATED="1389348291746" MODIFIED="1389348307559"/>
 </node>
-</node>
-<node TEXT="CCR-WOW-011: Able to upload multiple versions of a graphic for use in different contexts" ID="ID_1403318975" CREATED="1386192714541" MODIFIED="1389347651920">
-<node TEXT="where appropriate" ID="ID_589229325" CREATED="1389347710156" MODIFIED="1389347721278"/>
-</node>
 <node TEXT="CCR-WOW-023: Able to message users to prevent accidental deletion of content items" ID="ID_1186085250" CREATED="1386192709572" MODIFIED="1391616224638">
 <font BOLD="false"/>
 <node TEXT="Accidental deletion (design constraint); confirmation boxes" ID="ID_1252683977" CREATED="1389347169318" MODIFIED="1389347332158"/>
 </node>
-<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1348595245" CREATED="1386191998869" MODIFIED="1387214701217"/>
+</node>
+<node TEXT="CCR-WOW-011: Able to upload multiple versions of a graphic for use in different contexts" ID="ID_1403318975" CREATED="1386192714541" MODIFIED="1389347651920">
+<node TEXT="where appropriate" ID="ID_589229325" CREATED="1389347710156" MODIFIED="1389347721278"/>
+</node>
 <node TEXT="CCR-WOW-005: Able to freeze a content item to prevent changes from concurrent editing" ID="ID_456896564" CREATED="1386192709572" MODIFIED="1391616035395">
 <font BOLD="false"/>
+</node>
+<node TEXT="Duplicate" ID="ID_270577878" CREATED="1410784250837" MODIFIED="1410784264212">
+<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1348595245" CREATED="1386191998869" MODIFIED="1387214701217"/>
 </node>
 </node>
 <node TEXT="Assessment" ID="ID_1383527291" CREATED="1390325511385" MODIFIED="1390325513588">
@@ -191,9 +197,11 @@
 <node TEXT="CCR-ASSM-009: Able to set graduated feedback (number and range of feedback bands)" ID="ID_985021388" CREATED="1386090617353" MODIFIED="1387215386196"/>
 <node TEXT="CCR-ASSM-011: Able to step-lock the assessment" ID="ID_767879757" CREATED="1386090153155" MODIFIED="1391614828508"/>
 </node>
+<node TEXT="Framework" ID="ID_1540486673" CREATED="1410784532844" MODIFIED="1410784537066">
 <node TEXT="CCR-ASSM-005: Able to determine whether the assessment can be re-taken" ID="ID_1023624932" CREATED="1386756386985" MODIFIED="1387215363684"/>
 <node TEXT="CCR-ASSM-006: Able to determine navigation behaviour during the assessment" ID="ID_1752747722" CREATED="1386756655669" MODIFIED="1387215367724">
 <node TEXT="i.e. go back, enable/disable reset" ID="ID_468461758" CREATED="1390299339834" MODIFIED="1390299354093"/>
+</node>
 </node>
 </node>
 <node TEXT="Publishing" ID="ID_1074220757" CREATED="1390325576737" MODIFIED="1390325580868">
@@ -318,10 +326,12 @@
 </node>
 <node TEXT="Assessment" ID="ID_1900206761" CREATED="1391601987484" MODIFIED="1391601991007">
 <node TEXT="Done" ID="ID_976015413" CREATED="1410775446447" MODIFIED="1410775447297"/>
+<node TEXT="Framework" ID="ID_323683773" CREATED="1410785693583" MODIFIED="1410785695523">
 <node TEXT="CCR-ASSM-012: Able to inform the learner about potential data loss if they navigate away from an assessment" ID="ID_1772382691" CREATED="1386090195746" MODIFIED="1387215400347">
 <node TEXT="Must for framework 1.0 but could hardcoded / non-editable in tool" ID="ID_1722380525" CREATED="1390299886933" MODIFIED="1390299914720">
 <node TEXT="LRN-ART-004" ID="ID_1554012752" CREATED="1390299936580" MODIFIED="1390299945023"/>
 <node TEXT="CCR-ASSM-012" ID="ID_452405873" CREATED="1390299945604" MODIFIED="1390299961967"/>
+</node>
 </node>
 </node>
 </node>
