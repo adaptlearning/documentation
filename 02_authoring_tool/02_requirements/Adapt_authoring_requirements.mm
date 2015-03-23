@@ -1,6 +1,6 @@
-<map version="freeplane 1.2.0">
+<map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Requirements" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1386860642071"><hook NAME="MapStyle" zoom="2.0">
+<node TEXT="Requirements" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1386860642071"><hook NAME="MapStyle">
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -70,31 +70,48 @@
 <font SIZE="20" BOLD="true"/>
 <node TEXT="Must" ID="ID_381103128" CREATED="1390323198012" MODIFIED="1391616245588">
 <node TEXT="Super Administrator" ID="ID_1779389666" CREATED="1390323222068" MODIFIED="1390323230639">
-<node TEXT="Done" ID="ID_985390863" CREATED="1410774276871" MODIFIED="1410774306290">
-<font BOLD="false"/>
 <node TEXT="SPR-INST-001: Able to run a minimal interaction system installation" ID="ID_1741969245" CREATED="1386801565155" MODIFIED="1387210624466">
-<node TEXT="Default single tenancy" ID="ID_1470956113" CREATED="1387534369469" MODIFIED="1387534379281"/>
+<node TEXT="Default single tenancy" ID="ID_1470956113" CREATED="1387534369469" MODIFIED="1427107897573">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="SPR-PLG-001: Able to install/uninstall plug-ins" ID="ID_181880213" CREATED="1386801310865" MODIFIED="1387210756179"/>
-<node TEXT="SPR-PLG-004: Able to upgrade the Adapt authoring tool / Adapt Framework" ID="ID_1005145628" CREATED="1386801357464" MODIFIED="1387210768315"/>
-<node TEXT="SPR-PLG-006: Able to validate an installed plug-in" ID="ID_420781919" CREATED="1386801434362" MODIFIED="1387210781993"/>
-<node TEXT="SPR-PLG-009: Able to tell me what plugins/components are installed on the system" ID="ID_1099273838" CREATED="1386192326973" MODIFIED="1387537711749"/>
 </node>
-<node TEXT="Removed" ID="ID_111236735" CREATED="1410781366028" MODIFIED="1410781367664">
-<node TEXT="SPR-PLG-005: Able to create import processing plugins (e.g. import from old Learning Pool tool format)" ID="ID_1337972482" CREATED="1386774561793" MODIFIED="1387210776635">
+<node TEXT="SPR-PLG-001: Able to install/uninstall plug-ins" ID="ID_181880213" CREATED="1386801310865" MODIFIED="1427107904269">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="SPR-PLG-004: Able to upgrade the Adapt authoring tool / Adapt Framework" ID="ID_1005145628" CREATED="1386801357464" MODIFIED="1427107906069">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="SPR-PLG-005: Able to create import processing plugins (e.g. import from old Learning Pool tool format)" ID="ID_1337972482" CREATED="1386774561793" MODIFIED="1427107909253">
+<icon BUILTIN="button_cancel"/>
 <node TEXT="e.g. write &apos;import&apos; as a plugin" ID="ID_430373003" CREATED="1387536830366" MODIFIED="1387536933360"/>
 </node>
+<node TEXT="SPR-PLG-006: Able to validate an installed plug-in" ID="ID_420781919" CREATED="1386801434362" MODIFIED="1427107913653">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="SPR-PLG-009: Able to tell me what plugins/components are installed on the system" ID="ID_1099273838" CREATED="1386192326973" MODIFIED="1427107916229">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node TEXT="All users" ID="ID_1453275850" CREATED="1390323236923" MODIFIED="1390323246063">
-<node TEXT="Done" ID="ID_200621655" CREATED="1410774383303" MODIFIED="1410774385501">
-<node TEXT="ALL-WOW-001: Able to author online" ID="ID_32462420" CREATED="1386192102062" MODIFIED="1410774444966"/>
-<node TEXT="ALL-LGN-001: Able to login to the system using an id and password" ID="ID_221512249" CREATED="1386192452172" MODIFIED="1387210933055"/>
-<node TEXT="ALL-ROL-003: Able to view a dashboard of courses/projects I work on" ID="ID_1191045024" CREATED="1386693492372" MODIFIED="1391593007684"/>
+<node TEXT="All users" ID="ID_1453275850" CREATED="1390323236923" MODIFIED="1427108151875">
+<icon BUILTIN="button_ok"/>
+<node TEXT="ALL-WOW-001: Able to author online without downloading any files" ID="ID_32462420" CREATED="1386192102062" MODIFIED="1427107924293">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="ALL-WOW-002: Able to see a dynamic landing page that shows me navigation options based upon my role and capabilities" ID="ID_291735144" CREATED="1386192677702" MODIFIED="1387210904066"/>
-<node TEXT="ALL-LGN-002: Able to change my password" ID="ID_828653765" CREATED="1386193824808" MODIFIED="1387210936952"/>
-<node TEXT="ALL-PRO-002: Able to set and change my email address" ID="ID_1074676613" CREATED="1386193902758" MODIFIED="1387210985350"/>
+<node TEXT="ALL-WOW-002: Able to see a dynamic landing page that shows me navigation options based upon my role and capabilities" ID="ID_291735144" CREATED="1386192677702" MODIFIED="1427107927429">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="ALL-LGN-001: Able to login to the system using an id and password" ID="ID_221512249" CREATED="1386192452172" MODIFIED="1427107929132">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="ALL-LGN-002: Able to change my password" ID="ID_828653765" CREATED="1386193824808" MODIFIED="1427107930213">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="ALL-ROL-003: Able to view a dashboard of courses/projects I work on" ID="ID_1191045024" CREATED="1386693492372" MODIFIED="1427107931885">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="ALL-PRO-002: Able to set and change my email address" ID="ID_1074676613" CREATED="1386193902758" MODIFIED="1427107933317">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node TEXT="Tenancy Admininstrator" ID="ID_1252560861" CREATED="1390323255258" MODIFIED="1390323259807">
 <node TEXT="none" ID="ID_1759454478" CREATED="1390323854845" MODIFIED="1390323858744">
@@ -103,118 +120,185 @@
 </node>
 <node TEXT="Content Creator" ID="ID_1617804917" CREATED="1390323270234" MODIFIED="1390323273549">
 <node TEXT="Course creation / management" ID="ID_578616404" CREATED="1390324892120" MODIFIED="1390324899507">
-<node TEXT="Done" ID="ID_1564055856" CREATED="1410774503738" MODIFIED="1410774505624">
-<node TEXT="CCR-CRS-003: Able to CRUD courses" ID="ID_141691747" CREATED="1386259216812" MODIFIED="1387213184391"/>
-<node TEXT="CCR-CRS-006: Able to view the status and details of a course" ID="ID_164637877" CREATED="1386259659650" MODIFIED="1387213196505"/>
-<node TEXT="CCR-CRS-014: Able to export a course" ID="ID_348795778" CREATED="1386259534725" MODIFIED="1387213233328">
+<node TEXT="CCR-CRS-003: Able to CRUD courses" ID="ID_141691747" CREATED="1386259216812" MODIFIED="1427107943972">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CRS-006: Able to view the status and details of a course" ID="ID_164637877" CREATED="1386259659650" MODIFIED="1427107947253">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CRS-014: Able to export a course" ID="ID_348795778" CREATED="1386259534725" MODIFIED="1427107957468">
+<icon BUILTIN="button_cancel"/>
 <node TEXT="Excluding history and permissions" ID="ID_1671230215" CREATED="1387553426083" MODIFIED="1387553436015"/>
 </node>
-<node TEXT="CCR-CRS-017: Able to add course metadata (including duration etc)" ID="ID_570882876" CREATED="1386596507454" MODIFIED="1387213248624"/>
+<node TEXT="CCR-CRS-015: Able to import a course" ID="ID_1005838562" CREATED="1386259550198" MODIFIED="1427107958564">
+<icon BUILTIN="button_cancel"/>
 </node>
-<node TEXT="CCR-CRS-015: Able to import a course" ID="ID_1005838562" CREATED="1386259550198" MODIFIED="1387213239016"/>
+<node TEXT="CCR-CRS-017: Able to add course metadata (including duration etc)" ID="ID_570882876" CREATED="1386596507454" MODIFIED="1427107963829">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="Course structure" ID="ID_565035301" CREATED="1390324943310" MODIFIED="1390324946658">
-<node TEXT="Done" ID="ID_1605470478" CREATED="1410774535879" MODIFIED="1410774537270">
-<node TEXT="CCR-CSTR-001: Able to CRUD a page" ID="ID_1564389158" CREATED="1386262241730" MODIFIED="1387213672557"/>
-<node TEXT="CCR-CSTR-002: Able to arrange pages into a hierarchy / sequence" ID="ID_1982153232" CREATED="1386262755906" MODIFIED="1387213677471"/>
-<node TEXT="CCR-CSTR-004: Able to copy a page" ID="ID_168223656" CREATED="1386262720955" MODIFIED="1387213686309"/>
-<node TEXT="CCR-CSTR-005: Able to paste a copied page" ID="ID_597111582" CREATED="1386597307469" MODIFIED="1387213690518"/>
-<node TEXT="CCR-CSTR-008: Able to CRUD an article" ID="ID_953884482" CREATED="1386262257125" MODIFIED="1387213704934"/>
-<node TEXT="CCR-CSTR-009: Able to copy an article" ID="ID_1139233713" CREATED="1386262303563" MODIFIED="1387213709054"/>
-<node TEXT="CCR-CSTR-010: Able to cut an article" ID="ID_1459717128" CREATED="1386262303563" MODIFIED="1387213713358"/>
-<node TEXT="CCR-CSTR-011: Able to paste a cut/copied article" ID="ID_1986624988" CREATED="1386597307469" MODIFIED="1387213719222"/>
-<node TEXT="CCR-CSTR-012: Able to move an article within a page" ID="ID_1301871868" CREATED="1386262281509" MODIFIED="1387555313237"/>
-<node TEXT="CCR-CSTR-015: Able to CRUD a block" ID="ID_1584510622" CREATED="1386262671675" MODIFIED="1387213735630"/>
-<node TEXT="CCR-CSTR-016: Able to copy a block" ID="ID_1896307920" CREATED="1386262303563" MODIFIED="1387213743405"/>
-<node TEXT="CCR-CSTR-017: Able to paste a copied block" ID="ID_93219323" CREATED="1386262303563" MODIFIED="1387213748029"/>
-<node TEXT="CCR-CSTR-018: Able to move a block between articles within a page" ID="ID_1167879770" CREATED="1386262295068" MODIFIED="1387555375634"/>
-<node TEXT="CCR-CSTR-021: Able to CRUD a component" ID="ID_655909454" CREATED="1386262671675" MODIFIED="1387213767628"/>
-<node TEXT="CCR-CSTR-022: Able to pick a component from a library of components" ID="ID_937565716" CREATED="1386192695259" MODIFIED="1387213771541"/>
-<node TEXT="CCR-CSTR-023: Able to copy a component" ID="ID_290907359" CREATED="1386262303563" MODIFIED="1387213775285"/>
-<node TEXT="CCR-CSTR-024: Able to paste a copied component" ID="ID_238925477" CREATED="1386262303563" MODIFIED="1387213778861"/>
-<node TEXT="CCR-CSTR-025: Able to move a component" ID="ID_401442610" CREATED="1386262295068" MODIFIED="1387555472104"/>
-<node TEXT="CCR-CSTR-029: Able to include any existing component as a triggered component" ID="ID_32625691" CREATED="1386173856001" MODIFIED="1387555504622"/>
 </node>
-<node TEXT="CCR-CSTR-003: Able to move a page" ID="ID_254600644" CREATED="1386262295068" MODIFIED="1387213681445"/>
+<node TEXT="Course structure" ID="ID_565035301" CREATED="1390324943310" MODIFIED="1427108157507">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-CSTR-001: Able to CRUD a page" ID="ID_1564389158" CREATED="1386262241730" MODIFIED="1427108002508">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="Navigation" ID="ID_1668996851" CREATED="1390325129020" MODIFIED="1390325131118">
-<node TEXT="Done" ID="ID_140460681" CREATED="1410774662082" MODIFIED="1410774663456">
-<node TEXT="CCR-MEN-002: Able to send learners straight to content (bypass menu)" ID="ID_1882250137" CREATED="1386597078738" MODIFIED="1387213990576"/>
-<node TEXT="CCR-MEN-004: Able to organise navigation into deep scrolling" ID="ID_1282549355" CREATED="1386174394151" MODIFIED="1387213997559"/>
-<node TEXT="CCR-MEN-006: Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1387218152392"/>
-<node TEXT="CCR-MEN-007: Able to lock navigation between articles dependent on block completion" ID="ID_813636879" CREATED="1387800983951" MODIFIED="1387801009685"/>
+<node TEXT="CCR-CSTR-002: Able to arrange pages into a hierarchy / sequence" ID="ID_1982153232" CREATED="1386262755906" MODIFIED="1427108003108">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-003: Able to move a page" ID="ID_254600644" CREATED="1386262295068" MODIFIED="1427108004876">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-004: Able to copy a page" ID="ID_168223656" CREATED="1386262720955" MODIFIED="1427108006148">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-005: Able to paste a copied page" ID="ID_597111582" CREATED="1386597307469" MODIFIED="1427108007044">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-008: Able to CRUD an article" ID="ID_953884482" CREATED="1386262257125" MODIFIED="1427108007700">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-009: Able to copy an article" ID="ID_1139233713" CREATED="1386262303563" MODIFIED="1427108008324">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-010: Able to cut an article" ID="ID_1459717128" CREATED="1386262303563" MODIFIED="1427108008883">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-011: Able to paste a cut/copied article" ID="ID_1986624988" CREATED="1386597307469" MODIFIED="1427108009380">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-012: Able to move an article within a page" ID="ID_1301871868" CREATED="1386262281509" MODIFIED="1427108012572">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-015: Able to CRUD a block" ID="ID_1584510622" CREATED="1386262671675" MODIFIED="1427108013324">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-016: Able to copy a block" ID="ID_1896307920" CREATED="1386262303563" MODIFIED="1427108013917">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-017: Able to paste a copied block" ID="ID_93219323" CREATED="1386262303563" MODIFIED="1427108014412">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-018: Able to move a block between articles within a page" ID="ID_1167879770" CREATED="1386262295068" MODIFIED="1427108015500">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-021: Able to CRUD a component" ID="ID_655909454" CREATED="1386262671675" MODIFIED="1427108016212">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-022: Able to pick a component from a library of components" ID="ID_937565716" CREATED="1386192695259" MODIFIED="1427108016899">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-023: Able to copy a component" ID="ID_290907359" CREATED="1386262303563" MODIFIED="1427108018612">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-024: Able to paste a copied component" ID="ID_238925477" CREATED="1386262303563" MODIFIED="1427108019388">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-025: Able to move a component" ID="ID_401442610" CREATED="1386262295068" MODIFIED="1427108020180">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CSTR-029: Able to include any existing component as a triggered component" ID="ID_32625691" CREATED="1386173856001" MODIFIED="1427108020844">
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node TEXT="Navigation" ID="ID_1668996851" CREATED="1390325129020" MODIFIED="1427108161739">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-MEN-002: Able to send learners straight to content (bypass menu)" ID="ID_1882250137" CREATED="1386597078738" MODIFIED="1427108042396">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-MEN-004: Able to organise navigation into deep scrolling" ID="ID_1282549355" CREATED="1386174394151" MODIFIED="1427108042947">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-MEN-006: Able to lock navigation to the next block dependent on block completion" ID="ID_1453321204" CREATED="1386174267664" MODIFIED="1427108057772">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-MEN-007: Able to lock navigation between articles dependent on block completion" ID="ID_813636879" CREATED="1387800983951" MODIFIED="1427108058300">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node TEXT="Tracking" ID="ID_1828217784" CREATED="1390325191970" MODIFIED="1390325196861">
-<node TEXT="Done" ID="ID_52842080" CREATED="1410774690530" MODIFIED="1410774691792">
-<node TEXT="CCR-TRK-001: Able to configure what constitutes course completion" ID="ID_1936324703" CREATED="1386192783828" MODIFIED="1387214058383">
+<node TEXT="CCR-TRK-001: Able to configure what constitutes course completion" ID="ID_1936324703" CREATED="1386192783828" MODIFIED="1427108062395">
+<icon BUILTIN="button_ok"/>
 <node TEXT="Based on on two simple variables" ID="ID_1628726759" CREATED="1387557394046" MODIFIED="1387557407674"/>
 </node>
+<node TEXT="CCR-TRK-003: Able to choose &apos;no tracking&apos; option" ID="ID_1781620248" CREATED="1386694285089" MODIFIED="1427108062924">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="Framework" ID="ID_330444798" CREATED="1410783517806" MODIFIED="1410783519778">
-<node TEXT="CCR-TRK-003: Able to choose &apos;no tracking&apos; option" ID="ID_1781620248" CREATED="1386694285089" MODIFIED="1387214065207"/>
-<node TEXT="CCR-TRK-004: Able to toggle and configure the &apos;connection lost&apos; message" ID="ID_61834292" CREATED="1386760874678" MODIFIED="1387214068583"/>
+<node TEXT="CCR-TRK-004: Able to toggle and configure the &apos;connection lost&apos; message" ID="ID_61834292" CREATED="1386760874678" MODIFIED="1427108072707">
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_1762787393" CREATED="1390325302758" MODIFIED="1390325309706">
-<node TEXT="Done" ID="ID_1221618829" CREATED="1410774750199" MODIFIED="1410774754390">
-<node TEXT="CCR-WOW-004: Able to immediately preview my changes" ID="ID_1780729825" CREATED="1386192668943" MODIFIED="1389346698917"/>
-<node TEXT="CCR-WOW-008: Able to add textual content with basic formatting" ID="ID_987608440" CREATED="1386694463134" MODIFIED="1387218047794">
+<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1348595245" CREATED="1386191998869" MODIFIED="1427108087979">
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="CCR-WOW-004: Able to immediately preview my changes" ID="ID_1780729825" CREATED="1386192668943" MODIFIED="1427108091172">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-WOW-005: Able to freeze a content item to prevent changes from concurrent editing" ID="ID_456896564" CREATED="1386192709572" MODIFIED="1427108093916">
+<icon BUILTIN="button_cancel"/>
 <font BOLD="false"/>
 </node>
-<node TEXT="CCR-WOW-009: Able to add content images to relevant components" ID="ID_480373102" CREATED="1386258609568" MODIFIED="1387218047796">
-<font BOLD="false"/>
-</node>
-<node TEXT="CCR-WOW-010: Able to add alternative text to content images" ID="ID_617645962" CREATED="1386258741406" MODIFIED="1387218047796">
-<font BOLD="false"/>
-</node>
-<node TEXT="CCR-WOW-015: Able to add audio files to relevant components" ID="ID_1860157963" CREATED="1386258755814" MODIFIED="1387217906240"/>
-<node TEXT="CCR-WOW-017: Able to add a video files to relevant components" ID="ID_1839493699" CREATED="1386192765320" MODIFIED="1387217913455"/>
-<node TEXT="CCR-WOW-019: Able to set the configuration options to determine component behaviour (where applicable)" ID="ID_1374848329" CREATED="1386694419102" MODIFIED="1387217921391">
-<node TEXT="Layout attributes, full width etc." ID="ID_1009487231" CREATED="1389348291746" MODIFIED="1389348307559"/>
-</node>
-<node TEXT="CCR-WOW-023: Able to message users to prevent accidental deletion of content items" ID="ID_1186085250" CREATED="1386192709572" MODIFIED="1391616224638">
+<node TEXT="CCR-WOW-023: Able to message users to prevent accidental deletion of content items" ID="ID_1186085250" CREATED="1386192709572" MODIFIED="1427108097436">
+<icon BUILTIN="button_cancel"/>
 <font BOLD="false"/>
 <node TEXT="Accidental deletion (design constraint); confirmation boxes" ID="ID_1252683977" CREATED="1389347169318" MODIFIED="1389347332158"/>
 </node>
-</node>
-<node TEXT="CCR-WOW-011: Able to upload multiple versions of a graphic for use in different contexts" ID="ID_1403318975" CREATED="1386192714541" MODIFIED="1389347651920">
-<node TEXT="where appropriate" ID="ID_589229325" CREATED="1389347710156" MODIFIED="1389347721278"/>
-</node>
-<node TEXT="CCR-WOW-005: Able to freeze a content item to prevent changes from concurrent editing" ID="ID_456896564" CREATED="1386192709572" MODIFIED="1391616035395">
+<node TEXT="CCR-WOW-008: Able to add textual content with basic formatting" ID="ID_987608440" CREATED="1386694463134" MODIFIED="1427108101420">
+<icon BUILTIN="button_ok"/>
 <font BOLD="false"/>
 </node>
-<node TEXT="Duplicate" ID="ID_270577878" CREATED="1410784250837" MODIFIED="1410784264212">
-<node TEXT="CCR-WOW-003: Able to undo changes immediately in the project" ID="ID_1348595245" CREATED="1386191998869" MODIFIED="1387214701217"/>
+<node TEXT="CCR-WOW-009: Able to add content images to relevant components" ID="ID_480373102" CREATED="1386258609568" MODIFIED="1427108103059">
+<icon BUILTIN="button_ok"/>
+<font BOLD="false"/>
+</node>
+<node TEXT="CCR-WOW-010: Able to add alternative text to content images" ID="ID_617645962" CREATED="1386258741406" MODIFIED="1427108105380">
+<icon BUILTIN="button_ok"/>
+<font BOLD="false"/>
+</node>
+<node TEXT="CCR-WOW-011: Able to upload multiple versions of a graphic for use in different contexts" ID="ID_1403318975" CREATED="1386192714541" MODIFIED="1427108107395">
+<icon BUILTIN="button_ok"/>
+<node TEXT="where appropriate" ID="ID_589229325" CREATED="1389347710156" MODIFIED="1389347721278"/>
+</node>
+<node TEXT="CCR-WOW-015: Able to add audio files to relevant components" ID="ID_1860157963" CREATED="1386258755814" MODIFIED="1427108109164">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-WOW-017: Able to add a video files to relevant components" ID="ID_1839493699" CREATED="1386192765320" MODIFIED="1427108109811">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-WOW-019: Able to set the configuration options to determine component behaviour (where applicable)" ID="ID_1374848329" CREATED="1386694419102" MODIFIED="1427108112540">
+<icon BUILTIN="button_ok"/>
+<node TEXT="Layout attributes, full width etc." ID="ID_1009487231" CREATED="1389348291746" MODIFIED="1389348307559"/>
 </node>
 </node>
-<node TEXT="Assessment" ID="ID_1383527291" CREATED="1390325511385" MODIFIED="1390325513588">
-<node TEXT="Done" ID="ID_1729285341" CREATED="1410775109278" MODIFIED="1410775110746">
+<node TEXT="Assessment" ID="ID_1383527291" CREATED="1390325511385" MODIFIED="1427108124643">
+<icon BUILTIN="button_cancel"/>
 <node TEXT="CCR-ASSM-001: Able to turn an article into an assessment" ID="ID_1064009882" CREATED="1386756332158" MODIFIED="1387215347709"/>
 <node TEXT="CCR-ASSM-002: Able to remove the assessment element from an assessment article" ID="ID_1290376339" CREATED="1386756610062" MODIFIED="1390299119161"/>
 <node TEXT="CCR-ASSM-003: Able to set the passmark" ID="ID_1831646636" CREATED="1386756381163" MODIFIED="1387215354988"/>
-<node TEXT="CCR-ASSM-008: Able to provide end of assessment feedback" ID="ID_1707937836" CREATED="1386756430442" MODIFIED="1387215377700"/>
-<node TEXT="CCR-ASSM-009: Able to set graduated feedback (number and range of feedback bands)" ID="ID_985021388" CREATED="1386090617353" MODIFIED="1387215386196"/>
-<node TEXT="CCR-ASSM-011: Able to step-lock the assessment" ID="ID_767879757" CREATED="1386090153155" MODIFIED="1391614828508"/>
-</node>
-<node TEXT="Framework" ID="ID_1540486673" CREATED="1410784532844" MODIFIED="1410784537066">
 <node TEXT="CCR-ASSM-005: Able to determine whether the assessment can be re-taken" ID="ID_1023624932" CREATED="1386756386985" MODIFIED="1387215363684"/>
 <node TEXT="CCR-ASSM-006: Able to determine navigation behaviour during the assessment" ID="ID_1752747722" CREATED="1386756655669" MODIFIED="1387215367724">
 <node TEXT="i.e. go back, enable/disable reset" ID="ID_468461758" CREATED="1390299339834" MODIFIED="1390299354093"/>
 </node>
-</node>
+<node TEXT="CCR-ASSM-008: Able to provide end of assessment feedback" ID="ID_1707937836" CREATED="1386756430442" MODIFIED="1387215377700"/>
+<node TEXT="CCR-ASSM-009: Able to set graduated feedback (number and range of feedback bands)" ID="ID_985021388" CREATED="1386090617353" MODIFIED="1387215386196"/>
+<node TEXT="CCR-ASSM-011: Able to step-lock the assessment" ID="ID_767879757" CREATED="1386090153155" MODIFIED="1391614828508"/>
 </node>
 <node TEXT="Publishing" ID="ID_1074220757" CREATED="1390325576737" MODIFIED="1390325580868">
-<node TEXT="Done" ID="ID_1975391780" CREATED="1410775159978" MODIFIED="1410775160958">
-<node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1387215535001"/>
-<node TEXT="CCR-PUB-004: Able to publish the course in a non-tracking web format" ID="ID_85915493" CREATED="1386760646362" MODIFIED="1387215558584"/>
+<node TEXT="CCR-PUB-001: Able to publish a project that produces SCORM 1.2 conformant tracking" ID="ID_537614061" CREATED="1386192561756" MODIFIED="1427108129331">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="CCR-PUB-006: Able to publish the course in an uncompressed format" ID="ID_1982784676" CREATED="1386760562220" MODIFIED="1387215563486"/>
+<node TEXT="CCR-PUB-004: Able to publish the course in a non-tracking web format" ID="ID_85915493" CREATED="1386760646362" MODIFIED="1427108132771">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-PUB-006: Able to publish the course in an uncompressed format" ID="ID_1982784676" CREATED="1386760562220" MODIFIED="1427108136347">
+<icon BUILTIN="button_cancel"/>
+</node>
 </node>
 </node>
 <node TEXT="Developer" ID="ID_295530961" CREATED="1390323307555" MODIFIED="1390323309085">
-<node TEXT="Done" ID="ID_38707671" CREATED="1410775284625" MODIFIED="1410775286015"/>
-<node TEXT="AUTH-DEV-004: Able to publish the content uncompressed (duplicate)" ID="ID_670473218" CREATED="1386193007638" MODIFIED="1387215682500"/>
+<node TEXT="AUTH-DEV-004: Able to publish the content uncompressed (duplicate)" ID="ID_670473218" CREATED="1386193007638" MODIFIED="1427108140827">
+<icon BUILTIN="button_cancel"/>
+</node>
 </node>
 <node TEXT="Reviewer" ID="ID_1767183291" CREATED="1390323309610" MODIFIED="1390323311270">
 <node TEXT="none" ID="ID_1811366486" CREATED="1390325679927" MODIFIED="1390325683238">
@@ -255,19 +339,22 @@
 </node>
 <node TEXT="Content Creator" ID="ID_59890705" CREATED="1390323270234" MODIFIED="1390323273549">
 <node TEXT="Assessment" ID="ID_1299642610" CREATED="1391601971291" MODIFIED="1391601973759">
-<node TEXT="Done" ID="ID_1710758393" CREATED="1410775317376" MODIFIED="1410775318498">
-<node TEXT="CCR-ASSM-010: Able to use any question component as part of an assessment" ID="ID_461621915" CREATED="1386090554035" MODIFIED="1387215393275"/>
+<node TEXT="CCR-ASSM-010: Able to use any question component as part of an assessment" ID="ID_461621915" CREATED="1386090554035" MODIFIED="1427108205739">
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node TEXT="Publishing" ID="ID_1784996614" CREATED="1391602109377" MODIFIED="1391602111636">
-<node TEXT="Done" ID="ID_1753214762" CREATED="1410775371391" MODIFIED="1410775372335">
-<node TEXT="CCR-PUB-005: Able to publish content in a compressed / minified format" ID="ID_1079910474" CREATED="1386192778531" MODIFIED="1387215553736"/>
+<node TEXT="CCR-PUB-005: Able to publish content in a compressed / minified format" ID="ID_1079910474" CREATED="1386192778531" MODIFIED="1427108193451">
+<icon BUILTIN="button_cancel"/>
 </node>
-<node TEXT="CCR-PUB-007: Able to include the version / revision number in the published course for reference" ID="ID_618056372" CREATED="1386760595324" MODIFIED="1387215569000"/>
+<node TEXT="CCR-PUB-007: Able to include the version / revision number in the published course for reference" ID="ID_618056372" CREATED="1386760595324" MODIFIED="1427108194107">
+<icon BUILTIN="button_cancel"/>
 </node>
-<node TEXT="Course creation / management" ID="ID_820493690" CREATED="1391602815593" MODIFIED="1391602821502">
-<node TEXT="Done" ID="ID_227681334" CREATED="1410775383069" MODIFIED="1410775384312">
-<node TEXT="CCR-CRS-008: Able to copy a course (duplicating)" ID="ID_59643688" CREATED="1386259729417" MODIFIED="1387213204744"/>
+</node>
+<node TEXT="Course creation / management" ID="ID_820493690" CREATED="1391602815593" MODIFIED="1427108200730">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-CRS-008: Able to copy a course (duplicating)" ID="ID_59643688" CREATED="1386259729417" MODIFIED="1427108199635">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
@@ -313,31 +400,30 @@
 <font ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Content Creator" ID="ID_1205314755" CREATED="1390323270234" MODIFIED="1390323273549">
+<node TEXT="Content Creator" ID="ID_1205314755" CREATED="1390323270234" MODIFIED="1427108294570">
+<icon BUILTIN="button_ok"/>
 <node TEXT="Navigation" ID="ID_875247427" CREATED="1391601113965" MODIFIED="1391601116681">
-<node TEXT="Done" ID="ID_1136034837" CREATED="1410775409051" MODIFIED="1410775410197">
-<node TEXT="CCR-MEN-005: Able to organise navigation into lateral scrolling" ID="ID_859303198" CREATED="1386174413287" MODIFIED="1387214004888"/>
+<node TEXT="CCR-MEN-005: Able to organise navigation into lateral scrolling" ID="ID_859303198" CREATED="1386174413287" MODIFIED="1427108267858">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_1212887078" CREATED="1391601512029" MODIFIED="1391601518481">
-<node TEXT="Done" ID="ID_1935778008" CREATED="1410775415524" MODIFIED="1410775416722">
-<node TEXT="CCR-WOW-016: Able to add transcripts for components which have an audio track" ID="ID_1784634401" CREATED="1386258785789" MODIFIED="1387217910119"/>
+<node TEXT="CCR-WOW-016: Able to add transcripts for components which have an audio track" ID="ID_1784634401" CREATED="1386258785789" MODIFIED="1427108280530">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node TEXT="Assessment" ID="ID_1900206761" CREATED="1391601987484" MODIFIED="1391601991007">
-<node TEXT="Done" ID="ID_976015413" CREATED="1410775446447" MODIFIED="1410775447297"/>
-<node TEXT="Framework" ID="ID_323683773" CREATED="1410785693583" MODIFIED="1410785695523">
-<node TEXT="CCR-ASSM-012: Able to inform the learner about potential data loss if they navigate away from an assessment" ID="ID_1772382691" CREATED="1386090195746" MODIFIED="1387215400347">
+<node TEXT="CCR-ASSM-012: Able to inform the learner about potential data loss if they navigate away from an assessment" ID="ID_1772382691" CREATED="1386090195746" MODIFIED="1427108287714">
+<icon BUILTIN="button_ok"/>
 <node TEXT="Must for framework 1.0 but could hardcoded / non-editable in tool" ID="ID_1722380525" CREATED="1390299886933" MODIFIED="1390299914720">
 <node TEXT="LRN-ART-004" ID="ID_1554012752" CREATED="1390299936580" MODIFIED="1390299945023"/>
 <node TEXT="CCR-ASSM-012" ID="ID_452405873" CREATED="1390299945604" MODIFIED="1390299961967"/>
 </node>
 </node>
 </node>
-</node>
 <node TEXT="Publishing" ID="ID_972724963" CREATED="1391602145481" MODIFIED="1391602147451">
-<node TEXT="Done" ID="ID_1744701767" CREATED="1410775461497" MODIFIED="1410775462511">
-<node TEXT="CCR-PUB-002: Able to export a course as a SCORM zip file" ID="ID_1053173596" CREATED="1386192579433" MODIFIED="1387215540120"/>
+<node TEXT="CCR-PUB-002: Able to export a course as a SCORM zip file" ID="ID_1053173596" CREATED="1386192579433" MODIFIED="1427108292418">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
@@ -372,7 +458,6 @@
 <font SIZE="20" BOLD="true"/>
 <node TEXT="Must" ID="ID_1358083834" CREATED="1390324766474" MODIFIED="1390324769301">
 <node TEXT="Super Administrator" ID="ID_1843943828" CREATED="1390323222068" MODIFIED="1390323230639">
-<node TEXT="Done" ID="ID_105416937" CREATED="1410775535090" MODIFIED="1410775536097"/>
 <node TEXT="SPR-TEN-001: Able to CRUD tenancies" ID="ID_1546783119" CREATED="1386263798303" MODIFIED="1387210637797"/>
 <node TEXT="SPR-API-001: Able to enable/disable APIs / API plug-ins" ID="ID_418438386" CREATED="1386263538371" MODIFIED="1387210650646"/>
 <node TEXT="SPR-API-002: Able to add new plug-in webservice APIs" ID="ID_1816714277" CREATED="1386263548181" MODIFIED="1387210654827">
@@ -385,7 +470,6 @@
 <node TEXT="SPR-POL-003: Able to define system role creation options for tenancies" ID="ID_62621143" CREATED="1386263746496" MODIFIED="1387210728964"/>
 </node>
 <node TEXT="All users" ID="ID_995736593" CREATED="1390323236923" MODIFIED="1390323246063">
-<node TEXT="Done" ID="ID_636102900" CREATED="1410775997308" MODIFIED="1410775998859"/>
 <node TEXT="ALL-LGN-003: Able to reset my password securely" ID="ID_116751056" CREATED="1386193840319" MODIFIED="1387210941063"/>
 <node TEXT="ALL-PRO-001: Able to set and change my personal details" ID="ID_107650809" CREATED="1386193888359" MODIFIED="1387210982278"/>
 <node TEXT="ALL-COL-001: Able to invite collaborators to projects I own (or have sufficient permissions to)" ID="ID_248202335" CREATED="1386192605337" MODIFIED="1387211028493">
@@ -400,7 +484,6 @@
 <node TEXT="ALL-COL-011: Able to link directly to a specific component within a course" ID="ID_868553319" CREATED="1387542076424" MODIFIED="1387542095180"/>
 </node>
 <node TEXT="Tenancy Admininstrator" ID="ID_1441274742" CREATED="1390323255258" MODIFIED="1390323259807">
-<node TEXT="Done" ID="ID_1639437428" CREATED="1410776023676" MODIFIED="1410776025076"/>
 <node TEXT="ADM-TEN-002: Able to CRUD system roles from capabilities in the scope of a tenancy" ID="ID_1276774455" CREATED="1386794528603" MODIFIED="1387211124533"/>
 <node TEXT="ADM-TEN-003: Able to assign/unassign tenancy-scope system roles to users within the tenancy" ID="ID_1962332564" CREATED="1386794556914" MODIFIED="1387211128858"/>
 <node TEXT="ADM-TEN-005: Able to CRUD users within the tenancy" ID="ID_565504812" CREATED="1386794834011" MODIFIED="1387211137539"/>
@@ -413,9 +496,11 @@
 </node>
 <node TEXT="Content Creator" ID="ID_815806406" CREATED="1391600326927" MODIFIED="1391600334338">
 <node TEXT="Look and feel" ID="ID_1228347169" CREATED="1391600336766" MODIFIED="1391600344474">
-<node TEXT="Done" ID="ID_1613045105" CREATED="1410776045239" MODIFIED="1410776047056">
-<node TEXT="CCR-LF-001: Able to choose a standard theme from a range of options" ID="ID_1076747713" CREATED="1386600067572" MODIFIED="1387211479852"/>
-<node TEXT="CCR-LF-002: Able to choose a custom theme" ID="ID_559264775" CREATED="1386257757001" MODIFIED="1387211482572"/>
+<node TEXT="CCR-LF-001: Able to choose a standard theme from a range of options" ID="ID_1076747713" CREATED="1386600067572" MODIFIED="1427108445593">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-LF-002: Able to choose a custom theme" ID="ID_559264775" CREATED="1386257757001" MODIFIED="1427108447873">
+<icon BUILTIN="button_ok"/>
 </node>
 <node TEXT="CCR-LF-003: Able to modify basic theme colour settings" ID="ID_1290640993" CREATED="1386598357680" MODIFIED="1387211485450"/>
 <node TEXT="CCR-LF-004: Able to modify high-level padding and spacing settings" ID="ID_1142036172" CREATED="1386598450590" MODIFIED="1387211488348"/>
@@ -427,14 +512,18 @@
 <node TEXT="CCR-LF-012: Able to choose background images for articles" ID="ID_1096899419" CREATED="1386258639936" MODIFIED="1387211929145"/>
 <node TEXT="CCR-LF-013: Able to insert a transparent placeholder which allows learners to see the background graphic" ID="ID_1167957523" CREATED="1386173219399" MODIFIED="1387211934555"/>
 </node>
-<node TEXT="Asset management" ID="ID_948618644" CREATED="1391600346015" MODIFIED="1391600351345">
-<node TEXT="Done" ID="ID_363454281" CREATED="1410776096246" MODIFIED="1410776097780">
-<node TEXT="CCR-AMGMT-016: Able to upload themes" ID="ID_342829532" CREATED="1386601662642" MODIFIED="1387212259502">
+<node TEXT="Asset management" ID="ID_948618644" CREATED="1391600346015" MODIFIED="1427108476193">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-AMGMT-016: Able to upload themes" ID="ID_342829532" CREATED="1386601662642" MODIFIED="1427108470713">
+<icon BUILTIN="button_ok"/>
 <font BOLD="false"/>
 </node>
-<node TEXT="CCR-AMGMT-017: Able to change (re-upload) themes" ID="ID_856713281" CREATED="1386601952141" MODIFIED="1387212264587"/>
+<node TEXT="CCR-AMGMT-017: Able to change (re-upload) themes" ID="ID_856713281" CREATED="1386601952141" MODIFIED="1427108473281">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="CCR-AMGMT-019: Able to delete themes" ID="ID_1295934905" CREATED="1386601679210" MODIFIED="1387212272771"/>
+<node TEXT="CCR-AMGMT-019: Able to delete themes" ID="ID_1295934905" CREATED="1386601679210" MODIFIED="1427108474665">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node TEXT="Course creation / management" ID="ID_912752419" CREATED="1391600352750" MODIFIED="1391600357864">
 <node TEXT="none" ID="ID_429612558" CREATED="1391600957113" MODIFIED="1391600960008">
@@ -446,12 +535,15 @@
 <font ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Navigation" ID="ID_989779169" CREATED="1391600364716" MODIFIED="1391600366600">
-<node TEXT="Done" ID="ID_436184203" CREATED="1410776118881" MODIFIED="1410776120061"/>
-<node TEXT="CCR-MEN-001: Able to choose a generic menu from a range of options" ID="ID_90680841" CREATED="1386263397839" MODIFIED="1387213986736">
+<node TEXT="Navigation" ID="ID_989779169" CREATED="1391600364716" MODIFIED="1427108484513">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-MEN-001: Able to choose a generic menu from a range of options" ID="ID_90680841" CREATED="1386263397839" MODIFIED="1427108482449">
+<icon BUILTIN="button_ok"/>
 <node TEXT="Excludes multiple standard options" ID="ID_373195099" CREATED="1387555723814" MODIFIED="1387555737809"/>
 </node>
-<node TEXT="CCR-MEN-003: Able to upload a custom menu" ID="ID_1560907094" CREATED="1386263379192" MODIFIED="1387213994256"/>
+<node TEXT="CCR-MEN-003: Able to upload a custom menu" ID="ID_1560907094" CREATED="1386263379192" MODIFIED="1427108483640">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node TEXT="Tracking" ID="ID_588917492" CREATED="1391600369686" MODIFIED="1391600371050">
 <node TEXT="none" ID="ID_13281158" CREATED="1391601830767" MODIFIED="1391601833045">
@@ -459,25 +551,23 @@
 </node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_455895743" CREATED="1391600383205" MODIFIED="1391600387336">
-<node TEXT="Done" ID="ID_1091502402" CREATED="1410776131538" MODIFIED="1410776132635">
-<node TEXT="CCR-WOW-001: Able to build content quickly without advanced technical expertise" ID="ID_21265045" CREATED="1386192557127" MODIFIED="1387214693970"/>
+<node TEXT="CCR-WOW-001: Able to build content quickly without advanced technical expertise" ID="ID_21265045" CREATED="1386192557127" MODIFIED="1427108491817">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="CCR-WOW-020: Able to immediately preview my changes via providing a link on the server" ID="ID_1024189012" CREATED="1386192668943" MODIFIED="1391614976690">
+<node TEXT="CCR-WOW-020: Able to immediately preview my changes via providing a link on the server" ID="ID_1024189012" CREATED="1386192668943" MODIFIED="1427108492297">
+<icon BUILTIN="button_ok"/>
 <node TEXT="On multiple devices" ID="ID_1070448118" CREATED="1389346759654" MODIFIED="1389346771121"/>
 </node>
 </node>
 <node TEXT="Learner support" ID="ID_1130666534" CREATED="1391600394397" MODIFIED="1391600397481">
-<node TEXT="Done" ID="ID_1386504263" CREATED="1410776173931" MODIFIED="1410776175262">
-<node TEXT="CCR-LSUP-001: Able to add/remove file resources" ID="ID_615595229" CREATED="1386695046345" MODIFIED="1387214815423">
+<node TEXT="CCR-LSUP-001: Able to add/remove file resources" ID="ID_615595229" CREATED="1386695046345" MODIFIED="1427108496120">
+<icon BUILTIN="button_ok"/>
 <node TEXT="not in Framework 1.0 release" ID="ID_1683927497" CREATED="1389348712619" MODIFIED="1389348746725"/>
 </node>
 </node>
-</node>
 <node TEXT="Overrides" ID="ID_590254832" CREATED="1391600398317" MODIFIED="1391600400272">
-<node TEXT="Removed" ID="ID_1837241088" CREATED="1410776217955" MODIFIED="1410776220086">
 <node TEXT="CCR-OVR-001: Able to add a ZIP archive, which will be extracted as part of the publishing process and override core Adapt code files" ID="ID_821280282" CREATED="1386695263341" MODIFIED="1387215289222"/>
 <node TEXT="CCR-OVR-002: Able to remove the ZIP archive" ID="ID_291050365" CREATED="1386695312109" MODIFIED="1387215293493"/>
-</node>
 </node>
 <node TEXT="Assessment" ID="ID_347237978" CREATED="1391600401628" MODIFIED="1391600403272">
 <node TEXT="none" ID="ID_1003092005" CREATED="1391601946315" MODIFIED="1391601948802">
@@ -501,13 +591,11 @@
 </node>
 </node>
 <node TEXT="Developer" ID="ID_1705163349" CREATED="1390323307555" MODIFIED="1390323309085">
-<node TEXT="Removed" ID="ID_1842439586" CREATED="1410776253409" MODIFIED="1410776255516">
 <node TEXT="AUTH-DEV-001: Able to upload files to override core code" ID="ID_881777256" CREATED="1386192087988" MODIFIED="1387215669622">
 <node TEXT="Similar to: CCR-OVR-001 + 002" ID="ID_1677075656" CREATED="1390301053444" MODIFIED="1390301071287"/>
 </node>
 <node TEXT="AUTH-DEV-002: Able to test the effect of overrides in preview" ID="ID_1926084403" CREATED="1386767965117" MODIFIED="1387215674069"/>
 <node TEXT="AUTH-DEV-003: Able to turn debugging of the authoring tool on / off" ID="ID_72816588" CREATED="1386767984062" MODIFIED="1387215677813"/>
-</node>
 </node>
 <node TEXT="Reviewer" ID="ID_1427717753" CREATED="1390323309610" MODIFIED="1390323311270">
 <node TEXT="none" ID="ID_1183655804" CREATED="1391593605303" MODIFIED="1391593606915">
@@ -525,7 +613,6 @@
 </node>
 </node>
 <node TEXT="Guest User" ID="ID_855479254" CREATED="1386087354205" MODIFIED="1387800027377">
-<node TEXT="Done" ID="ID_1189631844" CREATED="1410776298484" MODIFIED="1410776299450"/>
 <node TEXT="AUTH-GST-001: Able to enter the system without having to create a system account" ID="ID_1941890302" CREATED="1386769338315" MODIFIED="1387216022292"/>
 <node TEXT="AUTH-GST-002: Able to view projects which are visible to guest users" ID="ID_613901329" CREATED="1386769363282" MODIFIED="1387216030821"/>
 <node TEXT="AUTH-GST-003: Able to view projects, which have been shared with the guest user&apos;s email address" ID="ID_1944250250" CREATED="1386769393561" MODIFIED="1387216034198"/>
@@ -536,7 +623,6 @@
 </node>
 <node TEXT="Should" ID="ID_1523843010" CREATED="1390324769777" MODIFIED="1390324770948">
 <node TEXT="Super Administrator" ID="ID_244995579" CREATED="1391593744607" MODIFIED="1391593753163">
-<node TEXT="Done" ID="ID_984406426" CREATED="1410776346971" MODIFIED="1410776348156"/>
 <node TEXT="SPR-TEN-002: Able to manage cross-tenancy user access" ID="ID_289777126" CREATED="1386800239821" MODIFIED="1387210642045">
 <node TEXT="Should as can do multiple user accounts" ID="ID_65664893" CREATED="1387534401330" MODIFIED="1387534413030"/>
 </node>
@@ -544,7 +630,6 @@
 <node TEXT="SPR-PLG-007: Able to run a system health-check" ID="ID_428150044" CREATED="1386801460911" MODIFIED="1387210789018"/>
 </node>
 <node TEXT="All users" ID="ID_190364980" CREATED="1391593205378" MODIFIED="1391593210437">
-<node TEXT="Done" ID="ID_949687556" CREATED="1410776367417" MODIFIED="1410776368571"/>
 <node TEXT="ALL-WOW-004: Able to have context sensitive help available throughout the system" ID="ID_903852070" CREATED="1386781066113" MODIFIED="1387210911264"/>
 <node TEXT="ALL-ROL-001: Able to hold multiple roles across multiple tenancies" ID="ID_855740424" CREATED="1386780293553" MODIFIED="1387210952935"/>
 <node TEXT="ALL-ROL-005: Able to see a history of projects worked on" ID="ID_368677811" CREATED="1386780992226" MODIFIED="1387210969967">
@@ -558,7 +643,6 @@
 <node TEXT="ALL-COL-010: Able to invite collaborators who don&apos;t already have system accounts" ID="ID_434673992" CREATED="1387541898674" MODIFIED="1387541948807"/>
 </node>
 <node TEXT="Tenancy Administrator" ID="ID_1457178214" CREATED="1391593331288" MODIFIED="1391593335202">
-<node TEXT="Done" ID="ID_851213791" CREATED="1410776510181" MODIFIED="1410776511249"/>
 <node TEXT="ADM-TEN-010: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc)." ID="ID_1093085478" CREATED="1386795294875" MODIFIED="1387211219808"/>
 <node TEXT="ADM-TEN-021: Able to determine whether collaboration invites can be sent to system users only or also to external users" ID="ID_930283131" CREATED="1386796524392" MODIFIED="1391599955143"/>
 </node>
@@ -573,15 +657,24 @@
 <font ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Course creation / management" ID="ID_1877096132" CREATED="1391600352750" MODIFIED="1391600357864">
-<node TEXT="Done" ID="ID_533807983" CREATED="1410776520973" MODIFIED="1410776521956">
-<node TEXT="CCR-CRS-019: Able to filter and search for courses/projects using search terms" ID="ID_116124974" CREATED="1386192732486" MODIFIED="1387213258375"/>
+<node TEXT="Course creation / management" ID="ID_1877096132" CREATED="1391600352750" MODIFIED="1427108614953">
+<icon BUILTIN="button_ok"/>
+<node TEXT="CCR-CRS-001: Able to CRUD categories" ID="ID_654275617" CREATED="1386259355960" MODIFIED="1427108608344">
+<icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="CCR-CRS-001: Able to CRUD categories" ID="ID_654275617" CREATED="1386259355960" MODIFIED="1387213175057"/>
-<node TEXT="CCR-CRS-002: Able to CRUD subcategories at any level" ID="ID_136942977" CREATED="1386259352289" MODIFIED="1387213179513"/>
-<node TEXT="CCR-CRS-004: Able to assign courses to categories" ID="ID_757242166" CREATED="1386259352289" MODIFIED="1387213188513"/>
-<node TEXT="CCR-CRS-005: Able to remove courses from categories" ID="ID_1630141921" CREATED="1386259516614" MODIFIED="1387213192737"/>
+<node TEXT="CCR-CRS-002: Able to CRUD subcategories at any level" ID="ID_136942977" CREATED="1386259352289" MODIFIED="1427108607904">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CRS-004: Able to assign courses to categories" ID="ID_757242166" CREATED="1386259352289" MODIFIED="1427108603808">
+<icon BUILTIN="button_ok"/>
+</node>
+<node TEXT="CCR-CRS-005: Able to remove courses from categories" ID="ID_1630141921" CREATED="1386259516614" MODIFIED="1427108603144">
+<icon BUILTIN="button_ok"/>
+</node>
 <node TEXT="CCR-CRS-007: Able to set the status and workflow stage" ID="ID_602797577" CREATED="1386192919734" MODIFIED="1387213200552"/>
+<node TEXT="CCR-CRS-019: Able to filter and search for courses/projects using search terms" ID="ID_116124974" CREATED="1386192732486" MODIFIED="1427108599680">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 <node TEXT="Course structure" ID="ID_750020585" CREATED="1391600360068" MODIFIED="1391600363145">
 <node TEXT="none" ID="ID_373178911" CREATED="1391601040927" MODIFIED="1391601045246">
@@ -622,7 +715,6 @@
 </node>
 </node>
 <node TEXT="Assessment" ID="ID_1316374107" CREATED="1391600401628" MODIFIED="1391600403272">
-<node TEXT="Framework" ID="ID_1635166667" CREATED="1410776819490" MODIFIED="1410776828303">
 <node TEXT="CCR-ASSM-013: Able to group questions into banks around subject areas" ID="ID_1648766196" CREATED="1386756452065" MODIFIED="1387215405386"/>
 <node TEXT="CCR-ASSM-014: Able to configure how many questions will be displayed per bank" ID="ID_1238009049" CREATED="1386758015657" MODIFIED="1387215409747"/>
 <node TEXT="CCR-ASSM-015: Able to configure mandatory questions for each bank" ID="ID_1102250237" CREATED="1386758045136" MODIFIED="1387215416507"/>
@@ -630,14 +722,11 @@
 <node TEXT="CCR-ASSM-017: Able to randomise the order and choice of questions" ID="ID_535021988" CREATED="1386089933318" MODIFIED="1387215428115"/>
 <node TEXT="CCR-ASSM-018: Able to signpost to the learner which subject areas they need to revisit as part of the post assessment feedback" ID="ID_1711357879" CREATED="1386758140262" MODIFIED="1387215433747"/>
 </node>
-</node>
 <node TEXT="System validation" ID="ID_1248228243" CREATED="1391600404797" MODIFIED="1391600409135">
 <node TEXT="CCR-SVAL-002: Able to run a system requirements report (e.g. browser spec) for the course based on the metadata for the components and plug-ins used" ID="ID_202142545" CREATED="1386760365944" MODIFIED="1387215508188"/>
 </node>
 <node TEXT="Publishing" ID="ID_838740981" CREATED="1391600409931" MODIFIED="1391600412319">
-<node TEXT="Framework" ID="ID_607282786" CREATED="1410776844566" MODIFIED="1410776846650">
 <node TEXT="CCR-PUB-003: Able to publish my project as a Tin Can package" ID="ID_228835029" CREATED="1386192638697" MODIFIED="1387215544032"/>
-</node>
 </node>
 <node TEXT="Translation" ID="ID_1217657584" CREATED="1391600415428" MODIFIED="1391600419696">
 <node TEXT="none" ID="ID_889310772" CREATED="1391602858776" MODIFIED="1391602860959">
@@ -731,23 +820,20 @@
 </node>
 </node>
 <node TEXT="Data entry / editing" ID="ID_619373706" CREATED="1391600383205" MODIFIED="1391600387336">
-<node TEXT="Done" ID="ID_1363869812" CREATED="1410776969803" MODIFIED="1410776970868">
-<node TEXT="CCR-WOW-018: Able to embed Captivate files" ID="ID_1223103262" CREATED="1386192936544" MODIFIED="1387217917247">
-<node TEXT="separate component" ID="ID_1634253157" CREATED="1389348185018" MODIFIED="1389348213348"/>
-</node>
-</node>
 <node TEXT="CCR-WOW-002: Able to see only the necessary data entry fields by default" ID="ID_1332464493" CREATED="1386192805106" MODIFIED="1387214697842"/>
 <node TEXT="CCR-WOW-006: Able to resume editing a course from the same point (component; block) that I was a when I last saved and closed it" ID="ID_1951824532" CREATED="1386192754983" MODIFIED="1387214713801"/>
 <node TEXT="CCR-WOW-007: Able to edit inline whilst previewing output" ID="ID_1173229257" CREATED="1386192815154" MODIFIED="1387216976919"/>
+<node TEXT="CCR-WOW-018: Able to embed Captivate files" ID="ID_1223103262" CREATED="1386192936544" MODIFIED="1427108796575">
+<icon BUILTIN="button_ok"/>
+<node TEXT="separate component" ID="ID_1634253157" CREATED="1389348185018" MODIFIED="1389348213348"/>
+</node>
 </node>
 <node TEXT="Learner support" ID="ID_277667826" CREATED="1391600394397" MODIFIED="1391600397481">
-<node TEXT="Framework" ID="ID_465052075" CREATED="1410776995380" MODIFIED="1410776998729">
 <node TEXT="CCR-LSUP-002: Able to add/remove the glossary of terms" ID="ID_199696336" CREATED="1386695085969" MODIFIED="1387215265805"/>
 <node TEXT="CCR-LSUP-003: Able to CRUD glossary terms and explanations" ID="ID_937628040" CREATED="1386695094993" MODIFIED="1387215270430"/>
 <node TEXT="CCR-LSUP-004: Able to include/turn off the search feature" ID="ID_1236390202" CREATED="1386695131400" MODIFIED="1387215274254">
 <node TEXT="not in Framework 1.0 release" ID="ID_1122717133" CREATED="1389348712619" MODIFIED="1391602992668">
 <font BOLD="true"/>
-</node>
 </node>
 </node>
 </node>
@@ -757,10 +843,8 @@
 </node>
 </node>
 <node TEXT="Assessment" ID="ID_947488953" CREATED="1391600401628" MODIFIED="1391600403272">
-<node TEXT="Framework" ID="ID_806035327" CREATED="1410777005458" MODIFIED="1410777007157">
 <node TEXT="CCR-ASSM-007: Able to determine assessment prerequisites / entry criteria" ID="ID_646172584" CREATED="1386756668180" MODIFIED="1387215372564">
 <node TEXT="e.g. completion of other materials in the course" ID="ID_1632892565" CREATED="1390299405536" MODIFIED="1390299431355"/>
-</node>
 </node>
 </node>
 <node TEXT="System validation" ID="ID_962307856" CREATED="1391600404797" MODIFIED="1391600409135">
@@ -774,16 +858,14 @@
 <font ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Translation" ID="ID_623561076" CREATED="1391600415428" MODIFIED="1391600419696">
-<node TEXT="CCR-TRAN-001: Able to export all language content in a packaged format suitable for translation agencies to work with" ID="ID_771355653" CREATED="1386192691155" MODIFIED="1387215635679"/>
+<node TEXT="Translation" ID="ID_623561076" CREATED="1391600415428" MODIFIED="1427108820691">
+<node TEXT="CCR-TRAN-001: Able to export all language content in a packaged format suitable for translation agencies to work with" ID="ID_771355653" CREATED="1386192691155" MODIFIED="1427108820687"/>
 <node TEXT="CCR-TRAN-003: Able to import a translated language content package as a new course" ID="ID_1732042673" CREATED="1386761280293" MODIFIED="1387215642767"/>
 </node>
 </node>
 <node TEXT="Developer" ID="ID_443295440" CREATED="1391593457122" MODIFIED="1391593459134">
-<node TEXT="Removed" ID="ID_1146766187" CREATED="1410777146850" MODIFIED="1410777150171">
 <node TEXT="AUTH-DEV-005: Able to embed HTML / JavaScript in suitable places" ID="ID_32107222" CREATED="1386193020585" MODIFIED="1387215686451">
 <node TEXT="could do better via bespoke?" ID="ID_347715843" CREATED="1390301169138" MODIFIED="1390301204909"/>
-</node>
 </node>
 </node>
 <node TEXT="Reviewer" ID="ID_1357014071" CREATED="1391600488595" MODIFIED="1391600490390">
