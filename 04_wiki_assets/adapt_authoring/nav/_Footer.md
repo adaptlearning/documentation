@@ -1,1 +1,0 @@
-[Authoring Tool Home](https://github.com/adaptlearning/adapt_authoring/wiki) | [Framework Home](https://github.com/adaptlearning/adapt_framework/wiki) | [Adapt Community Home](https://community.adaptlearning.org/) | [Technical Discussion Forum](https://community.adaptlearning.org/mod/forum/view.php?id=4)
