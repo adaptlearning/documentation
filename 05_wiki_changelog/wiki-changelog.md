@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-04-17	|adapt_authoring	|Installing-Adapt-Origin	|Added note about using Upgrade-to-v0.1.0.|
 |2015-04-17	|adapt_authoring	|Upgrading-to-v0.1.0	|Added new.|
 |2015-04-17	|adapt_authoring	|Installing-Adapt-Origin	|Removed tip about rerunning the install script.|
 |2015-04-15	|adapt_authoring	|Installing-Adapt-Origin	|Reworked para 1 to remove "pre-release".|
