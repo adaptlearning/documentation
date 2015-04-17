@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-04-17	|adapt_authoring	|Installing-Adapt-Origin	|Removed tip about rerunning the install script.|
 |2015-04-15	|adapt_authoring	|Installing-Adapt-Origin	|Reworked para 1 to remove "pre-release".|
 |2015-04-14	|adapt_authoring	|Installing-Adapt-Origin	|Removed note about develop branch.|
 |2015-04-10	|adapt_authoring	|Installing-FFmpeg	|Added new.|
