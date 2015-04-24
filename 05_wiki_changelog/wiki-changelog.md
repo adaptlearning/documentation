@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-04-22	|adapt_authoring	|Installing-FFMPEG	|Changed PPA and added Linux links. |
 |2015-04-17	|adapt_authoring	|Installing-Adapt-Origin	|Added Upgrading link to sidebar Resources. |
 |2015-04-17	|adapt_authoring	|Installing-Adapt-Origin	|Added note about using Upgrade-to-v0.1.0.|
 |2015-04-17	|adapt_authoring	|Upgrading-to-v0.1.0	|Added new.|
