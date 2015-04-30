@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-04-30	|adapt_authoring	|Modifying-the-Vanilla-Theme |Added cmd line for zipping in Mac.|
 |2015-04-28	|adapt_framework	|Peer-Code-Review  |Added new.|
 |2015-04-24	|adapt_framework	|Developers-guide:-components  | Replaced schema.json with properties.schema.|
 |2015-04-22	|adapt_authoring	|Installing-FFMPEG	|Changed PPA and added Linux links. |
