@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-06-11	|adapt_authoring	|Modifying-the-Vanilla-Theme  |Added example Zip structure.|
 |2015-06-6	|adapt_framework	|Developers-Guide:-Theme  |Added structure and templates.|
 |2015-05-7	|adapt_framework	|Core-Plug-ins-in-the-Adapt-Learning-Framework  |Added component subheads.|
 |2015-04-30	|adapt_authoring	|Modifying-the-Vanilla-Theme |Added cmd line for zipping in Mac.|
