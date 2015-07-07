@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-07-07	|adapt_authoring	|FAQ	|Updated section that distinguishes auhoring tool from Builder and Evolve. |
 |2015-06-30	|adapt_framework	|Brain-storming-of-new-assessment-extension	|Removed its link from the sidebar. |
 |2015-06-27	|test-package	    |Install-the-Test-Package	|Added new. |
 |2015-06-27	|adapt_framework	|Manual-installation-of-the-Adapt-framework	|Reformatted; nothing intentionally omitted. |
