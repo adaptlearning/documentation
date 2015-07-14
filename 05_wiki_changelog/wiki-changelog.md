@@ -2,6 +2,8 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-07-14	|adapt_authoring	|Installing-Adapt-Origin	|Removed link to outdated upgrade instructions. |
+|2015-07-14	|adapt_authoring	|Upgrading-the-Adapt-Authoring-Tool	|Added new. |
 |2015-07-09	|adapt_framework	|Contributing-to-the-Adapt-Framework	|Added 'Contributing Code' to section 'Coders' |
 |2015-07-07	|adapt_authoring	|FAQ	|Updated section that distinguishes auhoring tool from Builder and Evolve. |
 |2015-06-30	|adapt_framework	|Brain-storming-of-new-assessment-extension	|Removed its link from the sidebar. |
