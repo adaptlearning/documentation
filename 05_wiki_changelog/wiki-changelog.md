@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-07-25	|adapt_framework	|Core-Plug-ins-in-the-Adapt-Learning-Framework  |Added links to wikis & repos.|
 |2015-07-14	|adapt_authoring	|Installing-Adapt-Origin	|Removed link to outdated upgrade instructions. |
 |2015-07-14	|adapt_authoring	|Upgrading-the-Adapt-Authoring-Tool	|Added new. |
 |2015-07-09	|adapt_framework	|Contributing-to-the-Adapt-Framework	|Added 'Contributing Code' to section 'Coders' |
