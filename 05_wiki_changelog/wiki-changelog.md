@@ -2,6 +2,7 @@
 
 |Date	|Repo	|Page	|Comment  |
 |:------|:------|:------|:--------|
+|2015-07-25	|adapt_framework	|wiki  |Removed the word "Learning" from instances of "Adapt Learning".  |
 |2015-07-25	|adapt_framework	|Core-Plug-ins-in-the-Adapt-Learning-Framework  |Added links to wikis & repos.|
 |2015-07-14	|adapt_authoring	|Installing-Adapt-Origin	|Removed link to outdated upgrade instructions. |
 |2015-07-14	|adapt_authoring	|Upgrading-the-Adapt-Authoring-Tool	|Added new. |
