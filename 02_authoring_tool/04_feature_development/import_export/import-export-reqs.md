@@ -6,13 +6,19 @@
 | Term               | Definition |
 | ------------------ | ---------- |
 | AT                 | Authoring tool |
+| Course data | Refers to the structural elements of an Adapt course (i.e. content objects, articles, blocks and components) |
+| Course configuration data | Configuration options found in config.json and course.json |
 | Protected sections | In the case of custom functionality, sections may be protected (i.e. read-only), in which case, they can be moved and deleted, but not directly edited |
 
-## Assumptions/Exclusions
+## Assumptions
 
-- This feature will be included in a new release of the AT, and as such import/export will only be possible in future AT and framework versions (i.e. it is not intended to be made backwards-compatible at this point)
+- This feature will be included in a new release of the AT.
 - Imported courses will be forced to adopt the Framework and core bundle versions used by the AT instance that is being imported into
 - The imported course should look as close to the original when published, although results will vary depending on whether the course has had to be auto-upgraded
+
+## Exclusions
+
+- The feature will only be possible in future AT and framework versions (i.e. it is not intended to be made backwards-compatible at this point).
 
 ## Requirements
 
@@ -21,7 +27,7 @@
 **User story**: *As a course developer, I want to be able to export a course I have created in the AT so that it can be imported to another AT instance*
 **Requirements**:
 - Ability to export course data
-- Ability to export configuration data
+- Ability to export course configuration data
 - Ability to export assets
 - Ability to export custom plugins
 - Exported course should be in zip format for easy manipulation both in the AT, and externally
