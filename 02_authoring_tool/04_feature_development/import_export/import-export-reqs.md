@@ -1,6 +1,6 @@
 # Import/Export Feature
 
-**Objective**: to be able to move courses from one instance of the AT to another for editing.
+**Objective**: to be able to move courses from one instance of the authoring tool to another for editing.
 
 ## Definitions
 | Term               | Definition |
@@ -25,6 +25,7 @@
 ### Course Export
 
 **User story**: *As a course developer, I want to be able to export a course I have created in the AT so that it can be imported to another AT instance*
+
 **Requirements**:
 - Ability to export course data
 - Ability to export course configuration data
@@ -35,6 +36,7 @@
 ### Course Import
 
 **User story**: *As a course developer, I want to be able to import an exported course into another instance of the AT so that I can edit it*
+
 **Requirements**:
 - As a course developer, I want to be able to choose what data is imported from an exported course so that I don't have to import the entire course
     - Ability to import course data
@@ -54,6 +56,7 @@
 ### Course Maintenance
 
 **User story**: *As a course developer, I want to be able to edit my imported course in the AT for maintenance*
+
 **Requirements**:
 - Ability to modify the structure of an imported course
 - Ability to edit text content in an imported course
