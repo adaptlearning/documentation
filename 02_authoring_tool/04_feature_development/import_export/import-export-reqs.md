@@ -1,7 +1,7 @@
 # Import/Export Feature
 
 #### Objective
-*To be able to move courses from one instance of the AT to another for editing.*
+*To be able to move courses from one instance of the Adapt authoring tool to another for editing.*
 
 ## Definitions
 | Term               | Definition |
