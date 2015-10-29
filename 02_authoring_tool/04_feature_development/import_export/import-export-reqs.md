@@ -1,6 +1,7 @@
 # Import/Export Feature
 
-**Objective**: to be able to move courses from one instance of the AT to another for editing.
+#### Objective
+*To be able to move courses from one instance of the AT to another for editing.*
 
 ## Definitions
 | Term               | Definition |
