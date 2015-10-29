@@ -29,6 +29,7 @@
 - Ability to export course data
 - Ability to export course configuration data
 - Ability to export assets
+- Ability to export framework core
 - Ability to export custom plugins
 - Exported course should be in a widely-supported format to allow for human inspection/manipulation
 - Exported course should be suitable for standalone development
