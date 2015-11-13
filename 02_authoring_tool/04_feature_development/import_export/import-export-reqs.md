@@ -23,47 +23,49 @@
 
 ## Requirements
 
+Below is the list of requirements for the import/export feature. Those requirements in **bold** have been identified as necessary for the minimum viable product release.
+
 ### Course Export
 
 **User story**: *As a course developer, I want to be able to export a course I have created in the AT for editing elsewhere.*
 
 **Requirements**:
-- Ability to export course data
-- Ability to export course configuration data
-- Ability to export assets
-- Ability to export framework core
-- Ability to export custom plugins
-- Exported course should be in a widely-supported format to allow for human inspection/manipulation
-- Exported course should be suitable for standalone development
+- **IMEX-001: Ability to export course data**
+- **IMEX-002: Ability to export course configuration data**
+- **IMEX-003: Ability to export assets**
+- **IMEX-004: Ability to export framework core**
+- **IMEX-005: Ability to export custom plugins**
+- **IMEX-006: Exported course should be in a widely-supported format to allow for human inspection/manipulation**
+- **IMEX-007: Exported course should be suitable for standalone development**
 
 ### Course Import
 
 **User story**: *As a course developer, I want to be able to import an exported course into another instance of the AT so that I can edit it.*
 
 **Requirements**:
-- As a course developer, I want to be able to choose what data is imported from an exported course so that I don't have to import the entire course
-    - Ability to import course data
-    - Ability to import course configuration data
-    - Ability to import course assets
-    - Ability to import custom plugins
-- Ability to flag incompatibilities with the JSON of my course and the AT instance it is imported into (e.g. version incompatabilities)
-- Ability to force-import a course, even if there are errors (see above)
-- Ability for the Import function to deal with any name conflicts with existing courses/plugins
-- Ability for import function to make any assets used in an imported course (along with their associated metadata) available in the asset manager
-- Ability for import function to make any custom components used in an imported course available in the plugin manager
-- Ability for import function to make any custom extensions used in an imported course available in the plugin manager
-- Ability for import function to make any custom menus used in an imported course available in the plugin manager
-- Ability for import function to make the theme used in an imported course available in the plugin manager
-- Ability to import a course developed outside of the AT
+- **IMEX-008: Ability to import course data**
+- **IMEX-009: Ability to import course configuration data**
+- **IMEX-010: Ability to import course assets**
+- **IMEX-011: Ability to import custom plugins**
+- IMEX-012: As a course developer, I want to be able to choose what data is imported
+- **IMEX-013: Ability to flag incompatibilities with the JSON of my course and the AT instance it is imported into (e.g. version incompatabilities)**
+- IMEX-014: Ability to force-import a course, even if there are errors (see IMEX-013)
+- IMEX-015: Ability for the Import function to deal with any name conflicts with existing courses/plugins
+- **IMEX-016: Ability for import function to make any assets used in an imported course (along with their associated metadata) available in the asset manager**
+- **IMEX-017: Ability for import function to make any custom components used in an imported course available in the plugin manager**
+- **IMEX-018: Ability for import function to make any custom extensions used in an imported course available in the plugin manager**
+- **IMEX-019: Ability for import function to make any custom menus used in an imported course available in the plugin manager**
+- **IMEX-020: Ability for import function to make the theme used in an imported course available in the plugin manager**
+- IMEX-021: Ability to import a course developed outside of the AT
 
 ### Course Maintenance
 
 **User story**: *As a course developer, I want to be able to edit my imported course in the AT for maintenance.*
 
 **Requirements**:
-- Ability to modify the structure of an imported course
-- Ability to edit text content in an imported course
-- Ability to change any media content in a course (swap images, videos etc.)
-- Protected areas should be viewable
-- Protected areas should be movable
-- Protected areas should be deletable
+- **IMEX-022: Ability to modify the structure of an imported course**
+- **IMEX-023: Ability to edit text content in an imported course**
+- **IMEX-024: Ability to change any media content in a course (swap images, videos etc.)**
+- IMEX-025: Protected areas should be viewable
+- IMEX-026: Protected areas should be movable
+- IMEX-027: Protected areas should be deletable
