@@ -32,20 +32,27 @@ Below is the list of requirements for the user management feature. Those require
 - **USRM-006: Ability to reset the 'failed login count' of a user in the system**
 - **USRM-007: Ability to change the password of a user in the system**
 - **USRM-008: Ability to reset the password of a user in the system**
-- **USRM-009: Ability to disable a user in the system**
-- **USRM-010: Ability to restore a disabled user in the system**
-- **USRM-011: Ability to remove a user from the system**
+- USRM-009: Ability to force a user to reset their password on login
+- USRM-010: Ability to terminate the session of a user in the system
+- **USRM-011: Ability to disable a user in the system**
+- **USRM-012: Ability to restore a disabled user in the system**
+- **USRM-013: Ability to remove a user from the system**
+- USRM-014: Ability to specify the lifespan of a user in the system
+- USRM-015: Ability to specify the lifespan of a tenant
 
 **User story**: *As a __Tenant Admin__ user, I want to be able to administer all users __in my tenant__.*
 
 **Requirements**:
-- USRM-012: Ability to view all users in my tenant
-- USRM-013: Ability to create a new user in my tenant
-- USRM-014: Ability to edit the email associated with a user in my tenant
-- USRM-015: Ability to change the role of a user in my tenant
-- USRM-016: Ability to reset the 'failed login count' of a user in my tenant
-- USRM-017: Ability to change the password of a user in my tenant
-- USRM-018: Ability to reset the password of a user in my tenant
-- USRM-019: Ability to disable a user in my tenant
-- USRM-020: Ability to restore a disabled user in my tenant
-- USRM-021: Ability to remove a user from my tenant
+- USRM-016: Ability to view all users in my tenant
+- USRM-017: Ability to create a new user in my tenant
+- USRM-018: Ability to edit the email associated with a user in my tenant
+- USRM-019: Ability to change the role of a user in my tenant
+- USRM-020: Ability to reset the 'failed login count' of a user in my tenant
+- USRM-021: Ability to change the password of a user in my tenant
+- USRM-022: Ability to reset the password of a user in my tenant
+- USRM-023: Ability to force any user in my tenant to reset their password on login
+- USRM-024: Ability to terminate the session of a user in my tenant
+- USRM-025: Ability to disable a user in my tenant
+- USRM-026: Ability to restore a disabled user in my tenant
+- USRM-027: Ability to remove a user from my tenant
+- USRM-028: Ability to specify the lifespan of a user in my tenant
