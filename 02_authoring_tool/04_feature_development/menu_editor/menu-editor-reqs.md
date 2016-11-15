@@ -20,3 +20,5 @@ Below is the list of requirements for the menu editor feature. Those requirement
 
 **Requirements**:
 - MNUE-001: Ability to view exposed settings for a selected menu
+- MNUE-002: Automatically add/remove global values when selecting/deselecting a menu
+- MNUE-003: Expose menu settings for config, course and contenObject collections only
