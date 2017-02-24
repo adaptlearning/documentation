@@ -20,7 +20,7 @@ Below is the list of requirements for the tenant management feature. Those requi
 
 **Requirements**:
 
-(Requirements identified as must be included in release 1.0)
+(Requirements identified as **must** be included in release 1.0)
 
 - **TENM-001: Ability to view all tenants in the system**
 - **TENM-002: Able to CRUD tenancies**
@@ -32,12 +32,12 @@ Below is the list of requirements for the tenant management feature. Those requi
 - TENM-008: Able to define user creation options for tenancies
 - TENM-009: Able to define system role creation options for tenancies
 
-(Requirements identified as should be included in release 1.0)
+(Requirements identified as **should** be included in release 1.0)
 - TENM-010: Able to manage cross-tenancy user access
 - TENM-011: Able to define plug-in management options for tenancies
 - **TENM-012: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc)**
 
-(Requirements identified as could be included in release 1.0)
+(Requirements identified as **could** be included in release 1.0)
 - TENM-013: Able to set number of users quota for tenancies
 - TENM-014: Able to set file storage limit quotas for tenancies
 - TENM-015: Able to configure automatic system backup
@@ -57,7 +57,7 @@ Below is the list of requirements for the tenant management feature. Those requi
 **User story**: *As a __Tenancy Admin__ user, I want to be able to administer my tenancy.*
 
 **Requirements**:
-(Requirements identified as must be included in release 1.0)
+(Requirements identified as **must** be included in release 1.0)
 - TCYM-001: Able to CRUD system roles from capabilities in the scope of a tenancy
 - TCYM-002: Able to assign/unassign tenancy-scope system roles to users within the tenancy
 - TCYM-003: Able to CRUD users within the tenancy
@@ -66,11 +66,11 @@ Below is the list of requirements for the tenant management feature. Those requi
 - TCYM-006: Able to turn guest user access to the tenancy on/off
 - TCYM-007: Able to set the password policy
 
-(Requirements identified as should be included in release 1.0)
+(Requirements identified as **should** be included in release 1.0)
 - TCYM-008: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc).
 - TCYM-009: Able to determine whether collaboration invites can be sent to system users only or also to external users
 
-(Requirements identified as could be included in release 1.0)
+(Requirements identified as **could** be included in release 1.0)
 - TCYM-010: Able to set and change default values for courses/projects
 - TCYM-011: Able to freeze/lock/unlock a courses/projects to prevent/enable changes
 - TCYM-012: Able to apply policy values for the tenancy within the range determined by the super administrator
