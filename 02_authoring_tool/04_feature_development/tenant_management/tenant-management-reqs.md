@@ -20,72 +20,46 @@ Below is the list of requirements for the tenant management feature. Those requi
 
 **Requirements**:
 
-(Requirements identified as **must** be included in release 1.0)
-
-- **TENM-001: Ability to view all tenants in the system**
-- **TENM-002: Able to CRUD tenancies**
-- TENM-003: Able to enable/disable APIs / API plug-ins
-- TENM-004: Able to add new plug-in webservice API
-- TENM-005: Able to remove added plug-in webservice APIs
-- TENM-006: Able to run usage reports on quote usage for tenancies
-- TENM-007: Able to set and change file upload limits
-- TENM-008: Able to define user creation options for tenancies
-- TENM-009: Able to define system role creation options for tenancies
-
-(Requirements identified as **should** be included in release 1.0)
-- TENM-010: Able to manage cross-tenancy user access
-- TENM-011: Able to define plug-in management options for tenancies
-- **TENM-012: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc)**
-
-(Requirements identified as **could** be included in release 1.0)
-- TENM-013: Able to set number of users quota for tenancies
-- TENM-014: Able to set file storage limit quotas for tenancies
-- TENM-015: Able to configure automatic system backup
-- TENM-016: Able to integrate for user authentication via a webservice API
-
-(Roadmap features)
-- TENM-017: Able to set and change number of courses/projects quota for tenancies
-- TENM-018: Able to set and change bandwidth limit quotas for tenancies
-
-(Additional suggestions)
-- TENM-019: Able to back up a tenant (including all users, assets and courses)
-- TENM-020: Able to import a tenant (including all users, assets and courses) from a backup
-- TENM-021: Able to transfer users from one tenant to another
-- TENM-022: Able to import a course to a selected tenants
-
+## As a super admin user, I want to be able to administer all tenants in the system
+- **TCYM01: Able to view existing tenancies**
+- **TCYM02: Able to create new tenancies**
+- **TCYM03: Able to update existing tenancies**
+- **TCYM04: Able to delete existing tenancies**
+- **TCYM05: Able to transfer an individual user from one tenant to another**
+- TCYM06: Able to set file upload limits
+- TCYM07: Able to define user creation options for tenancies
+- TCYM08: Able to define system role creation options for tenancies
+- TCYM09: Able to manage cross-tenancy user access
+- TCYM10: Able to show and hide plugins across all tenants
+- TCYM11: Able to show and hide plugins for specific tenants
+- TCYM12: Able to run usage reports on quota usage for tenancies (see below)
+- TCYM13: Able to set a quota for the number of users in tenants
+- TCYM14: Able to set a quota for file storage for tenants
+- TCYM15: Able to set a quota for the number of courses for tenants
+- TCYM16: Able to set a quota for bandwidth for tenants
+- TCYM17: Able to export a tenant
+- TCYM18: Able to import a tenant
+- TCYM19: Able to choose which installed publishing options to make available to the tenant's users
 
 **User story**: *As a __Tenancy Admin__ user, I want to be able to administer my tenancy.*
 
 **Requirements**:
-(Requirements identified as **must** be included in release 1.0)
-- TCYM-001: Able to CRUD system roles from capabilities in the scope of a tenancy
-- TCYM-002: Able to assign/unassign tenancy-scope system roles to users within the tenancy
-- TCYM-003: Able to CRUD users within the tenancy
-- TCYM-004: Able to view system logs (users actions) within the scope of a tenancy
-- TCYM-005: Able to manage course/project ownership
-- TCYM-006: Able to turn guest user access to the tenancy on/off
-- TCYM-007: Able to set the password policy
-
-(Requirements identified as **should** be included in release 1.0)
-- TCYM-008: Able to see a usage dashboard against quotas (users, courses/projects, file storage, bandwidth used etc).
-- TCYM-009: Able to determine whether collaboration invites can be sent to system users only or also to external users
-
-(Requirements identified as **could** be included in release 1.0)
-- TCYM-010: Able to set and change default values for courses/projects
-- TCYM-011: Able to freeze/lock/unlock a courses/projects to prevent/enable changes
-- TCYM-012: Able to apply policy values for the tenancy within the range determined by the super administrator
-- TCYM-013: Able to choose which installed component plug-ins to make available to the tenancy users
-- TCYM-014: Able to choose which installed extension plug-ins to make available to the tenancy users
-- TCYM-015: Able to choose which installed publishing options to make available to the tenancy users
-- TCYM-016: Able to configure plug-ins for the scope of the tenancy and per project
-- TCYM-017: Able to set the account expiry policy
-
-(Roadmap features)
-- TCYM-018: Able to change the authoring tool theme
-- TCYM-019: Able to choose which installed language pack plug-ins to make available to the tenancy users
-- TCYM-020: Able to turn versioning on/off
-- TCYM-021: Able to configure system notification behaviour
-- TCYM-022: Able to enable/disable workflow stages and steps
-- TCYM-023: Able to determine the contents of the L&D Manager dashboard
-- TCYM-024: Able to turn the ability to make tracked changes during reviews on/off
-- TCYM-025: Able to manage the scope assignments of re-usable items within the asset management realm
+- **TCYM20: Able to view users in the tenancy**
+- **TCYM21: Able to create new users in the tenancy**
+- **TCYM22: Able to update existing users in the tenancy**
+- **TCYM23: Able to delete existing users from the tenancy**
+- **TCYM24:	Able to assign tenancy-scope system roles to users within the tenancy**
+- **TCYM25:	Able to unassign tenancy-scope system roles to users within the tenancy**
+- **TCYM26:	Able to remove any course in the tenancy**
+- **TCYM27:	Able to change the owner of any course in the tenancy**
+- TCYM28: Able to view a log of actions by users in the tenancy
+- TCYM29: Able to see a usage for users in the tenancy
+- TCYM30: Able to see a usage for courses in the tenancy
+- TCYM31: Able to see a usage for file storage used by the tenancy
+- TCYM32: Able to see a usage for bandwidth used by the tenancy
+- TCYM33: Able to choose which installed component plug-ins to make available to the tenancy users
+- TCYM34: Able to choose which installed extension plug-ins to make available to the tenancy users
+- TCYM35: Able to choose which installed menu plug-ins to make available to the tenancy users
+- TCYM36: Able to choose which installed theme plug-ins to make available to the tenancy users
+- TCYM37: Able to upload themes specific to the tenancy
+- TCYM38: Able to choose which installed publishing options to make available to the tenancy users
