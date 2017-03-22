@@ -40,7 +40,7 @@ Below is the list of requirements for the tenant management feature. Those requi
 - TCYM18: Able to import a tenant
 - TCYM19: Able to choose which installed publishing options to make available to the tenant's users
 
-**User story**: *As a __Tenancy Admin__ user, I want to be able to administer my tenancy.*
+**User story**: *As a __Tenant Admin__ user, I want to be able to administer my tenancy.*
 
 **Requirements**:
 - **TCYM20: Able to view users in the tenancy**
