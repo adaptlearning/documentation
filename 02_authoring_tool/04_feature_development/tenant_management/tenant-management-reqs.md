@@ -20,7 +20,6 @@ Below is the list of requirements for the tenant management feature. Those requi
 
 **Requirements**:
 
-## As a super admin user, I want to be able to administer all tenants in the system
 - **TCYM01: Able to view existing tenancies**
 - **TCYM02: Able to create new tenancies**
 - **TCYM03: Able to update existing tenancies**
