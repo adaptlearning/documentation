@@ -43,6 +43,14 @@ Below is the list of requirements for the import/export feature. Those requireme
 - **IMEX-006: Exported course should be in a widely-supported format to allow for human inspection/manipulation**
 - **IMEX-007: Exported course should be suitable for standalone development**
 
+**User story**: *As a tool vendor / plugin developer, I want to be able to restrict which plugins (inc components, menus and themes) are exported from the AT during course export to protect my investment in plugin development.*
+
+**Requirements**:
+- **IMEX-001**, **IMEX-002**, **IMEX-003**, **IMEX-004** (see above)
+- IMEX-022: Ability to specify which plugins are prevented from export
+- IMEX-023: System should notify the user which plugins will not be included in the export.
+- IMEX-024: The exported course will not contain the protected plugins, but should still contain the source/config data for plugins which were not exported as this could be used if imported into the exporting system (or other system with the plugins)
+
 ### Course Import
 
 **User story**: *As a course developer, I want to be able to import an exported course into another instance of the AT for editing.*
