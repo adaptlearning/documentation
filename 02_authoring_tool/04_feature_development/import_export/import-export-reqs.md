@@ -47,9 +47,9 @@ Below is the list of requirements for the import/export feature. Those requireme
 
 **Requirements**:
 - **IMEX-001**, **IMEX-002**, **IMEX-003**, **IMEX-004** (see above)
-- IMEX-022: Ability to specify which plugins are prevented from export
-- IMEX-023: System should notify the user which plugins will not be included in the export.
-- IMEX-024: The exported course will not contain the protected plugins, but should still contain the source/config data for plugins which were not exported as this could be used if imported into the exporting system (or other system with the plugins)
+- IMEX-028: Ability to specify which plugins are prevented from export
+- IMEX-029: System should notify the user which plugins will not be included in the export.
+- IMEX-030: The exported course will not contain the protected plugins, but should still contain the source/config data for plugins which were not exported as this could be used if imported into the exporting system (or other system with the plugins)
 
 ### Course Import
 
