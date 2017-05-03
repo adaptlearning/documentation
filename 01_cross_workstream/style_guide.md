@@ -1,13 +1,12 @@
 # Adapt Learning Style Guide
 
 This is a guide for writing consistent and aesthetically pleasing code for the Adapt Learning project.
-It is inspired by what is popular within the community, and flavored with some personal opinions.
 
-This guide is based on the nodejs styleguide created by [Felix Geisendörfer](http://felixge.de/).
+This guide is based on the [Node.js styleguide](https://github.com/felixge/node-style-guide) created by [Felix Geisendörfer](http://felixge.de/), adapted to reflect the preferences of the various developers on the Adapt Learning project.
 
 ## Spacing
 
-We use spaces for indenting code - the authoring tool team favours 2 spaces, the framework team favours 4. 
+We use spaces for indenting code - the Authoring Tool team favours 2 spaces, the Framework team favours 4. 
 
 As a general rule, follow the style of the code you're working on and NEVER mix tabs and spaces!
 
