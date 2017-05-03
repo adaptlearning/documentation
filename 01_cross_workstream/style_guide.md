@@ -448,12 +448,6 @@ var isAuthorized = true;
 var authorized = true;
 ```
 
-## Use .bind appropriately
-
-Bind is a very useful feature of functions that allows you to specify 
-and fix the value of the *this* keyword. It should only be used when 
-a meaningful alias is not possible.
-
 
 ## Use slashes for comments
 
