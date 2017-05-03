@@ -180,6 +180,12 @@ function File() {
 File.fullPermissions = 0777;
 ```
 
+## JQuery
+[Cache JQuery selectors](https://ttmm.io/tech/selector-caching-jquery/) - and prefix variables/properties that contain JQuery selectors with `$`:
+```js
+var $mydiv = $('.mydiv');
+```
+
 [const]: https://developer.mozilla.org/en/JavaScript/Reference/Statements/const
 
 ## Object / Array creation
