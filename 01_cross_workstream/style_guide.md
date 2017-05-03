@@ -57,22 +57,6 @@ Limit your lines to 80 characters. Yes, screens have gotten much bigger over the
 last few years, but your brain has not. Use the additional room for split screen,
 your editor supports that, right?
 
-## Use single quotes
-
-Use single quotes, unless you are writing JSON.
-
-*Right:*
-
-```js
-var foo = 'bar';
-```
-
-*Wrong:*
-
-```js
-var foo = "bar";
-```
-
 ## Opening braces go on the same line
 
 Your opening braces go on the same line as the statement.
