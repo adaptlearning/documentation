@@ -6,7 +6,7 @@ This guide is based on the [Node.js styleguide](https://github.com/felixge/node-
 
 ## Spacing
 
-We use spaces for indenting code - the Authoring Tool team favours 2 spaces, the Framework team favours 4. 
+We use **spaces** for indenting code. The Authoring Tool team favours 2 spaces, the Framework team favours 4. 
 
 As a general rule, follow the style of the code you're working on and NEVER mix tabs and spaces!
 
