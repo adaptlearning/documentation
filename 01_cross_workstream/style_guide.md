@@ -11,7 +11,7 @@ We use spaces for indenting code - the authoring tool team favours 2 spaces, the
 
 As a general rule, follow the style of the code you're working on and NEVER mix tabs and spaces!
 
-Include a space after commas and before the opening 'curly bracket' but don't include one before a 'round bracket'.
+Include a space after commas and before the opening 'curly bracket' but don't include one before the round brackets associated with function calls/declarations.
 
 Please always include a space following a colon in JavaScript, JSON and CSS/LESS.
 
