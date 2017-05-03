@@ -1,20 +1,39 @@
-# Node.js Style Guide (Copied from [here](https://github.com/felixge/node-style-guide))
+# Adapt Learning Style Guide
 
-This is a guide for writing consistent and aesthetically pleasing node.js code.
-It is inspired by what is popular within the community, and flavored with some
-personal opinions.
+This is a guide for writing consistent and aesthetically pleasing code for the Adapt Learning project.
+It is inspired by what is popular within the community, and flavored with some personal opinions.
 
-This guide was created by [Felix Geisendörfer](http://felixge.de/) and is
-licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-license. You are encouraged to fork this repository and make adjustments
-according to your preferences.
+This guide is based on the nodejs styleguide created by [Felix Geisendörfer](http://felixge.de/).
 
-![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+## Spacing
 
-## 2 Spaces for indention
+We use spaces for indenting code - the authoring tool team favours 2 spaces, the framework team favours 4. 
 
-Use 2 spaces for indenting your code and swear an oath to never mix tabs and
-spaces - a special kind of hell is awaiting you otherwise.
+As a general rule, follow the style of the code you're working on and NEVER mix tabs and spaces!
+
+Include a space after commas and before the opening 'curly bracket' but don't include one before a 'round bracket'.
+
+Please always include a space following a colon in JavaScript, JSON and CSS/LESS.
+
+*Right:*
+
+```js
+doSomething: function(arg1, arg2) {
+    if(arg2) {
+      //do stuff
+    }
+}
+```
+
+*Wrong:*
+
+```js
+doSomething:function (arg1,arg2){
+    if (arg2){
+      //do stuff
+    }
+}
+```
 
 ## No trailing whitespace
 
