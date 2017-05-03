@@ -456,7 +456,7 @@ var authorized = true;
 
 
 ## Comments
-Try to write your code so that it doesn't require comments, only using them when further explanation is needed. Comments like this should be avoided at all costs!
+Try to write your code so that it doesn't require comments, only using them when further explanation is needed. Comments like the following should be avoided at all costs!
 ```js
 // Check if the session is valid
 var isSessionValid = (session.expires < Date.now());
