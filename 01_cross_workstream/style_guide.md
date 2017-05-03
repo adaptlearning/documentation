@@ -19,7 +19,7 @@ Please always include a space following a colon in JavaScript, JSON and CSS/LESS
 
 ```js
 doSomething: function(arg1, arg2) {
-    if(arg2) {
+    if (arg2) {
       //do stuff
     }
 }
@@ -233,24 +233,6 @@ if (a == '') {
 ```
 
 [comparisonoperators]: https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Operators
-
-## Use multi-line ternary operator
-
-The ternary operator should not be used on a single line. Split it up into multiple lines instead.
-
-*Right:*
-
-```js
-var foo = (a === b)
-  ? 1
-  : 2;
-```
-
-*Wrong:*
-
-```js
-var foo = (a === b) ? 1 : 2;
-```
 
 ## Do not extend built-in prototypes
 
