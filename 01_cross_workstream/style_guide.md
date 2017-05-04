@@ -189,8 +189,8 @@ var $mydiv = $('.mydiv');
 
 ## Object / Array creation
 
-Use trailing commas and put *short* declarations on a single line. Only quote
-keys when your interpreter complains:
+Put *short* declarations on a single line. Only quote
+keys when they include spaces:
 
 *Right:*
 
