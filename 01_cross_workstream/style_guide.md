@@ -190,7 +190,7 @@ var $mydiv = $('.mydiv');
 ## Object / Array creation
 
 Put *short* declarations on a single line. Only quote
-keys when they include spaces:
+keys when your interpreter complains:
 
 *Right:*
 
