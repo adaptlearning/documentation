@@ -195,11 +195,11 @@ keys when your interpreter complains:
 *Right:*
 
 ```js
-var a = ['hello', 'world'];
+var a = [ 'hello', 'world' ];
 var b = {
   good: 'code',
-        'is generally': 'pretty',
-  };
+  'reads well': 'for others'
+};
 ```
 
 *Wrong:*
