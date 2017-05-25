@@ -5,12 +5,17 @@
 
 ## Definitions
 | Term                             | Definition |
-| -------------------------------- | ---------- |
-| AT                               | Authoring tool |
+| ------ | -------------- |
+| AT | Authoring tool |
+| Tenant | A tenant is a group of related users. A tenant in the AT system describes not only the users themselves, but also related data, such as the courses and system plugins. |
 
 ## Assumptions
 
 - This feature will be included in a new release of the AT.
+
+## Exclusions
+
+- We will not support multiple master tenants.
 
 ## Requirements
 
