@@ -5,24 +5,25 @@ This document describes the development requirements for the MVP release of the 
 ## Target Devices
 The framework and core components must support the set of user agents which accounts for at least 90% of the target user base.
 
-Initially this is generated using the stats available [here from statcounter](http://gs.statcounter.com/#all-browser_version_partially_combined-GB-monthly-201309-201311-bar)
+The currently supported browsers are:
 
-The list of supported devices are
+Desktop:
+Google Chrome (latest version)
+Firefox v52 (or latest version)
+IE11
+Safari v9 - v11
+Edge (latest version)
 
-    User Agent		Market Share (%)		Cumulative Percentage  
-    Chrome (all)		30.51				30.51       
-    IE 10.0				12.69				43.2   
-    Firefox 5+			11.04				54.24  
-    IE 8.0				8.7					62.94  
-    IE 9.0				7.7					70.64  
-    Safari iPad			6.88				77.52  
-    iPhone				5.87				83.39  
-    Android				3.78				87.17  
-    Safari 6.0			2.88				90.05
-
+Mobile:
+iOS10, iOS11 (running Safari) 
+Android v4.4 – v8.0 (running Chrome) 
     
+Due to the ongoing need in the community the Adapt Framework will continue to support an extended release candidate, v2.2.X that will offer support for the following legacy browsers:
 
-We may choose to adjust this based on stats from Adapt learning community member organisations
+IE10
+IE9
+IE8
+
 ## Testing level
 All core code must have unit test coverage to 90%
 
