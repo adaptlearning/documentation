@@ -16,14 +16,14 @@
   {
     "number": "",
     "name": "Theme & menu settings",
-    "description": "",
+    "description": "Will add the ability to customise menus and themes with settings specified by the plugin (similar to components and extensions).",
     "milestone": 12,
     "owner": "taylortom"
   },
   {
     "number": "",
     "name": "Scaffold refactor",
-    "description": "",
+    "description": "A tidy of the core 'scaffold' code which is used to render the edit forms in the application.",
     "milestone": 31,
     "owner": "tomgreenfield"
   },
