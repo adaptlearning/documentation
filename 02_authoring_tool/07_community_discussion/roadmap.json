@@ -1,0 +1,9 @@
+[
+  {
+    "number": "v0.5.0",
+    "name": "Import/export"
+    "description": "Ability to import existing Adapt courses into an authoring tool install.",
+    "milestone": 12,
+    "owner": "dancgray"
+  }
+]
