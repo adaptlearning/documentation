@@ -7,35 +7,35 @@
     "owner": "dancgray"
   },
   {
-    "number": "",
-    "name": "Tenant management",
-    "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
-    "milestone": 24,
-    "owner": "dancgray"
-  },
-  {
-    "number": "",
+    "number": "v0.6.0",
     "name": "Scaffold refactor",
     "description": "A tidy of the core 'scaffold' code which is used to render the edit forms in the application.",
     "milestone": 31,
     "owner": "tomgreenfield"
   },
   {
-    "number": "",
+    "number": "v0.7.0",
+    "name": "Tenant management",
+    "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
+    "milestone": 24,
+    "owner": "dancgray"
+  },
+  {
+    "number": "v0.8.0",
     "name": "Server refactor",
     "description": "A restructuring of the back-end code to make the codebase more maintainable and to better support 'pluggable' code.",
     "milestone": 30,
     "owner": "taylortom"
   },
   {
-    "number": "",
+    "number": "v0.9.0",
     "name": "Asset manager revamp",
     "description": "A rethink to the built-in asset manager to make working with a large repository of assets more enjoyable.",
     "milestone": 23,
     "owner": "dancgray"
   },
   {
-    "number": "",
+    "number": "v0.10.0",
     "name": "Multi-language support",
     "description": "In-tool support for the translation of your Adapt courses into multiple languages. Being able to create one course in multiple languages will not only give your learners a smoother experience, it'll also greatly simplify your international elearning course deployment.",
     "milestone": 13,
