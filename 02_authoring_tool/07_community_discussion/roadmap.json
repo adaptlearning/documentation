@@ -1,12 +1,5 @@
 [
   {
-    "number": "v0.5.0",
-    "name": "Import/export",
-    "description": "Will allow users to export a course that they are working on, and import it into a different Adapt authoring tool installation. Your course will no longer be confined to the installation it was created in; collaborate with colleagues, easily back up your work, and make it simpler to duplicate courses across installations.",
-    "milestone": 12,
-    "owner": "dancgray"
-  },
-  {
     "number": "v0.6.0",
     "name": "Scaffold refactor",
     "description": "A tidy of the core 'scaffold' code which is used to render the edit forms in the application.",
