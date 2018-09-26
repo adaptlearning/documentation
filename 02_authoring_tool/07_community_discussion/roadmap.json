@@ -1,12 +1,5 @@
 [
   {
-    "number": "v0.6.0",
-    "name": "Scaffold refactor",
-    "description": "A tidy of the core 'scaffold' code which is used to render the edit forms in the application.",
-    "milestone": 31,
-    "owner": "tomgreenfield"
-  },
-  {
     "number": "v0.7.0",
     "name": "Tenant management",
     "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
