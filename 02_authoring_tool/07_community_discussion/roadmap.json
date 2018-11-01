@@ -2,14 +2,14 @@
   {
     "number": "v0.7.0",
     "name": "'Loose ends'",
-    "description": "",
+    "description": "Bundle of minor UI/usability enhancements.",
     "milestone": 33,
     "owner": "taylortom"
   },
   {
     "number": "v0.8.0",
     "name": "Multiple frameworks",
-    "description": "",
+    "description": "Support for multiple versions of the Adapt framework in a single authoring tool install.",
     "milestone": 34,
     "owner": "canstudios-paulh"
   },
