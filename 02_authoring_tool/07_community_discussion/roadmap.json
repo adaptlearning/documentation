@@ -1,41 +1,41 @@
 [
   {
-    "number": "v0.5.0",
-    "name": "Import/export",
-    "description": "Will allow users to export a course that they are working on, and import it into a different Adapt authoring tool installation. Your course will no longer be confined to the installation it was created in; collaborate with colleagues, easily back up your work, and make it simpler to duplicate courses across installations.",
-    "milestone": 12,
-    "owner": "dancgray"
-  },
-  {
-    "number": "v0.6.0",
-    "name": "Scaffold refactor",
-    "description": "A tidy of the core 'scaffold' code which is used to render the edit forms in the application.",
-    "milestone": 31,
-    "owner": "tomgreenfield"
-  },
-  {
     "number": "v0.7.0",
-    "name": "Tenant management",
-    "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
-    "milestone": 24,
-    "owner": "dancgray"
+    "name": "'Loose ends'",
+    "description": "Bundle of minor UI/usability enhancements.",
+    "milestone": 33,
+    "owner": "taylortom"
   },
   {
     "number": "v0.8.0",
+    "name": "Multiple frameworks",
+    "description": "Support for multiple versions of the Adapt framework in a single authoring tool install.",
+    "milestone": 34,
+    "owner": "canstudios-paulh"
+  },
+  {
+    "number": "v0.9.0",
     "name": "Server refactor",
     "description": "A restructuring of the back-end code to make the codebase more maintainable and to better support 'pluggable' code.",
     "milestone": 30,
     "owner": "taylortom"
   },
   {
-    "number": "v0.9.0",
+    "number": "v0.10.0",
+    "name": "Tenant management",
+    "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
+    "milestone": 24,
+    "owner": "dancgray"
+  },
+  {
+    "number": "v0.11.0",
     "name": "Asset manager revamp",
     "description": "A rethink to the built-in asset manager to make working with a large repository of assets more enjoyable.",
     "milestone": 23,
     "owner": "dancgray"
   },
   {
-    "number": "v0.10.0",
+    "number": "v0.12.0",
     "name": "Multi-language support",
     "description": "In-tool support for the translation of your Adapt courses into multiple languages. Being able to create one course in multiple languages will not only give your learners a smoother experience, it'll also greatly simplify your international elearning course deployment.",
     "milestone": 13,
