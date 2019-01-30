@@ -28,7 +28,19 @@ Support multiple frameworks in a single server instance
   - Will inevitably lead to issues with future framework versions (5?) whereby content structure changes drastically, and the UI must cater to previous frameworks
 
 ### Solution
-???
+#### Back-end:
+- Move from server content schemas to framework schemas
+- Introduce a way to manage multiple versions of schemas/mongoose models (this could just be a naming convention like `course-v1`)
+- Manage the ‘forked’ data (i.e. do we separate v2 and v3 courses, or keep them together in a single collection -- due to the way that mongoose validates using models, it probably doesn't make sense to try and merge the collections)
+- Update the `database.js` (and mongoose adapter `lib/dml/mongoose`) code to work with multiple models -- other server code may also need to be updated at this point
+
+#### Front-end:
+- Plugin management would need an overhaul:
+  - Support a single set of framework plugins (i.e. for the latest FW)
+  - Support all available/installed FW versions
+  - Possibly move from global menu to course edit menu
+- Course creation/migration (i.e. choosing a base framework for a course)
+- Minor changes would be needed to how we load/process the schemas from the server
 
 ## Approach 2
 Facilitate multiple versions of the framework via migration and separate server instances
@@ -60,7 +72,6 @@ This process could be modified to automate much of the process:
 ### Other notes
 - Specifying changes will need to be done in code to allow full flexibility
 - Framework's scripting interface in grunt could be modified to perform migrations
-- Extra authoring tool UI will be required, but is being deferred until after the initial framework migration work
 
 #### Data migration
 - Property deletion
