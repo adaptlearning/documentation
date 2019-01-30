@@ -72,6 +72,7 @@ This process could be modified to automate much of the process:
 ### Other notes
 - Specifying changes will need to be done in code to allow full flexibility
 - Framework's scripting interface in grunt could be modified to perform migrations
+- Extra authoring tool UI will be required, but is being deferred until after the initial framework migration work
 
 #### Data migration
 - Property deletion
