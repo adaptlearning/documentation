@@ -8,9 +8,9 @@
   },
   {
     "number": "v0.8.0",
-    "name": "Multiple frameworks",
-    "description": "Support for multiple versions of the Adapt framework in a single authoring tool install.",
-    "milestone": 34,
+    "name": "Theme editor",
+    "description": "Full support for ediable themes",
+    "milestone": 36,
     "owner": "canstudios-paulh"
   },
   {
