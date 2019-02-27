@@ -33,7 +33,7 @@ Test that users can download courses.
 
 *   A zip file should download with the name of the course.
 
-3 - Exporting Souce Code
+3 - Exporting Source Code
 ----------------------------
 
 Ensures that it is possible to export source code.
