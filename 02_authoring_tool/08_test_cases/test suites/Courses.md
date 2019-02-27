@@ -214,13 +214,15 @@ Navigate to the custom CSS field in the edit course section:
 2\. Scroll down to the 'Custom CSS/LESS code' field  
 3\. Paste in the following CSS many times (until you have over 100 lines of code)
 
+```css
 .text-inner{  
-color: #ff0000;  
+  color: #ff0000;  
 }
 
 .custom-class{  
-color: #00ff00;  
+  color: #00ff00;  
 }
+```
 
 1.  on one of the lines, put a key phrase you wish to search for and scroll so this phrase is no longer visible in the Custom CSS field.
 2.  while still in the field (as if editing the pasted text) press Ctrl + F on windows or Cmd + F on Mac.
