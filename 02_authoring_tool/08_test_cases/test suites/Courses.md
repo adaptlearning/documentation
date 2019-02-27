@@ -160,9 +160,11 @@ Only allowed HTML should work when previewing a course.
 \- **This should work:**  
 `<a href="http://google.com" style="color:red;">Here's a link</a>`  
 \- **This should not work:**  
-`<style>  
-a {color: red;}  
-</style>`
+```html
+<style>  
+  a {color: red;}  
+</style>
+```
 
 
 9 - Dashboard
@@ -210,9 +212,9 @@ The find tool typical for most browsers and programmes should appear when the cu
 ### Test steps
 
 Navigate to the custom CSS field in the edit course section:  
-1\. Click on the cog icon of your course  
-2\. Scroll down to the 'Custom CSS/LESS code' field  
-3\. Paste in the following CSS many times (until you have over 100 lines of code)
+1. Click on the cog icon of your course  
+2. Scroll down to the 'Custom CSS/LESS code' field  
+3. Paste in the following CSS many times (until you have over 100 lines of code)
 
 ```css
 .text-inner{  
@@ -224,11 +226,11 @@ Navigate to the custom CSS field in the edit course section:
 }
 ```
 
-1.  on one of the lines, put a key phrase you wish to search for and scroll so this phrase is no longer visible in the Custom CSS field.
-2.  while still in the field (as if editing the pasted text) press Ctrl + F on windows or Cmd + F on Mac.
-3.  a small UI window should pop up allowing you to search for the classes
-4.  try searching parts of the text pasted in from step 3).
-5.  any matching text should become highlighted.
+1.  On one of the lines, put a key phrase you wish to search for and scroll so this phrase is no longer visible in the Custom CSS field.
+2.  While still in the field (as if editing the pasted text) press Ctrl + F on windows or Cmd + F on Mac.
+3.  A small UI window should pop up allowing you to search for the classes
+4.  Try searching parts of the text pasted in from step 3).
+5.  Any matching text should become highlighted.
 
 ### Expected result
 
