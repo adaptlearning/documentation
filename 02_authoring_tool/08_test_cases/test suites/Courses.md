@@ -16,7 +16,7 @@ Tests that it is possible to create a valid course.
 4.  Enter a new course title, and some body text.
 5.  Click Save.
 
-7 - Copying a course
+2 - Copying a course
 ------------------------
 
 Tests that it is possible to copy a course.
@@ -33,7 +33,7 @@ Tests that it is possible to copy a course.
 *   A copy of a course can be created. This should appear as 'Copy of _course title_'.
 *   The "Updated" date on the copied course should be the date when the copying occurred.
 
-9 - Dashboard
+3 - Dashboard
 -----------------
 
 Test that courses in the dashboard are sorted by most recently updated.  
@@ -58,7 +58,7 @@ Test that courses in the dashboard are sorted by most recently updated.
 *   New courses can be created.
 *   If a course does not have a "Preview Image" set, then they are given the system's default image.
 
-2 - Add components
+4 - Add components
 ----------------------
 
 Tests that it is possible to add components to the course.
@@ -78,7 +78,7 @@ Tests that it is possible to add components to the course.
 *   New components are visible in the preview.
 *   Components can be positioned to be full or half a block width.
 
-3 - Remember position in Page editor area
+5 - Remember position in Page editor area
 ------------------------------------------------------------
 
 Test that Authoring tool returns the user to their original position in the Page editor area.  
@@ -97,7 +97,7 @@ Requires a course with a page that has 5+ blocks.
 
 *   When navigating from an element's property page to the Page editor, the user will be returned to the element on the page instead of the top of the page.
 
-4 - Copying elements inside a course
+6 - Copying elements inside a course
 ----------------------------------------
 
 Test that you can copy components, blocks, articles and pages.
@@ -112,7 +112,7 @@ Test that you can copy components, blocks, articles and pages.
 6.  Preview the course.
 7.  Open the copied page and make sure all copied elements are there.
 
-12 - Copying list items within a component
+7 - Copying list items within a component
 ---------------------------------------------
 
 Test that users can copy list items.
@@ -131,7 +131,7 @@ Test that users can copy list items.
 *  Items and answers within components can be copied.
    * Copied items are at the bottom of the list.
    
-14 -  Collapsing/ Expanding articles
+8 -  Collapsing/ Expanding articles
 ---------------------------------------------
 
 Test that user can collapse and expand articles.
@@ -157,7 +157,7 @@ Test that user can collapse and expand articles.
 
 *   Users can copy elements inside a course.
 
-15 -  Rearranging course elements
+9 -  Rearranging course elements
 ---------------------------------------------
 
 Test that users can change the positions of course elements.
@@ -185,7 +185,7 @@ Requires a course with:
    * Pages can be moved between submenus by dragging them between columns. At present, it is not possible to move submenus into or from other submenus.
    * Components can be repositioned to the left, right, or full width within a block by clicking the arrows.
 
-5 - Changing the course theme
+10 - Changing the course theme
 ---------------------------------------------
 
 Tests it is possible to change the course theme.  
@@ -201,7 +201,7 @@ Tests it is possible to change the course theme.
 
 *   New theme appears in the preview.
 
-13 -  Fields - Reset to default
+11 -  Fields - Reset to default
 ---------------------------------------------
 
 Test that reset button appears when appropriate.
@@ -222,7 +222,7 @@ Test that reset button can reset fields.
 * Clicking the reset button will return the value/settings of the field to their default values.
    * User still needs to click <Save> to confirm changes.
    
-16 -  Course editor breadcrumbs
+12 -  Course editor breadcrumbs
 ---------------------------------------------
 
 Tests that breadcrumbs can be used for navigation.
@@ -245,7 +245,7 @@ Requires a course with 2 pages with unique titles.
 *  Underneath the breadcrumbs is the course title.
    *  When within an submenu, page, article, block or component, the element's current title will be shown under the course title.
 
-6 - Adding Extensions
+13 - Adding Extensions
 -------------------------------------
 
 Tests that it is possible to add an extension to the course
@@ -261,7 +261,7 @@ Tests that it is possible to add an extension to the course
 
 Adding the extension makes it appear in the preview
 
-8 - HTML inside CKeditor
+14 - HTML inside CKeditor
 ----------------------------
 
 Test that you can add HTML inside the body of any element. 
@@ -299,7 +299,7 @@ Only allowed HTML should work when previewing a course.
 </style>
 ```
 
-10 - Change the Primary Colour on a course
+15 - Change the Primary Colour on a course
 ---------------------------------------------
 
 Test that a user can change the primary colour of a course through the Custom CSS/LESS code setting.
@@ -318,7 +318,7 @@ Test that a user can change the primary colour of a course through the Custom CS
 *  Text within "Custom CSS/LESS code" code editor should be coloured for easier reading.
 *  CSS/LESS box starts at (original) height of 14 lines, and can expand to 30 lines before requiring a scroll bar.
 
-11 - Find function while editing custom CSS
+16 - Find function while editing custom CSS
 ----------------------------------------------
 
 The find tool typical for most browsers and programmes should appear when the custom CSS field is selected. This is so that the content team can easily find classes used in a course.
