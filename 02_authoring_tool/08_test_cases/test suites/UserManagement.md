@@ -35,6 +35,8 @@ Ensures tenant admins can add new users.
 ### Expected result
 
 *   Admins can create new users.
+   * New users require a unique email address that is not used by an existing account.
+   * Name and password fields need to be filled before submission.
 
 3 - Reset password emails
 -----------------------------
@@ -54,9 +56,8 @@ Test that password reset emails are sent.
 
 ### Expected result
 
+* Expected results: New bullet point "Admins cannot reset other users passwords.".
 *   Password reset email is sent to the correct user.
-   * New users require a unique email address that is not used by an existing account.
-   * Name and password fields need to be filled before submission.
 *   Passwords need to be 8 characters in length.
 *  "Warning modal appears when Reset password is clicked.".
 *   Reset password link will unusable after password has been successfully changed.
