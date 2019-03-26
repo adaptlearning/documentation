@@ -38,7 +38,26 @@ Ensures tenant admins can add new users.
    * New users require a unique email address that is not used by an existing account.
    * Name and password fields need to be filled before submission.
 
-3 - Reset password emails
+3 - Invite user
+-----------------------------
+
+Test that Admins can invite users.
+
+### Test steps
+
+1. Click Invite next to a user whose email you can access. Click No.
+1. Click Invite again. Click Yes.
+1. Open the email. Click Reset password.
+1. Click the url in the email. Check that the user is taken to the correct server.
+1. Login as the user.
+
+### Expected result
+
+* Admins can send out invitation emails to enabled account users.
+* Email should contain urls to correct server instance's login page and the forgotten password page. It also includes the inviter's 
+*  Login details are omitted in the email.
+
+4 - Reset password emails
 -----------------------------
 
 Test that password reset emails are sent.
@@ -62,7 +81,7 @@ Test that password reset emails are sent.
 *  "Warning modal appears when Reset password is clicked.".
 *   Reset password link will unusable after password has been successfully changed.
 
-4 - Account lockout - Admin unlocks it
+5 - Account lockout - Admin unlocks it
 ------------------------------------------
 
 Test that login attempts are limited.  
@@ -82,7 +101,7 @@ Test that locked accounts can be unlocked by an Admin.
 *   Users are allowed 3 login attempts. After the 3rd attempt, the account will be locked and the user will be shown a message explaining so. Passwords that were correct will become invalidated until the account is unlocked.
 *   The account can be unlocked by an Admin in the User Management area. Locked accounts are red. The Unlock user button will now be visible.
 
-5 - Account lockout - Password reset unlocks it
+6 - Account lockout - Password reset unlocks it
 ---------------------------------------------------
 
 Test that locked accounts can be unlocked by the user.
@@ -102,7 +121,7 @@ Test that locked accounts can be unlocked by the user.
     *   The account is unlocked once the user has confirmed a new password. In the "User Management" area, the "Failed Logins" value should be reset to 0.
     *   An Admin manually resetting a password or the user following a password reset email sent by the Admin will achieve the same effect.
 
-6 - Editing Users
+7 - Editing Users
 ---------------------
 
 Ensures tenant admins can edit users
@@ -112,14 +131,14 @@ Ensures tenant admins can edit users
 1.  Login as a **tenant** admin and navigate to user management.
 2.  Edit a user's role.
 3.  Attempt to change the role of a course creator user to a super admin.
-4. Attempt to edit current user.
+4.  Attempt to edit current user.
 
 ### Expected result
 
 *   Admins can edit other user's details.
    *  Admin users cannot edit or delete their current account in User management.
    
-7 - Delete user - Orphaned courses - Transfer ownership to me
+8 - Delete user - Orphaned courses - Transfer ownership to me
 ---------------------
 
 Test that ownership of courses can be transferred.
@@ -134,7 +153,7 @@ Test that ownership of courses can be transferred.
  * Partially share a course with the Admin from step (1).
 3. As an Admin, navigate to "User management". Find the user.
 4. Click the dropdown under the "Delete user" button. Select "Transfer ownership to me".
-5. Click <Delete user>. Click <Yes>.
+5. Click Delete user. Click Yes.
 6. Navigate to Dashboard. Attempt to find the 4 courses.
 
 ### Expected result
@@ -149,7 +168,7 @@ Test that ownership of courses can be transferred.
  * Do not share with other users: Course not deleted; Course appears in "My courses" of deleter.
  * Partially share a course with the deleter: Course not deleted; Ownership is transferred; Admin should not be on the share wtih specific users list. Note: if the admin was the only person on the list to begin with this is now a private course.
  
- 8 - Delete user - Orphaned courses - Delete all unshared courses
+ 9 - Delete user - Orphaned courses - Delete all unshared courses
 ---------------------
 
 Test that Admins can delete users.
@@ -165,7 +184,7 @@ Test that a deleted user's unshared courses are deleted.
  * Partially share a course with the Admin from step (1).
 3. As an Admin, navigate to "User management". Find the user.
 4. Click the dropdown under the "Delete user" button. Select "Delete all unshared courses".
-5. Click <Delete user>. Click <Yes>.
+5. Click Delete user. Click Yes.
 6. Navigate to Dashboard. Attempt to find the 4 courses.
 
 ### Expected result
@@ -181,7 +200,7 @@ Test that a deleted user's unshared courses are deleted.
  * Do not share with other users: Course deleted.
  * Partially share a course with the deleter: Code executes in following order: transfers ownership to me, deletes courses which are not shared with everyone or partially shared, removes me from the partially shared list. Note: If I was the only person on the partially shared list this will mean that the course will be private to me at the end.
 
- 9 - Delete user - Orphaned courses - Share all courses
+ 10 - Delete user - Orphaned courses - Share all courses
 ---------------------
 
 Test that Admins can delete users.
@@ -197,7 +216,7 @@ Test that courses of deleted user are shared.
  - Partially share a course with the Admin from step (1).
 3. As an Admin, navigate to "User management". Find the user.
 4. Click the dropdown under the "Delete user" button. Select "Share with all".
-5. Click <Delete user>. Click <Yes>.
+5. Click Delete user. Click Yes.
 6. Navigate to Dashboard. Attempt to find the 4 courses.
 
 ### Expected result
