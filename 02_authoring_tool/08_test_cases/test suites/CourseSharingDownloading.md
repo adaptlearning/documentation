@@ -1,7 +1,7 @@
 Courses - Sharing / Downloading Content
 =======================================
 
-**Number of test cases:** 7  
+**Number of test cases:** 5
 
 1 - Previewing courses
 -------------------------
@@ -64,9 +64,9 @@ Ensures you can make your course available for other people in your tenant to ac
 
 ### Expected result
 
-*   Sharing a course displays it in the shared courses section for all users within your tenant.
-*   Only course owners can delete shared courses.
-*   Admin users can delete any shared courses.
+* Sharing a course displays it in the shared courses section for all users within your tenant.
+* Shared courses can be deleted by anyone.
+ * Admin users can delete any shared courses.
 
 
 5 - Courses Sharing - Specific users
