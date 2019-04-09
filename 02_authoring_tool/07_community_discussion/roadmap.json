@@ -1,12 +1,5 @@
 [
   {
-    "number": "v0.7.0",
-    "name": "'Loose ends'",
-    "description": "Bundle of minor UI/usability enhancements.",
-    "milestone": 33,
-    "owner": "taylortom"
-  },
-  {
     "number": "v0.8.0",
     "name": "Theme editor",
     "description": "Full support for ediable themes",
@@ -15,27 +8,34 @@
   },
   {
     "number": "v0.9.0",
+    "name": "Passwords",
+    "description": "Improvements to user passwords",
+    "milestone": 37,
+    "owner": "lc-thomasberger"
+  },
+  {
+    "number": "v0.10.0",
     "name": "Server refactor",
     "description": "A restructuring of the back-end code to make the codebase more maintainable and to better support 'pluggable' code.",
     "milestone": 30,
     "owner": "taylortom"
   },
   {
-    "number": "v0.10.0",
+    "number": "v0.11.0",
     "name": "Tenant management",
     "description": "Will enable multiple tenants in a single authoring tool install, allowing you to maintain separate groups of users and courses in a single install.",
     "milestone": 24,
     "owner": "dancgray"
   },
   {
-    "number": "v0.11.0",
+    "number": "v0.12.0",
     "name": "Asset manager revamp",
     "description": "A rethink to the built-in asset manager to make working with a large repository of assets more enjoyable.",
     "milestone": 23,
     "owner": "dancgray"
   },
   {
-    "number": "v0.12.0",
+    "number": "v0.13.0",
     "name": "Multi-language support",
     "description": "In-tool support for the translation of your Adapt courses into multiple languages. Being able to create one course in multiple languages will not only give your learners a smoother experience, it'll also greatly simplify your international elearning course deployment.",
     "milestone": 13,
