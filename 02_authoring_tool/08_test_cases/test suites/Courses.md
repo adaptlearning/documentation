@@ -1,7 +1,7 @@
 Courses - Course Creation
 =========================================
 
-**Number of test cases:** 18  
+**Number of test cases:** 17  
 
 1 - Creating a course 
 -------------------------------------------------
@@ -269,14 +269,14 @@ Tests that colour labels can be added to course elements.
 ### Test steps
 
 1.  In a shared course, click the cog menu on a page. Click "Colour label".
-2.  Select a colour. Click <Apply>.
+2.  Select a colour. Click Apply.
 3.  Repeat previous step on a submenu, page, article, block, and component.
 4.  Check that the colour is applied to the left-hand side of the element.
 5.  In another course, check that the course elements are unaffected.
 6.  Log in as a different user. Check that the colour label are visible in the course.
-7.  Click <Preview>. Check that the colour is not applied.
+7.  Click Preview. Check that the colour is not applied.
 8.  Back in the main editor, click the cog menu > "Colour label".
-9.  Click <Reset>. Click <Apply>.
+9.  Click Reset. Click Apply.
 
 ### Expected result
 
