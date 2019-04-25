@@ -1,0 +1,28 @@
+Plugin Management
+==========================
+
+**Number of test cases:** 1  
+
+1 - Course default extensions
+-----------------------------
+
+Test that extensions can be enabled on courses by default.
+Requires an Super or Tenant admin user.
+
+### Test steps
+
+1.  Navigate to "Plugin management". Click Extensions.
+2.  Under the "Add to new courses by default?" header, ensure all boxes are unticked.
+3.  Create a new course. Enter the course.
+4.  Click Manage extensions. Check that no extensions are added.
+5.  Return back to "Extensions" within "Plugin management".
+6.  Under the "Add to new..." header, tick the box for some plugins.
+7.  Create a new course. Check that the extensions that were ticked in step (6) have been added.
+8.  Return back to "Extensions" within "Plugin management".
+9.  Under the "Add to new..." header, untick the box for a few of the selected plugins.
+10.  Create a new course. Check that only the ticked extensions have been added.
+
+### Expected result
+
+*   Admin level users can choose which extensions that shall be added to newly created courses.
+  * This does not apply to copied courses that are missing default components.
