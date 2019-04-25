@@ -259,9 +259,35 @@ Tests that it is possible to add an extension to the course
 
 ### Expected result
 
-Adding the extension makes it appear in the preview
+* Adding the extension makes it appear in the preview
 
-14 - HTML inside CKeditor
+14 - Colour Labels
+-------------------------------------
+
+Tests that colour labels can be added to course elements.
+
+### Test steps
+
+1.  In a shared course, click the cog menu on a page. Click "Colour label".
+2.  Select a colour. Click <Apply>.
+3.  Repeat previous step on a submenu, page, article, block, and component.
+4.  Check that the colour is applied to the left-hand side of the element.
+5.  In another course, check that the course elements are unaffected.
+6.  Log in as a different user. Check that the colour label are visible in the course.
+7.  Click <Preview>. Check that the colour is not applied.
+8.  Back in the main editor, click the cog menu > "Colour label".
+9.  Click <Reset>. Click <Apply>.
+
+### Expected result
+
+* Colour labels can be added to course elements within the Authoring tool.
+ * The labels are only applied to the specific course.
+ * When the course is shared, the labels are visible for the shared users.
+ * The labels are not visible in course preview.
+ * The label can be changed or removed.
+
+
+15 - HTML inside CKeditor
 ----------------------------
 
 Test that you can add HTML inside the body of any element. 
@@ -299,7 +325,7 @@ Only allowed HTML should work when previewing a course.
 </style>
 ```
 
-15 - Change the Primary Colour on a course
+16 - Change the Primary Colour on a course
 ---------------------------------------------
 
 Test that a user can change the primary colour of a course through the Custom CSS/LESS code setting.
@@ -318,7 +344,7 @@ Test that a user can change the primary colour of a course through the Custom CS
 *  Text within "Custom CSS/LESS code" code editor should be coloured for easier reading.
 *  CSS/LESS box starts at (original) height of 14 lines, and can expand to 30 lines before requiring a scroll bar.
 
-16 - Find function while editing custom CSS
+17 - Find function while editing custom CSS
 ----------------------------------------------
 
 The find tool typical for most browsers and programmes should appear when the custom CSS field is selected. This is so that the content team can easily find classes used in a course.
