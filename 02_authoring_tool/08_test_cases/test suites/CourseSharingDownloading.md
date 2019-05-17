@@ -58,9 +58,9 @@ Ensures you can make your course available for other people in your tenant to ac
 1.  Navigate to your course settings and change 'Share with others' to true.
 2.  Check that your course is now also listed within the 'shared courses' section.
 3.  Check that another user within your tenant can see it.
-4.  As the other user (not the course owner) attempt to delete the course - throws error.
-6.  As the course owner delete the shared course.
-7.  As an Admin user, delete another user's course that has "Share with all user" enabled.
+4.  As the other user (not the course owner) attempt to delete the course.
+5.  As the course owner delete the shared course.
+6.  As an Admin user, delete another user's course that has "Share with all user" enabled.
 
 ### Expected result
 
