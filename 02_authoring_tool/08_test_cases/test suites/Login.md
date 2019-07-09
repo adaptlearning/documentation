@@ -69,10 +69,10 @@ Check that user can change their email address.
 ### Test steps
 
 1.  Log in. Click the user's email address in the banner area.
-2.  Empty the email field. Click <Save>.
-3.  Enter an invalid email. Click <Save>.
-4.  Enter an email that's used by a different user. Click <Save>.
-5.  Enter a valid email that is not in use by a different user. Click <Save>.
+2.  Empty the email field. Click Save.
+3.  Enter an invalid email. Click Save.
+4.  Enter an email that's used by a different user. Click Save.
+5.  Enter a valid email that is not in use by a different user. Click Save.
 6.  Log back in with new email address.
 
 ### Expected result
