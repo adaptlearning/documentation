@@ -44,7 +44,7 @@ Test that courses in the dashboard are sorted by most recently updated.
 2.  Make sure the first course is the course you were just editing.
 3.  Sort by name. Sort by Recent.
 4.  Click List. Click Grid.
-5.  Refresh the page - should default to last updated.
+5.  Refresh the page - should remember last selected filter.
 
 ### Expected result
 
@@ -120,8 +120,8 @@ Test that users can copy list items.
 ### Test steps
 
 1.  Add a component to a course that contains a list e.g. Accordion, Multiple Choice Question, Narrative.
-2.  Enter the component's settings page. Under "Properties", click <Add> to add an item/answer.
-3.  Add details for the item. Click <OK>.
+2.  Enter the component's settings page. Under "Properties", click Add to add an item/answer.
+3.  Add details for the item. Click OK.
 4.  In the newly created item, click the Copy button.
 5.  Check the details of the copied item. Edit the copied item.
 6.  On the original item, click the Copy button. Check the position of the new item.
@@ -230,13 +230,13 @@ Requires a course with 2 pages with unique titles.
 
 ### Test steps
 
-1. Enter a course. Click <Dashboard> in the breadcrumbs.
+1. Enter a course. Click Dashboard in the breadcrumbs.
 2. Re-enter the course. Enter a page.
 3. Under the breadcrumbs, check that the course title and the current page title are visible.
-4. Click the cog menu, then select <Edit>.
-5. Change the page title. Click <Save>.
+4. Click the cog menu, then select Edit.
+5. Change the page title. Click Save.
 6. Enter an article. Check that the article's title is shown under the breadcrumbs.
-7. In the breadcrumbs, click <Course structure>.
+7. In the breadcrumbs, click Course structure.
 
 ### Expected result
 
