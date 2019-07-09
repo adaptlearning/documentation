@@ -45,8 +45,8 @@ Plugins available for download can be found here: https://www.adaptlearning.org/
 
 ### Expected result
 * Admins can manually install, update, and remove installed plugins.
- * Modal appears to confirm removal decision.
- * This includes core plugins.
+  * Modal appears to confirm removal decision.
+  * This includes core plugins.
 
 --------------------------------
 
@@ -70,5 +70,5 @@ Plugins available for download can be found here: https://www.adaptlearning.org/
 ### Expected result
 * Plugins in use cannot be deleted.
 * Error modal appears when deleting a plugin that is in use in a course. 
- * Error modal lists the courses that the plugin is being used in. 
- * Error Modal also shows the course owners.
+  * Error modal lists the courses that the plugin is being used in. 
+  * Error Modal also shows the course owners.
