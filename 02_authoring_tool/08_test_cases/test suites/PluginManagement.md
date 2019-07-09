@@ -63,7 +63,7 @@ Plugins available for download can be found here: https://www.adaptlearning.org/
 1. Re-install a non-core plugin.
 2. Add it to a course.
 3. Go to plugin management and click <Remove>.
-4. Click <ok>.
+4. Click ok.
 5. Remove the plugin from the course.
 6. Remove the plugin.
 
