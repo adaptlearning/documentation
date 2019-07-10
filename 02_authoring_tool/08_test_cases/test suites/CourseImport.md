@@ -7,19 +7,17 @@ Course imports
 --------------------------------------------
 
 Test that only specific users can access "Framework Import".  
-Requires users of types: Super Admin; Tenant Admin and Course Creator.
+Requires users of types Super Admin and Course Creator.
 
 ### Test steps
 
 1.  Login as a Super Admin. On the Dashboard, click "Import source".
-2.  Log out. Login as a Tenant Admin.
-3.  On the Dashboard, attempt to find "Import source" button.
-4.  Log out. Login as a Course Creator.
-5.  "On the Dashboard, attempt to find "Import source" button."
+2.  Log out. Login as a Course Creator.
+3.  "On the Dashboard, attempt to find "Import source" button."
 
 ### Expected result
 
-*   Bullet point now reads ""Import Framework source" can be accessed through the "Import source" button in the Dashboard. This can only be done by Super Admin and Tenant Admin users.".
+*   "Import Framework source" can be accessed through the "Import source" button in the Dashboard. This can only be done by Super Admin.
 
 2 - Importing course - Valid source folder
 ----------------------------------------------
@@ -64,19 +62,19 @@ Test that system prevents invalid file uploads.
 4 - Importing Course - Successful Import
 --------------------------------------------
 
-Tests that it is possible to successfully upload a course
+Tests that it is possible to successfully upload a course.
 
 ### Test steps
 
-1.  Export a course
-2.  Navigate to the course import page
-3.  Successfully upload the course
-4.  Open the course
+1.  Export a course.
+2.  Navigate to the course import page.
+3.  Successfully upload the course.
+4.  Open the course.
 
 ### Expected result
 
-*   Course is visible on dashboard
-*   Course contains the correct content and can be edited
+*   Course is visible on dashboard.
+*   Course contains the correct content and can be edited.
 
 5 - Importing course - Prevent asset and plugin duplication
 ---------------------------------------------------------------
