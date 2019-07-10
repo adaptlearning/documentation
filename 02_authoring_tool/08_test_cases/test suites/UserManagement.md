@@ -6,7 +6,7 @@ User Management
 1 - User Management Permissions
 -----------------------------------
 
-Ensures only tenant admins (and super) can access user management.
+Ensures only super admins can access user management.
 
 ### Test steps
 
