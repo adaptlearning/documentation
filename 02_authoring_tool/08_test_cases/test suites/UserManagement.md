@@ -137,7 +137,34 @@ Ensures admins can edit users
 *   Admins can edit other user's details.
    *  Admin users cannot edit or delete their current account in User management.
    
-8 - Delete user - Orphaned courses - Transfer ownership to me
+
+8 - Filter Users
+---------------------
+
+Test that user can search for specific user accounts.
+Requires 3 users that have different roles and, if possible, are in different tenants.
+
+### Test steps
+
+1. In "Search by email", start typing in an email address. 
+2. Check that the list updates. Clear the field.
+3. Click the "Tenant" field". Select a Tenant.
+4. Check that the list updates. Clear the field.
+5. Enable some of the Role toggle switches.
+6. Check that the list updates. Clear the field.
+7. Use a combination of the previous search methods.
+
+### Expected result
+
+* Emails can be filtered down with one or more of the following criteria:
+  * Partial or complete email addresses.
+  * Tenant.
+  * User role.
+* Clearing the search fields refreshes the user list automatically.
+  * Multiple tenants can be selected.
+* Enabling the Role toggles will only show the user's types that match the enabled toggles.
+   
+9 - Delete user - Orphaned courses - Transfer ownership to me
 ---------------------
 
 Test that ownership of courses can be transferred.
@@ -167,7 +194,7 @@ Test that ownership of courses can be transferred.
   * Do not share with other users: Course not deleted; Course appears in "My courses" of deleter.
   * Partially share a course with the deleter: Course not deleted; Ownership is transferred; Admin should not be on the share wtih specific users list. Note: if the admin was the only person on the list to begin with this is now a private course.
  
- 9 - Delete user - Orphaned courses - Delete all unshared courses
+ 10 - Delete user - Orphaned courses - Delete all unshared courses
 ---------------------
 
 Test that Admins can delete users.
@@ -199,7 +226,7 @@ Test that a deleted user's unshared courses are deleted.
   * Do not share with other users: Course deleted.
   * Partially share a course with the deleter: Code executes in following order: transfers ownership to me, deletes courses which are not shared with everyone or partially shared, removes me from the partially shared list. Note: If I was the only person on the partially shared list this will mean that the course will be private to me at the end.
 
- 10 - Delete user - Orphaned courses - Share all courses
+ 11 - Delete user - Orphaned courses - Share all courses
 ---------------------
 
 Test that Admins can delete users.
