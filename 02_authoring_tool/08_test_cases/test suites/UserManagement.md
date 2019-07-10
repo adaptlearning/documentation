@@ -11,11 +11,11 @@ Ensures only tenant admins (and super) can access user management.
 ### Test steps
 
 1.  Login as a course creator, ensure user management is not available
-2.  Login as a tenant/super admin, ensure user management is available
+2.  Login as a super admin, ensure user management is available
 
 ### Expected result
 
-*   Only tenant/super admins can access user management.
+*   Only super admins can access user management.
 
 2 - Adding New Users
 ------------------------
@@ -24,13 +24,12 @@ Ensures tenant admins can add new users.
 
 ### Test steps
 
-1.  Login as a **tenant** admin and navigate to user management.
+1.  Login as a super admin and navigate to user management.
 2.  Click Add new user. With the fields empty, click Save.
 3.  Enter existing email address, alongside a password, and first and last names. Click Save.
 4.  Enter an address not in the system.
 5.  Attempt to add a new super admin.
 6.  Attempt to add a new course creator.
-7. Login as a **super** admin and attempt to add a new super admin.
 
 ### Expected result
 
@@ -128,7 +127,7 @@ Ensures tenant admins can edit users
 
 ### Test steps
 
-1.  Login as a **tenant** admin and navigate to user management.
+1.  Login as a super admin and navigate to user management.
 2.  Edit a user's role.
 3.  Attempt to change the role of a course creator user to a super admin.
 4.  Attempt to edit current user.
@@ -159,14 +158,14 @@ Test that ownership of courses can be transferred.
 ### Expected result
 
 * When deleting a user, Admin has to select one of the following options: *Share with all*; *Delete unshared courses*; *Transfer to myself*.
- * By default, "Transfer ownership to me" is selected in the dropdown.
- * Ownership of all courses are transferred to deleter.
- * Admin gets a warning modal before confirming deletion, and a message stating the consequences of their selected action.
+  * By default, "Transfer ownership to me" is selected in the dropdown.
+  * Ownership of all courses are transferred to deleter.
+  * Admin gets a warning modal before confirming deletion, and a message stating the consequences of their selected action.
 * What should happen to the courses:
- * Enable "Share with all": Course should not be deleted. Course should be owned by deleter.
- * Partially share with other users: Course not deleted; Course appears in "My courses"; Users on the partially shared list can still see the course.
- * Do not share with other users: Course not deleted; Course appears in "My courses" of deleter.
- * Partially share a course with the deleter: Course not deleted; Ownership is transferred; Admin should not be on the share wtih specific users list. Note: if the admin was the only person on the list to begin with this is now a private course.
+  * Enable "Share with all": Course should not be deleted. Course should be owned by deleter.
+  * Partially share with other users: Course not deleted; Course appears in "My courses"; Users on the partially shared list can still see the course.
+  * Do not share with other users: Course not deleted; Course appears in "My courses" of deleter.
+  * Partially share a course with the deleter: Course not deleted; Ownership is transferred; Admin should not be on the share wtih specific users list. Note: if the admin was the only person on the list to begin with this is now a private course.
  
  9 - Delete user - Orphaned courses - Delete all unshared courses
 ---------------------
@@ -190,15 +189,15 @@ Test that a deleted user's unshared courses are deleted.
 ### Expected result
 
 * When deleting a user, the Admin can choose to delete that user's unshared courses.
- * Courses that are shared with all, and those that are shared with specific users are kept.
- * Unshared courses belonging to the deleted user are deleted.
- * Ownership of fully or partially shared courses are transferred to the deleter.
+  * Courses that are shared with all, and those that are shared with specific users are kept.
+  * Unshared courses belonging to the deleted user are deleted.
+  * Ownership of fully or partially shared courses are transferred to the deleter.
 * Partially shared courses that belong to the deleted user should retain their shared settings.
 * What should happen to the courses:
- * Enable "Share with all": Course not deleted. Owned by deleter.
- * Partially share with other users: Course not deleted. Owned by deleter. Still partially shared with the same people as before
- * Do not share with other users: Course deleted.
- * Partially share a course with the deleter: Code executes in following order: transfers ownership to me, deletes courses which are not shared with everyone or partially shared, removes me from the partially shared list. Note: If I was the only person on the partially shared list this will mean that the course will be private to me at the end.
+  * Enable "Share with all": Course not deleted. Owned by deleter.
+  * Partially share with other users: Course not deleted. Owned by deleter. Still partially shared with the same people as before
+  * Do not share with other users: Course deleted.
+  * Partially share a course with the deleter: Code executes in following order: transfers ownership to me, deletes courses which are not shared with everyone or partially shared, removes me from the partially shared list. Note: If I was the only person on the partially shared list this will mean that the course will be private to me at the end.
 
  10 - Delete user - Orphaned courses - Share all courses
 ---------------------
@@ -221,10 +220,10 @@ Test that courses of deleted user are shared.
 
 ### Expected result
 
-- Admin users can delete users.
-- Course ownership of all courses of the deleted user is transferred to the deleter.
-- What should happen to the courses:
- - Enable "Share with all": Course not deleted; Still Shared with all.
- - Partially share with other users: Course not deleted; shared with all; partially shared list will be the same as before this.
- - Do not share with other users: Course not deleted; shared with all; partially shared list will be the same as before this.
- - Partially share a course with the deleter: Course not deleted; shared with all; deleter is removed from partially shared list. If deleter was the only person on it in the first place, the course will no longer be shared partially but will still be shared with everyone.
+* Admin users can delete users.
+* Course ownership of all courses of the deleted user is transferred to the deleter.
+* What should happen to the courses:
+  * Enable "Share with all": Course not deleted; Still Shared with all.
+  * Partially share with other users: Course not deleted; shared with all; partially shared list will be the same as before this.
+  * Do not share with other users: Course not deleted; shared with all; partially shared list will be the same as before this.
+  * Partially share a course with the deleter: Course not deleted; shared with all; deleter is removed from partially shared list. If deleter was the only person on it in the first place, the course will no longer be shared partially but will still be shared with everyone.
