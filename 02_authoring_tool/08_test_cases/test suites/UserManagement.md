@@ -20,7 +20,7 @@ Ensures only super admins can access user management.
 2 - Adding New Users
 ------------------------
 
-Ensures tenant admins can add new users.
+Ensures admins can add new users.
 
 ### Test steps
 
@@ -123,7 +123,7 @@ Test that locked accounts can be unlocked by the user.
 7 - Editing Users
 ---------------------
 
-Ensures tenant admins can edit users
+Ensures admins can edit users
 
 ### Test steps
 
