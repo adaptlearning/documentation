@@ -16,6 +16,11 @@ Tests that it is possible to create a valid course.
 4.  Enter a new course title, and some body text.
 5.  Click Save.
 
+### Expected result
+* New courses can be created.
+* If a course does not have a "Preview Image" set, then they are given the system's default image.
+
+
 2 - Copying a course
 ------------------------
 
@@ -111,6 +116,10 @@ Test that you can copy components, blocks, articles and pages.
 5.  Copy a page.
 6.  Preview the course.
 7.  Open the copied page and make sure all copied elements are there.
+
+### Expected result
+
+* Users can copy elements inside a course.
 
 7 - Copying list items within a component
 ---------------------------------------------
