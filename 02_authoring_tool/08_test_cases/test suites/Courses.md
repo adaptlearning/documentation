@@ -83,7 +83,26 @@ Tests that it is possible to add components to the course.
 *   New components are visible in the preview.
 *   Components can be positioned to be full or half a block width.
 
-5 - Remember position in Page editor area
+5 - Components - Filtering
+------------------------------------------------------------
+
+Test that users can search for a component.
+
+### Test steps
+
+1. On an empty block, click  Add component.
+2. In the search field, type in a term. Check list updates.
+3. Clear the field. Type a term that results in nothing appearing in the list.
+4. Clear the field. Type a term that partially matches a component e.g. "quest", "ment".
+5. Select and add a component from the list.
+
+### Expected result
+
+* User can search for specific components using the search field.
+ * List updates dynamically as search term changes.
+ * Search terms are case insensitive. Partial matches are shown.
+
+6 - Remember position in Page editor area
 ------------------------------------------------------------
 
 Test that Authoring tool returns the user to their original position in the Page editor area.  
@@ -102,7 +121,7 @@ Requires a course with a page that has 5+ blocks.
 
 *   When navigating from an element's property page to the Page editor, the user will be returned to the element on the page instead of the top of the page.
 
-6 - Copying elements inside a course
+7 - Copying elements inside a course
 ----------------------------------------
 
 Test that you can copy components, blocks, articles and pages.
@@ -121,7 +140,7 @@ Test that you can copy components, blocks, articles and pages.
 
 * Users can copy elements inside a course.
 
-7 - Copying list items within a component
+8 - Copying list items within a component
 ---------------------------------------------
 
 Test that users can copy list items.
@@ -140,7 +159,7 @@ Test that users can copy list items.
 *  Items and answers within components can be copied.
    * Copied items are at the bottom of the list.
    
-8 -  Collapsing/ Expanding articles
+9 -  Collapsing/ Expanding articles
 ---------------------------------------------
 
 Test that user can collapse and expand articles.
@@ -166,7 +185,7 @@ Test that user can collapse and expand articles.
 
 *   Users can copy elements inside a course.
 
-9 -  Rearranging course elements
+10 -  Rearranging course elements
 ---------------------------------------------
 
 Test that users can change the positions of course elements.
@@ -194,7 +213,7 @@ Requires a course with:
    * Pages can be moved between submenus by dragging them between columns. At present, it is not possible to move submenus into or from other submenus.
    * Components can be repositioned to the left, right, or full width within a block by clicking the arrows.
 
-10 - Changing the course theme
+11 - Changing the course theme
 ---------------------------------------------
 
 Tests it is possible to change the course theme.  
@@ -210,7 +229,7 @@ Tests it is possible to change the course theme.
 
 *   New theme appears in the preview.
 
-11 -  Fields - Reset to default
+12 -  Fields - Reset to default
 ---------------------------------------------
 
 Test that reset button appears when appropriate.
@@ -231,7 +250,7 @@ Test that reset button can reset fields.
 * Clicking the reset button will return the value/settings of the field to their default values.
    * User still needs to click <Save> to confirm changes.
    
-12 -  Course editor breadcrumbs
+13 -  Course editor breadcrumbs
 ---------------------------------------------
 
 Tests that breadcrumbs can be used for navigation.
@@ -254,7 +273,7 @@ Requires a course with 2 pages with unique titles.
 *  Underneath the breadcrumbs is the course title.
    *  When within an submenu, page, article, block or component, the element's current title will be shown under the course title.
 
-13 - Adding Extensions
+14 - Adding Extensions
 -------------------------------------
 
 Tests that it is possible to add an extension to the course
@@ -270,7 +289,7 @@ Tests that it is possible to add an extension to the course
 
 * Adding the extension makes it appear in the preview
 
-14 - Colour Labels
+15 - Colour Labels
 -------------------------------------
 
 Tests that colour labels can be added to course elements.
@@ -296,7 +315,7 @@ Tests that colour labels can be added to course elements.
  * The label can be changed or removed.
 
 
-15 - HTML inside CKeditor
+16 - HTML inside CKeditor
 ----------------------------
 
 Test that you can add HTML inside the body of any element. 
@@ -334,7 +353,7 @@ Only allowed HTML should work when previewing a course.
 </style>
 ```
 
-16 - Change the Primary Colour on a course
+17 - Change the Primary Colour on a course
 ---------------------------------------------
 
 Test that a user can change the primary colour of a course through the Custom CSS/LESS code setting.
@@ -353,7 +372,7 @@ Test that a user can change the primary colour of a course through the Custom CS
 *  Text within "Custom CSS/LESS code" code editor should be coloured for easier reading.
 *  CSS/LESS box starts at (original) height of 14 lines, and can expand to 30 lines before requiring a scroll bar.
 
-17 - Find function while editing custom CSS
+18 - Find function while editing custom CSS
 ----------------------------------------------
 
 The find tool typical for most browsers and programmes should appear when the custom CSS field is selected. This is so that the content team can easily find classes used in a course.
