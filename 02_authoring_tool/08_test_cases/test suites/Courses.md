@@ -1,7 +1,8 @@
 Courses - Course Creation
 =========================================
 
-**Number of test cases:** 17  
+**Number of test cases:** 19  
+-------------------------------------------------
 
 1 - Creating a course 
 -------------------------------------------------
@@ -19,7 +20,7 @@ Tests that it is possible to create a valid course.
 ### Expected result
 * New courses can be created.
 * If a course does not have a "Preview Image" set, then they are given the system's default image.
-
+-----------------------
 
 2 - Copying a course
 ------------------------
@@ -38,18 +39,23 @@ Tests that it is possible to copy a course.
 *   A copy of a course can be created. This should appear as 'Copy of _course title_'.
 *   The "Updated" date on the copied course should be the date when the copying occurred.
 
-3 - Dashboard
+-----------------
+3 - Dashboard - Course Sorting
 -----------------
 
 Test that courses in the dashboard are sorted by most recently updated.  
+Test that courses can be sorted.
+Note: Issue with course date only updating when Project settings have been changed https://github.com/adaptlearning/adapt_authoring/issues/2057
 
 ### Test steps
 
-1.  Go to the dashboard.
-2.  Make sure the first course is the course you were just editing.
-3.  Sort by name. Sort by Recent.
-4.  Click List. Click Grid.
-5.  Refresh the page - should remember last selected filter.
+1. Go to the dashboard.
+1. Make sure the first course is the course you were just editing.
+1. Sort by name. Sort by Recent.
+1. Click List. Click Grid.
+1. Refresh the page - should default to the last filter that you selected.
+1. Make sure you can open a course with 1 click only. This applies for both Advanced and Lite.
+1. Repeat for "Shared courses" area.
 
 ### Expected result
 
@@ -58,12 +64,33 @@ Test that courses in the dashboard are sorted by most recently updated.
 *   When sorting by title (ascending), it will be ordered by: Numbers, Uppercase A to Z, and finally Lower case a to z.
 *   When sorting by title (descending), it will be ordered by: Lowercase z to a, then Uppercase Z to A, and finally Numbers. 7th Dec 2017 Note: at the time of writing the update date would only change if the course was rebuilt. Adding components, blocks, articles does not update the date.
 
+
+-----------------
+4 - Dashboard - Course filtering
+-----------------
+
+Test that courses can be filtered.
+Requires a course with tags.
+Note: Multiple course search methods are not applied at the same time https://github.com/adaptlearning/adapt_authoring/issues/2333
+
+### Test steps
+
+1. In "My courses", enter a term in the search field. Check that the courses list updates.
+1. Partially delete the search term. Check that the courses list updates.
+1. Empty the search field.
+1. Click Search by tag. Select a tag used by a course.
+1. Click the x on the tags.
+1. Use both the search fields and the tag filter options.
+1. Repeat previous steps for "Shared courses" area.
+
 ### Expected result
 
-*   New courses can be created.
-*   If a course does not have a "Preview Image" set, then they are given the system's default image.
+*   Courses can be filtered by the search field and by their tags.
+  * Search field terms are case insensitive. Partially matching courses are also shown.
+  * Tag searches only show courses with the desired tags.
 
-4 - Add components
+----------------------
+5 - Add components
 ----------------------
 
 Tests that it is possible to add components to the course.
@@ -83,7 +110,8 @@ Tests that it is possible to add components to the course.
 *   New components are visible in the preview.
 *   Components can be positioned to be full or half a block width.
 
-5 - Components - Filtering
+----------------------
+6 - Components - Filtering
 ------------------------------------------------------------
 
 Test that users can search for a component.
@@ -102,7 +130,8 @@ Test that users can search for a component.
  * List updates dynamically as search term changes.
  * Search terms are case insensitive. Partial matches are shown.
 
-6 - Remember position in Page editor area
+----------------------
+7 - Remember position in Page editor area
 ------------------------------------------------------------
 
 Test that Authoring tool returns the user to their original position in the Page editor area.  
@@ -121,7 +150,8 @@ Requires a course with a page that has 5+ blocks.
 
 *   When navigating from an element's property page to the Page editor, the user will be returned to the element on the page instead of the top of the page.
 
-7 - Copying elements inside a course
+----------------------
+8 - Copying elements inside a course
 ----------------------------------------
 
 Test that you can copy components, blocks, articles and pages.
@@ -140,7 +170,8 @@ Test that you can copy components, blocks, articles and pages.
 
 * Users can copy elements inside a course.
 
-8 - Copying list items within a component
+----------------------
+9 - Copying list items within a component
 ---------------------------------------------
 
 Test that users can copy list items.
@@ -158,8 +189,9 @@ Test that users can copy list items.
 
 *  Items and answers within components can be copied.
    * Copied items are at the bottom of the list.
-   
-9 -  Collapsing/ Expanding articles
+
+----------------------
+10 -  Collapsing/ Expanding articles
 ---------------------------------------------
 
 Test that user can collapse and expand articles.
@@ -185,7 +217,8 @@ Test that user can collapse and expand articles.
 
 *   Users can copy elements inside a course.
 
-10 -  Rearranging course elements
+----------------------
+11 -  Rearranging course elements
 ---------------------------------------------
 
 Test that users can change the positions of course elements.
@@ -213,7 +246,8 @@ Requires a course with:
    * Pages can be moved between submenus by dragging them between columns. At present, it is not possible to move submenus into or from other submenus.
    * Components can be repositioned to the left, right, or full width within a block by clicking the arrows.
 
-11 - Changing the course theme
+----------------------
+12 - Changing the course theme
 ---------------------------------------------
 
 Tests it is possible to change the course theme.  
@@ -229,7 +263,8 @@ Tests it is possible to change the course theme.
 
 *   New theme appears in the preview.
 
-12 -  Fields - Reset to default
+----------------------
+13 -  Fields - Reset to default
 ---------------------------------------------
 
 Test that reset button appears when appropriate.
@@ -249,8 +284,9 @@ Test that reset button can reset fields.
 * The reset button appears over fields that have been changed from their default values.
 * Clicking the reset button will return the value/settings of the field to their default values.
    * User still needs to click <Save> to confirm changes.
-   
-13 -  Course editor breadcrumbs
+
+----------------------
+14 -  Course editor breadcrumbs
 ---------------------------------------------
 
 Tests that breadcrumbs can be used for navigation.
@@ -273,7 +309,8 @@ Requires a course with 2 pages with unique titles.
 *  Underneath the breadcrumbs is the course title.
    *  When within an submenu, page, article, block or component, the element's current title will be shown under the course title.
 
-14 - Adding Extensions
+----------------------
+15 - Adding Extensions
 -------------------------------------
 
 Tests that it is possible to add an extension to the course
@@ -289,7 +326,8 @@ Tests that it is possible to add an extension to the course
 
 * Adding the extension makes it appear in the preview
 
-15 - Colour Labels
+----------------------
+16 - Colour Labels
 -------------------------------------
 
 Tests that colour labels can be added to course elements.
@@ -314,8 +352,8 @@ Tests that colour labels can be added to course elements.
  * The labels are not visible in course preview.
  * The label can be changed or removed.
 
-
-16 - HTML inside CKeditor
+----------------------
+17 - HTML inside CKeditor
 ----------------------------
 
 Test that you can add HTML inside the body of any element. 
@@ -353,7 +391,8 @@ Only allowed HTML should work when previewing a course.
 </style>
 ```
 
-17 - Change the Primary Colour on a course
+----------------------
+18 - Change the Primary Colour on a course
 ---------------------------------------------
 
 Test that a user can change the primary colour of a course through the Custom CSS/LESS code setting.
@@ -372,7 +411,8 @@ Test that a user can change the primary colour of a course through the Custom CS
 *  Text within "Custom CSS/LESS code" code editor should be coloured for easier reading.
 *  CSS/LESS box starts at (original) height of 14 lines, and can expand to 30 lines before requiring a scroll bar.
 
-18 - Find function while editing custom CSS
+----------------------
+19 - Find function while editing custom CSS
 ----------------------------------------------
 
 The find tool typical for most browsers and programmes should appear when the custom CSS field is selected. This is so that the content team can easily find classes used in a course.
