@@ -9,14 +9,14 @@ The currently supported browsers are:
 
 Desktop:
 Google Chrome (latest version)
-Firefox v52 (or latest version)
+Firefox ESR (or latest version)
 IE11
-Safari v9 - v11
+Safari v12 - v13
 Edge (latest version)
 
 Mobile:
-iOS10, iOS11 (running Safari) 
-Android v4.4 – v8.0 (running Chrome) 
+iOS12, iOS13 (running Safari) 
+Android v4.4 – v10.0 (running Chrome) 
     
 Due to the ongoing need in the community the Adapt Framework will continue to support an extended release candidate, v2.2.X that will offer support for the following legacy browsers:
 
