@@ -1,0 +1,147 @@
+Editable Themes
+===============================
+
+**Number of test cases:** 9
+
+1 - User is able to use theme variables
+-----------------------------------
+
+Test to ensure the user can make intended editable changes to the theme.
+
+### Test steps
+
+1. Create a new course
+2. On the left hand side select 'Theme picker' and select 'Vanilla'
+3. Change each one of the variables and click 'Save'
+4. Preview the course and ensure the changes have been applied
+5. Save these options as a present with a unique title
+
+### Expected result
+
+* The variables while previewing the course should match those selected in the theme picker. Also, these variables should be stored as a preset, being set as such when that particular preset is selected.
+
+2 - Variables are in export
+------------------------
+
+Ensures that a themes editable variables are present within an export.
+
+### Test steps
+
+1. Create a new course and apply some custom variables
+2. Change some of the variables in the theme
+3. Export the course
+4. Check for a file named 1-themeVariables.less.less which should be located at \src\theme\adapt-contrib-vanilla\less\zzzzz
+5. Open the file and confirm it contains the correct values for all the themes variables
+
+### Expected result
+
+*   Variables inside the opened file match those selected within the theme picker.
+
+3 - Update Versions of the theme
+-----------------------------
+
+Test that updating the version of the theme editor plugin works as expected
+
+### Test steps
+
+1. Download a course with an editable theme applied and ensure that theme has a preset.
+2. UnZip the folder.
+3. Open the bower.json file and edit the version number of the theme by adding some unique characters after the number itself. For example, change ‘3.0.0’ to ‘3.0.0 - test1’
+4. Create a Zip folder and copy the theme folder into it.
+5. In the dashboard select plugin management, upload the newly created ZIP folder from your machine
+6. In the plugin list you should see the version number you edited, selected as the current version
+7. In theme picker check and confirm all previous preset are still there after the upload. 
+
+### NOTE: Courses will fail to upload if the version number is the same as what is already on the server. 
+
+
+### Expected result
+
+*  Version number will increment/change accordingly and presets will be maintained across updates.
+
+4 - Same name presets
+------------------------------------------
+
+Check to see ensure you can create presets with the same name across themes. Since presets are locked to different themes, this should be possible.
+
+### Test steps
+
+1. Create a preset called 'Pre-A' on Vanilla.
+2. Switch themes to another theme
+3  Create a preset on this new theme also called Pre-A
+5. You should not encounter any errors
+
+5 - Default options for presets
+---------------------------------------------------
+
+Test that 'no preset' is selected when changing themes
+
+### Test steps
+
+1. Open the theme editor, select a theme, select a preset and save
+2. Open the theme editor, select a different theme and save
+3. Open the theme editor, select the initial theme and note the values are set to default, with 'No Preset' being the pre-selected option.
+
+6 - Saving a preset
+-----------------------
+
+Test that presets can be saved and reused
+
+### Test steps
+
+1. Create a new course
+2. Select the editable theme, it should automatically have ‘No Preset’ selected
+3. Alter some variables
+4. Click Save Preset and give it a title
+5. Preview the course and check the variables you selected have been applied
+6. Go back to theme picker and refresh the page, making sure that the preset has been saved.
+7. Edit at least one variable in the theme.
+8. In the left hand side menu select ‘Restore preset’ and make sure the default variables are restored to the last state the preset was saved at. 
+
+### Expected result
+
+*   The restore preset button should only appear when a variable has been altered and is not visible by default
+
+7 - Upload an asset as part of your theme
+---------------------
+
+Ensures that the asset shows as a variable in the editable theme 
+
+### Test steps
+
+1.  Navigate to 'Theme picker' and select a theme which has editable assets from the dropdown menu
+2.  You should see an option to add an image asset, select this option and upload a new image that is not currently used in any courses
+3.  Save and preview your course
+4.  Your images should display when previewing the course
+
+
+8 - User is able to preview a course which does not have an editable theme
+---------------------
+
+Ensures that preview works on editable and non-editable courses
+
+### Test steps
+
+1.  Navigate to 'Theme picker' and select a theme which is editable
+2.  Save and ensure you can preview the course
+1.  Navigate to 'Theme picker' and select a theme which is not editable
+2.  Save and ensure you can preview the course
+
+9 - Custom LESS overrides the editable theme
+---------------------
+
+Tests to make sure the custom LESS field takes priority over the editable themes variables
+
+### Test steps
+
+1.  Navigate to 'Theme picker' and select an editable theme
+2.  Change some variables such as colours, which are likely to be styled by LESS
+3.  Hover over the tooltip for one of the variables, make a note of its name
+4.  Save and navigate to custom LESS in project settings
+5.  Use this field to change the value of the variable you made note of
+6.  Save and preview the course
+
+### Expected result
+
+Any LESS entered in the custom LESS/CSS box in project settings will always override the themes variables, both editable and non-editable.
+
