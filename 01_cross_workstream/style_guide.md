@@ -79,21 +79,22 @@ if (true)
 
 Also, notice the use of whitespace before and after the condition statement.
 
-## Declare one variable per var statement
+## Declare one variable per statement
 
-Declare one variable per var statement, it makes it easier to re-order the
-lines. Ignore [Crockford][crockfordconvention] on this, and put those
-declarations wherever they make sense.
+Declare one variable per statement, it makes it easier to re-order the
+lines. Use `const` by default for values that won't be reassigned, and `let`
+for values that will change. Ignore [Crockford][crockfordconvention] on this,
+and put those declarations wherever they make sense.
 
 *Right:*
 
 ```js
-var keys   = ['foo', 'bar'];
-var values = [23, 42];
+const keys = ['foo', 'bar'];
+const values = [23, 42];
 
-var object = {};
+const object = {};
 while (items.length) {
-  var key = keys.pop();
+  const key = keys.pop();
   object[key] = values.pop();
 }
 ```
@@ -101,7 +102,7 @@ while (items.length) {
 *Wrong:*
 
 ```js
-var keys = ['foo', 'bar'],
+const keys = ['foo', 'bar'],
   values = [23, 42],
   object = {},
   key;
@@ -123,13 +124,13 @@ abbreviations should generally be avoided.
 *Right:*
 
 ```js
-var adminUser = db.query('SELECT * FROM users ...');
+const adminUser = db.query('SELECT * FROM users ...');
 ```
 
 *Wrong:*
 
 ```js
-var admin_user = db.query('SELECT * FROM users ...');
+const admin_user = db.query('SELECT * FROM users ...');
 ```
 
 ## Use UpperCamelCase for class names
@@ -152,17 +153,13 @@ function bank_Account() {
 
 ## Use UPPERCASE for Constants
 
-Constants should be declared as regular variables or static class properties,
-using all uppercase letters.
-
-Node.js / V8 actually supports mozilla's [const][const] extension, but
-unfortunately that cannot be applied to class members, nor is it part of any
-ECMA standard.
+Constants should be declared using `const` with all uppercase letters for
+values that represent true constants (like configuration values or magic numbers).
 
 *Right:*
 
 ```js
-var SECOND = 1 * 1000;
+const SECOND = 1 * 1000;
 
 function File() {
 }
@@ -172,20 +169,20 @@ File.FULL_PERMISSIONS = 0777;
 *Wrong:*
 
 ```js
-const SECOND = 1 * 1000;
+const second = 1 * 1000;
 
 function File() {
 }
 File.fullPermissions = 0777;
 ```
 
-## JQuery
-[Cache JQuery selectors](https://ttmm.io/tech/selector-caching-jquery/) - and prefix variables/properties that contain JQuery selectors with `$`:
-```js
-var $mydiv = $('.mydiv');
-```
+## jQuery
 
-[const]: https://developer.mozilla.org/en/JavaScript/Reference/Statements/const
+[Cache jQuery selectors](https://ttmm.io/tech/selector-caching-jquery/) - and prefix variables/properties that contain jQuery selectors with `$`:
+
+```js
+const $mydiv = $('.mydiv');
+```
 
 ## Object / Array creation
 
@@ -195,8 +192,8 @@ keys when your interpreter complains:
 *Right:*
 
 ```js
-var a = [ 'hello', 'world' ];
-var b = {
+const a = [ 'hello', 'world' ];
+const b = {
   good: 'code',
   'reads well': 'for others'
 };
@@ -205,10 +202,10 @@ var b = {
 *Wrong:*
 
 ```js
-var a = [
+const a = [
   'hello', 'world'
   ];
-  var b = {"good": 'code'
+  const b = {"good": 'code'
           , 'reads well': 'for others'
           };
 ```
@@ -221,7 +218,7 @@ the triple equality operator as it will work just as expected.
 *Right:*
 
 ```js
-var a = 0;
+const a = 0;
 if (a === '') {
   console.log('winning');
 }
@@ -231,7 +228,7 @@ if (a === '') {
 *Wrong:*
 
 ```js
-var a = 0;
+const a = 0;
 if (a == '') {
   console.log('losing');
 }
@@ -247,7 +244,7 @@ be forever grateful.
 *Right:*
 
 ```js
-var a = [];
+const a = [];
 if (!a.length) {
   console.log('winning');
 }
@@ -260,7 +257,7 @@ Array.prototype.empty = function() {
   return !this.length;
 }
 
-var a = [];
+const a = [];
 if (a.empty()) {
   console.log('losing');
 }
@@ -273,7 +270,7 @@ Any non-trivial conditions should be assigned to a descriptive variable:
 *Right:*
 
 ```js
-var isAuthorized = (user.isAdmin() || user.isModerator());
+const isAuthorized = (user.isAdmin() || user.isModerator());
 if (isAuthorized) {
   console.log('winning');
 }
@@ -335,7 +332,7 @@ further:
 
 ```js
 function isPercentage(val) {
-  var isInRange = (val >= 0 && val <= 100);
+  const isInRange = (val >= 0 && val <= 100);
   return isInRange;
 }
 ```
@@ -392,13 +389,13 @@ setTimeout(function() {
 To maintain a reference to a class during callbacks it is common to use
 
 ```js
-var self = this;
+const self = this;
 //or
-var that = this;
+const that = this;
 ```
 
-Although it makes sense that they point to an external *this* it is 
-very difficult to quickly see which *this* *that* points to as your 
+Although it makes sense that they point to an external *this* it is
+very difficult to quickly see which *this* *that* points to as your
 code grows. By using a meaningful alias inside a class it is quick
 to see and importantly trace the intended pointer.
 
@@ -407,12 +404,12 @@ to see and importantly trace the intended pointer.
 ```js
 MyClass.prototype.something = function(){
 
-  var myClass = this;
-  
+  const myClass = this;
+
   myClass.on('event', function (ev) {
     //.... code
-    var eventContext = ev.somevar;
-    
+    const eventContext = ev.somevar;
+
     async.complete(function (ev) {
       eventContext.doSomething();
     });
@@ -425,18 +422,19 @@ MyClass.prototype.something = function(){
 ```js
 MyClass.prototype.something = function(){
 
-  var self = this;
-  
+  const self = this;
+
   self.on('event', function (ev) {
     //.... code
-    var self = ev.somevar;
-    
+    const self = ev.somevar;
+
     async.complete(function (ev) {
       self.doSomething();
     });
   });
 }
 ```
+
 ## Use 'has' and 'is' for objects or functions which return a Boolean
 
 This improves code readability.
@@ -444,21 +442,22 @@ This improves code readability.
 *Right:*
 
 ```js
-var isAuthorized = true;
+const isAuthorized = true;
 ```
 
 *Wrong:*
 
 ```js
-var authorized = true;
+const authorized = true;
 ```
 
-
 ## Comments
+
 Try to write your code so that it doesn't require comments, only using them when further explanation is needed. Comments like the following should be avoided at all costs!
+
 ```js
 // Check if the session is valid
-var isSessionValid = (session.expires < Date.now());
+const isSessionValid = (session.expires < Date.now());
 // If the session is valid
 if (isSessionValid) {
     // ...
